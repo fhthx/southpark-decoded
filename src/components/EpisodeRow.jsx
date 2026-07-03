@@ -2,13 +2,19 @@ import { Link, useNavigate } from 'react-router'
 import { TableCell, TableRow } from '@/components/ui/table'
 import { Badge } from '@/components/ui/badge'
 import { formatAirDate } from '@/lib/format-date'
+import { getExplanation } from '@/lib/get-explanation'
+import { cn } from '@/lib/utils'
 
 export default function EpisodeRow({ episode }) {
   const navigate = useNavigate()
+  const hasExplanation = Boolean(getExplanation(episode.id))
 
   return (
-    <TableRow className="cursor-pointer" onClick={() => navigate(`/episodes/${episode.id}`)}>
-      <TableCell className="w-48">
+    <TableRow
+      className={cn('cursor-pointer', !hasExplanation && 'opacity-60')}
+      onClick={() => navigate(`/episodes/${episode.id}`)}
+    >
+      <TableCell className="w-48 py-4">
         <img
           src={episode.thumbnail_url}
           alt=""
@@ -16,7 +22,7 @@ export default function EpisodeRow({ episode }) {
           loading="lazy"
         />
       </TableCell>
-      <TableCell className="whitespace-normal">
+      <TableCell className="whitespace-normal py-4">
         <Link
           to={`/episodes/${episode.id}`}
           className="font-medium"

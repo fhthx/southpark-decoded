@@ -1,30 +1,30 @@
-import { useLoaderData, useNavigate } from 'react-router'
-import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { useLoaderData, useNavigate } from "react-router";
+import { Badge } from "@/components/ui/badge";
 import {
   Drawer,
   DrawerContent,
   DrawerHeader,
   DrawerTitle,
-} from '@/components/ui/drawer'
-import { ScrollArea } from '@/components/ui/scroll-area'
-import { Separator } from '@/components/ui/separator'
-import EpisodeExplanation from '@/components/EpisodeExplanation'
-import { formatAirDate } from '@/lib/format-date'
+} from "@/components/ui/drawer";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import EpisodeExplanation from "@/components/EpisodeExplanation";
+import { formatAirDate } from "@/lib/format-date";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export default function EpisodeDrawer() {
-  const episode = useLoaderData()
-  const navigate = useNavigate()
+  const episode = useLoaderData();
+  const navigate = useNavigate();
+  const isMobile = useIsMobile();
 
   return (
     <Drawer
-      direction="right"
+      direction={isMobile ? "bottom" : "right"}
       open
       onOpenChange={(open) => {
-        if (!open) navigate('/')
+        if (!open) navigate("/");
       }}
     >
-      <DrawerContent className="sm:max-w-2xl!">
+      <DrawerContent className="sm:max-w-2xl! data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-[75vh]">
         <DrawerHeader>
           <DrawerTitle className="text-xl">{episode.name}</DrawerTitle>
           <div className="mt-1 flex items-center gap-2">
@@ -44,22 +44,17 @@ export default function EpisodeDrawer() {
               alt=""
               className="w-full rounded-lg object-cover"
             />
-
-            <Card>
-              <CardHeader>
-                <CardTitle>What happens</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm leading-relaxed">{episode.description}</p>
-              </CardContent>
-            </Card>
-
-            <Separator />
+            <div>
+              <p className="font-medium text-foreground">Description</p>
+              <p className="mt-1 text-sm leading-relaxed">
+                {episode.description}
+              </p>
+            </div>
 
             <EpisodeExplanation episodeId={episode.id} />
           </div>
         </ScrollArea>
       </DrawerContent>
     </Drawer>
-  )
+  );
 }

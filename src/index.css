@@ -80,6 +80,30 @@
   --sidebar-ring: #c084fc;
 }
 
+[data-character='stan'] {
+  --primary: #3b82f6;
+  --ring: #3b82f6;
+  --primary-foreground: #ffffff;
+}
+
+[data-character='kyle'] {
+  --primary: #22c55e;
+  --ring: #22c55e;
+  --primary-foreground: #ffffff;
+}
+
+[data-character='cartman'] {
+  --primary: #ef4444;
+  --ring: #ef4444;
+  --primary-foreground: #ffffff;
+}
+
+[data-character='kenny'] {
+  --primary: #f97316;
+  --ring: #f97316;
+  --primary-foreground: #ffffff;
+}
+
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: 'Geist Variable', sans-serif;

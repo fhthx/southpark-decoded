@@ -1,5 +1,3 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import { getExplanation } from '@/lib/get-explanation'
 
 export default function EpisodeExplanation({ episodeId }) {
@@ -7,23 +5,19 @@ export default function EpisodeExplanation({ episodeId }) {
 
   if (!explanation) {
     return (
-      <Alert>
-        <AlertTitle>Real-world explanation coming soon</AlertTitle>
-        <AlertDescription>
+      <div>
+        <p className="font-medium text-foreground">Real-world explanation coming soon</p>
+        <p className="mt-1 text-sm leading-relaxed">
           We haven't written up the real-world story behind this one yet.
-        </AlertDescription>
-      </Alert>
+        </p>
+      </div>
     )
   }
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>The real story</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <p className="text-sm leading-relaxed">{explanation.summary}</p>
-      </CardContent>
-    </Card>
+    <div>
+      <p className="font-medium text-foreground">The real story</p>
+      <p className="mt-1 text-sm leading-relaxed">{explanation.summary}</p>
+    </div>
   )
 }
