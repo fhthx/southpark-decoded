@@ -28,10 +28,10 @@ export default function EpisodeDrawer() {
         <DrawerHeader>
           <DrawerTitle className="text-xl">{episode.name}</DrawerTitle>
           <div className="mt-1 flex items-center gap-2">
-            <Badge variant="default" className="h-4 px-1.5 text-[10px]">
+            <Badge className="h-4 bg-character-secondary px-1.5 text-[10px] text-character-secondary-foreground">
               S{episode.season} · E{episode.episode}
             </Badge>
-            <Badge variant="secondary" className="h-4 px-1.5 text-[10px]">
+            <Badge className="h-4 bg-character-secondary px-1.5 text-[10px] text-character-secondary-foreground">
               {formatAirDate(episode.air_date)}
             </Badge>
           </div>

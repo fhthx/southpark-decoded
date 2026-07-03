@@ -10,12 +10,12 @@ export default function AppLayout() {
 
   return (
     <div className="mx-auto min-h-svh max-w-4xl px-4 py-8">
-      <header className="mb-8 flex items-center justify-between gap-4">
+      <header className="mb-8 flex items-center justify-between gap-4 rounded-xl bg-primary px-4 py-4 text-primary-foreground">
         <div className="flex-1 text-center sm:text-left">
-          <Link to="/" className="text-2xl font-semibold tracking-tight text-foreground">
+          <Link to="/" className="text-2xl font-semibold tracking-tight text-primary-foreground">
             South Park Decoded
           </Link>
-          <p className="mt-1 text-sm text-muted-foreground">
+          <p className="mt-1 text-sm text-primary-foreground/80">
             Every episode, and the real-world story behind it.
           </p>
         </div>

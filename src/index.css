@@ -44,6 +44,8 @@
   --sidebar-accent-foreground: #08060d;
   --sidebar-border: #e5e4e7;
   --sidebar-ring: #aa3bff;
+  --character-secondary: #f59e0b;
+  --character-secondary-foreground: #ffffff;
 }
 
 .dark {
@@ -78,31 +80,52 @@
   --sidebar-accent-foreground: #f3f4f6;
   --sidebar-border: #2e303a;
   --sidebar-ring: #c084fc;
+  --character-secondary: #d97706;
+  --character-secondary-foreground: #ffffff;
 }
 
 [data-character='stan'],
 [data-character='kyle'],
 [data-character='cartman'],
-[data-character='kenny'] {
+[data-character='kenny'],
+[data-character='butters'] {
   --primary: var(--character);
   --ring: var(--character);
-  --primary-foreground: #ffffff;
 }
 
 [data-character='stan'] {
   --character: #3b82f6;
+  --primary-foreground: #ffffff;
+  --character-secondary: #ef4444;
+  --character-secondary-foreground: #ffffff;
 }
 
 [data-character='kyle'] {
   --character: #22c55e;
+  --primary-foreground: #ffffff;
+  --character-secondary: #f97316;
+  --character-secondary-foreground: #ffffff;
 }
 
 [data-character='cartman'] {
   --character: #ef4444;
+  --primary-foreground: #ffffff;
+  --character-secondary: #7dd3fc;
+  --character-secondary-foreground: #082f49;
 }
 
 [data-character='kenny'] {
   --character: #f97316;
+  --primary-foreground: #ffffff;
+  --character-secondary: #78350f;
+  --character-secondary-foreground: #ffffff;
+}
+
+[data-character='butters'] {
+  --character: #7dd3fc;
+  --primary-foreground: #082f49;
+  --character-secondary: #eab308;
+  --character-secondary-foreground: #422006;
 }
 
 /* Light-mode surface tints - mixed into the literal light base colors
@@ -111,7 +134,8 @@
 [data-character='stan']:not(.dark),
 [data-character='kyle']:not(.dark),
 [data-character='cartman']:not(.dark),
-[data-character='kenny']:not(.dark) {
+[data-character='kenny']:not(.dark),
+[data-character='butters']:not(.dark) {
   --background: color-mix(in oklch, var(--character) 4%, #ffffff);
   --card: color-mix(in oklch, var(--character) 7%, #ffffff);
   --popover: color-mix(in oklch, var(--character) 7%, #ffffff);
@@ -124,7 +148,8 @@
 .dark[data-character='stan'],
 .dark[data-character='kyle'],
 .dark[data-character='cartman'],
-.dark[data-character='kenny'] {
+.dark[data-character='kenny'],
+.dark[data-character='butters'] {
   --background: color-mix(in oklch, var(--character) 6%, #16171d);
   --card: color-mix(in oklch, var(--character) 10%, #16171d);
   --popover: color-mix(in oklch, var(--character) 10%, #16171d);
@@ -136,6 +161,9 @@
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: 'Geist Variable', sans-serif;
+  --default-transition-duration: 100ms;
+  --color-character-secondary: var(--character-secondary);
+  --color-character-secondary-foreground: var(--character-secondary-foreground);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -184,10 +212,10 @@ body {
   * {
     @apply border-border outline-ring/50;
     transition:
-      background-color 0.25s ease,
-      border-color 0.25s ease,
-      color 0.25s ease,
-      fill 0.25s ease;
+      background-color 0.12s ease,
+      border-color 0.12s ease,
+      color 0.12s ease,
+      fill 0.12s ease;
   }
   body {
     @apply bg-background text-foreground;

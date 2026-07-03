@@ -3,4 +3,5 @@ export const characterThemes = {
   kyle: { label: 'Kyle', primary: '#22C55E' },
   cartman: { label: 'Cartman', primary: '#EF4444' },
   kenny: { label: 'Kenny', primary: '#F97316' },
+  butters: { label: 'Butters', primary: '#7DD3FC' },
 }
