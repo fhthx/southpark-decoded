@@ -31,7 +31,7 @@ export default function EpisodeRow({ episode }) {
           {episode.name}
         </Link>
         <div className="mt-1 flex items-center gap-2">
-          <Badge variant="secondary" className="h-4 px-1.5 text-[10px]">
+          <Badge variant="default" className="h-4 px-1.5 text-[10px]">
             S{episode.season} · E{episode.episode}
           </Badge>
           <Badge variant="secondary" className="h-4 px-1.5 text-[10px]">

@@ -12,6 +12,7 @@ export const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
+        id: 'episodeList',
         element: <EpisodeListPage />,
         loader: () => getAllEpisodes(),
         children: [

@@ -80,28 +80,57 @@
   --sidebar-ring: #c084fc;
 }
 
-[data-character='stan'] {
-  --primary: #3b82f6;
-  --ring: #3b82f6;
+[data-character='stan'],
+[data-character='kyle'],
+[data-character='cartman'],
+[data-character='kenny'] {
+  --primary: var(--character);
+  --ring: var(--character);
   --primary-foreground: #ffffff;
+}
+
+[data-character='stan'] {
+  --character: #3b82f6;
 }
 
 [data-character='kyle'] {
-  --primary: #22c55e;
-  --ring: #22c55e;
-  --primary-foreground: #ffffff;
+  --character: #22c55e;
 }
 
 [data-character='cartman'] {
-  --primary: #ef4444;
-  --ring: #ef4444;
-  --primary-foreground: #ffffff;
+  --character: #ef4444;
 }
 
 [data-character='kenny'] {
-  --primary: #f97316;
-  --ring: #f97316;
-  --primary-foreground: #ffffff;
+  --character: #f97316;
+}
+
+/* Light-mode surface tints - mixed into the literal light base colors
+   (not var(--background)/var(--border)) to avoid a self-referential
+   cycle on the root element, which computes to nothing. */
+[data-character='stan']:not(.dark),
+[data-character='kyle']:not(.dark),
+[data-character='cartman']:not(.dark),
+[data-character='kenny']:not(.dark) {
+  --background: color-mix(in oklch, var(--character) 4%, #ffffff);
+  --card: color-mix(in oklch, var(--character) 7%, #ffffff);
+  --popover: color-mix(in oklch, var(--character) 7%, #ffffff);
+  --secondary: color-mix(in oklch, var(--character) 10%, #ffffff);
+  --accent: color-mix(in oklch, var(--character) 10%, #ffffff);
+  --border: color-mix(in oklch, var(--character) 12%, #e5e4e7);
+}
+
+/* Dark-mode surface tints - same idea, mixed into the literal dark base colors. */
+.dark[data-character='stan'],
+.dark[data-character='kyle'],
+.dark[data-character='cartman'],
+.dark[data-character='kenny'] {
+  --background: color-mix(in oklch, var(--character) 6%, #16171d);
+  --card: color-mix(in oklch, var(--character) 10%, #16171d);
+  --popover: color-mix(in oklch, var(--character) 10%, #16171d);
+  --secondary: color-mix(in oklch, var(--character) 14%, #16171d);
+  --accent: color-mix(in oklch, var(--character) 14%, #16171d);
+  --border: color-mix(in oklch, var(--character) 16%, #2e303a);
 }
 
 @theme inline {
@@ -154,6 +183,11 @@ body {
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    transition:
+      background-color 0.25s ease,
+      border-color 0.25s ease,
+      color 0.25s ease,
+      fill 0.25s ease;
   }
   body {
     @apply bg-background text-foreground;

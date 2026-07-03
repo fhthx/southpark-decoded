@@ -34,7 +34,7 @@ export default function OptionsPopover({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline" size="icon" aria-label="Options">
+        <Button variant="ghost" size="icon" aria-label="Options">
           <MoreVertical />
         </Button>
       </PopoverTrigger>
