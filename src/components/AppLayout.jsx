@@ -1,10 +1,6 @@
-import { Link, Outlet, useNavigation } from 'react-router'
-import { Skeleton } from '@/components/ui/skeleton'
+import { Link, Outlet } from 'react-router'
 
 export default function AppLayout() {
-  const navigation = useNavigation()
-  const isLoading = navigation.state === 'loading'
-
   return (
     <div className="mx-auto min-h-svh max-w-4xl px-4 py-8">
       <header className="mb-8">
@@ -16,15 +12,7 @@ export default function AppLayout() {
         </p>
       </header>
 
-      {isLoading ? (
-        <div className="space-y-3">
-          {Array.from({ length: 8 }).map((_, i) => (
-            <Skeleton key={i} className="h-12 w-full" />
-          ))}
-        </div>
-      ) : (
-        <Outlet />
-      )}
+      <Outlet />
     </div>
   )
 }
