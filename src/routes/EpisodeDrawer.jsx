@@ -1,7 +1,10 @@
+import { X } from "lucide-react";
 import { useLoaderData, useNavigate } from "react-router";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Drawer,
+  DrawerClose,
   DrawerContent,
   DrawerHeader,
   DrawerTitle,
@@ -25,6 +28,17 @@ export default function EpisodeDrawer() {
       }}
     >
       <DrawerContent className="sm:max-w-2xl! data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-[75vh]">
+        <DrawerClose asChild>
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            aria-label="Close"
+            className="absolute top-4 right-4 z-10"
+          >
+            <X />
+          </Button>
+        </DrawerClose>
+
         <DrawerHeader>
           <DrawerTitle className="text-xl">{episode.name}</DrawerTitle>
           <div className="mt-1 flex items-center gap-2">
@@ -37,18 +51,16 @@ export default function EpisodeDrawer() {
           </div>
         </DrawerHeader>
 
-        <ScrollArea className="flex-1 px-4 pb-4">
+        <ScrollArea className="min-h-0 flex-1 px-4 pb-4 no-scrollbar overflow-y-scroll">
           <div className="space-y-6">
             <img
               src={episode.thumbnail_url}
               alt=""
               className="w-full rounded-lg object-cover"
             />
-            <div>
+            <div className="space-y-2">
               <p className="font-medium text-foreground">Description</p>
-              <p className="mt-1 text-sm leading-relaxed">
-                {episode.description}
-              </p>
+              <p className="text-sm leading-relaxed">{episode.description}</p>
             </div>
 
             <EpisodeExplanation episodeId={episode.id} />

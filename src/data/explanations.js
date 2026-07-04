@@ -241,6 +241,24 @@ export const explanations = {
   238: {
     summary:
       "Cartman starts an NSA-style surveillance operation to spy on his classmates, right as the real US government's mass-surveillance programs are exposed. This aired mere months after Edward Snowden's 2013 leaks revealed the scope of NSA data collection, and directly engages with that fallout.",
+    sources: [
+      {
+        label: 'The Guardian: Edward Snowden, the whistleblower behind the NSA surveillance revelations',
+        url: 'https://www.theguardian.com/world/2013/jun/09/edward-snowden-nsa-whistleblower-surveillance',
+      },
+      {
+        label: 'Wikipedia: Snowden disclosures',
+        url: 'https://en.wikipedia.org/wiki/Snowden_disclosures',
+      },
+      {
+        label: 'Citizenfour (documentary)',
+        url: 'https://www.youtube.com/watch?v=IEtEFGfCwi4',
+      },
+      {
+        label: 'Permanent Record by Edward Snowden (Goodreads)',
+        url: 'https://www.goodreads.com/en/book/show/46223297-permanent-record',
+      },
+    ],
   },
   // World War Zimmerman (S17E3)
   240: {

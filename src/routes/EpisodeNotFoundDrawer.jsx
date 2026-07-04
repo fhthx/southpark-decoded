@@ -1,6 +1,7 @@
+import { X } from 'lucide-react'
 import { useNavigate } from 'react-router'
 import { Button } from '@/components/ui/button'
-import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/ui/drawer'
+import { Drawer, DrawerClose, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/ui/drawer'
 import { useIsMobile } from '@/hooks/use-mobile'
 
 export default function EpisodeNotFoundDrawer() {
@@ -16,6 +17,17 @@ export default function EpisodeNotFoundDrawer() {
       }}
     >
       <DrawerContent className="sm:max-w-2xl! data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-[75vh]">
+        <DrawerClose asChild>
+          <Button
+            variant="ghost"
+            size="icon-sm"
+            aria-label="Close"
+            className="absolute top-4 right-4 z-10"
+          >
+            <X />
+          </Button>
+        </DrawerClose>
+
         <DrawerHeader>
           <DrawerTitle>Episode not found</DrawerTitle>
         </DrawerHeader>
