@@ -19,6 +19,7 @@ export default function AppLayout() {
       <header
         className={cn('relative mb-8 rounded-xl bg-primary', isKenny ? 'p-2' : 'p-5')}
       >
+        <CharacterHatDecoration />
         <div
           className={cn(
             'relative flex items-center justify-between gap-4 rounded-lg',
@@ -34,7 +35,6 @@ export default function AppLayout() {
               : undefined
           }
         >
-          <CharacterHatDecoration />
           <div className="flex-1 text-center sm:text-left">
             <Link
               to="/"
