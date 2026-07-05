@@ -18,7 +18,7 @@
   --card-foreground: #08060d;
   --popover: oklch(1 0 0);
   --popover-foreground: #08060d;
-  --primary: #aa3bff;
+  --primary: #2563eb;
   --primary-foreground: #ffffff;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: #08060d;
@@ -29,7 +29,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: #e5e4e7;
   --input: #e5e4e7;
-  --ring: #aa3bff;
+  --ring: #2563eb;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -38,13 +38,13 @@
   --radius: 0.625rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: #08060d;
-  --sidebar-primary: #aa3bff;
+  --sidebar-primary: #2563eb;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: #08060d;
   --sidebar-border: #e5e4e7;
-  --sidebar-ring: #aa3bff;
-  --character-secondary: #f59e0b;
+  --sidebar-ring: #2563eb;
+  --character-secondary: #64748b;
   --character-secondary-foreground: #ffffff;
 }
 
@@ -55,7 +55,7 @@
   --card-foreground: #f3f4f6;
   --popover: oklch(0.205 0 0);
   --popover-foreground: #f3f4f6;
-  --primary: #c084fc;
+  --primary: #60a5fa;
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: #f3f4f6;
@@ -66,7 +66,7 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: #2e303a;
   --input: #2e303a;
-  --ring: #c084fc;
+  --ring: #60a5fa;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -74,14 +74,14 @@
   --chart-5: oklch(0.269 0 0);
   --sidebar: oklch(0.205 0 0);
   --sidebar-foreground: #f3f4f6;
-  --sidebar-primary: #c084fc;
+  --sidebar-primary: #60a5fa;
   --sidebar-primary-foreground: oklch(0.205 0 0);
   --sidebar-accent: oklch(0.269 0 0);
   --sidebar-accent-foreground: #f3f4f6;
   --sidebar-border: #2e303a;
-  --sidebar-ring: #c084fc;
-  --character-secondary: #d97706;
-  --character-secondary-foreground: #ffffff;
+  --sidebar-ring: #60a5fa;
+  --character-secondary: #94a3b8;
+  --character-secondary-foreground: #08060d;
 }
 
 [data-character='stan'],

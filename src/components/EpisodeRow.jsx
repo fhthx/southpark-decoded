@@ -5,14 +5,16 @@ import { formatAirDate } from '@/lib/format-date'
 import { getExplanation } from '@/lib/get-explanation'
 import { cn } from '@/lib/utils'
 
-export default function EpisodeRow({ episode }) {
+export default function EpisodeRow({ episode, ref, ...rest }) {
   const navigate = useNavigate()
   const hasExplanation = Boolean(getExplanation(episode.id))
 
   return (
     <TableRow
+      ref={ref}
       className={cn('cursor-pointer', !hasExplanation && 'opacity-60')}
       onClick={() => navigate(`/episodes/${episode.id}`)}
+      {...rest}
     >
       <TableCell className="w-48 py-4">
         <img
