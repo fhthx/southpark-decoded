@@ -25,6 +25,7 @@ export default function OptionsPopover({
   onContextFilterChange,
 }) {
   const { mode, setMode, character, setCharacter } = useTheme()
+  const isKenny = character === 'kenny'
 
   const seasons = useMemo(() => {
     const unique = [...new Set(episodes.map((episode) => episode.season))]
@@ -34,7 +35,12 @@ export default function OptionsPopover({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="default" size="icon" aria-label="Options">
+        <Button
+          variant={isKenny ? 'ghost' : 'default'}
+          size="icon"
+          aria-label="Options"
+          style={isKenny ? { color: 'var(--character-secondary)' } : undefined}
+        >
           <MoreVertical />
         </Button>
       </PopoverTrigger>

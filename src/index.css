@@ -108,10 +108,10 @@
 }
 
 [data-character='cartman'] {
-  --character: #ef4444;
-  --primary-foreground: #ffffff;
-  --character-secondary: #7dd3fc;
-  --character-secondary-foreground: #082f49;
+  --character: #7dd3fc;
+  --primary-foreground: #082f49;
+  --character-secondary: #eab308;
+  --character-secondary-foreground: #422006;
 }
 
 [data-character='kenny'] {
@@ -206,6 +206,15 @@
 
 body {
   margin: 0;
+}
+
+/* The 314-row episode table is the dominant cost when switching themes -
+   every row's img/badges/text would otherwise animate simultaneously.
+   This is a plain (unlayered) rule so it beats both the * transition
+   below and shadcn's own transition-colors utility on TableRow, which
+   live in Tailwind's base/utilities layers and would otherwise win. */
+tbody * {
+  transition: none;
 }
 
 @layer base {
