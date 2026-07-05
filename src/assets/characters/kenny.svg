@@ -1,0 +1,7 @@
+<svg viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- solid orange body/hood -->
+  <rect x="0" y="0" width="160" height="220" fill="#f07800"/>
+  <!-- brown-framed window/mouth, centered -->
+  <rect x="45" y="95" width="70" height="55" fill="#6b3410"/>
+  <rect x="55" y="105" width="50" height="35" fill="#ffdcb8"/>
+</svg>

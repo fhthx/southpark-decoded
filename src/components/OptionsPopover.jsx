@@ -39,7 +39,7 @@ export default function OptionsPopover({
           variant={isKenny ? 'ghost' : 'default'}
           size="icon"
           aria-label="Options"
-          style={isKenny ? { color: 'var(--character-secondary)' } : undefined}
+          style={isKenny ? { backgroundColor: '#e8b892', color: 'var(--character-secondary)' } : undefined}
         >
           <MoreVertical />
         </Button>
@@ -102,20 +102,21 @@ export default function OptionsPopover({
         <div>
           <p className="mb-2 text-xs font-medium text-muted-foreground">Character theme</p>
           <div className="flex items-center gap-2">
-            {Object.entries(characterThemes).map(([key, { label, primary }]) => (
+            {Object.entries(characterThemes).map(([key, { label, primary, icon }]) => (
               <button
                 key={key}
                 type="button"
                 title={label}
                 aria-label={`${label} theme`}
                 onClick={() => setCharacter(key)}
-                className="size-8 shrink-0 rounded-full transition-transform"
+                className="block shrink-0 overflow-hidden rounded-md p-0 transition-transform"
                 style={{
-                  backgroundColor: primary,
                   outline: character === key ? `2px solid ${primary}` : 'none',
                   outlineOffset: '2px',
                 }}
-              />
+              >
+                <img src={icon} alt={label} className="h-10 w-auto" />
+              </button>
             ))}
             {character && (
               <button

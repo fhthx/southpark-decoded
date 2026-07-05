@@ -1,0 +1,10 @@
+<svg viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- top hat band -->
+  <rect x="0" y="20" width="160" height="60" fill="#2b3ec9"/>
+  <!-- red accent square -->
+  <rect x="65" y="0" width="30" height="30" fill="#e0161a"/>
+  <!-- face -->
+  <rect x="0" y="80" width="160" height="60" fill="#ffdcb8"/>
+  <!-- body -->
+  <rect x="0" y="140" width="160" height="60" fill="#6b3410"/>
+</svg>

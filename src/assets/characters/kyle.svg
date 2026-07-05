@@ -1,0 +1,11 @@
+<svg viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- green poofy hat with side flaps -->
+  <rect x="10" y="10" width="140" height="55" fill="#1fa61f"/>
+  <rect x="0" y="55" width="30" height="30" fill="#1fa61f"/>
+  <rect x="130" y="55" width="30" height="30" fill="#1fa61f"/>
+  <rect x="10" y="65" width="140" height="15" fill="#2ecb2e"/>
+  <!-- face -->
+  <rect x="10" y="80" width="140" height="60" fill="#ffdcb8"/>
+  <!-- body -->
+  <rect x="0" y="140" width="160" height="60" fill="#f07800"/>
+</svg>

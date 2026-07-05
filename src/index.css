@@ -87,8 +87,7 @@
 [data-character='stan'],
 [data-character='kyle'],
 [data-character='cartman'],
-[data-character='kenny'],
-[data-character='butters'] {
+[data-character='kenny'] {
   --primary: var(--character);
   --ring: var(--character);
 }
@@ -121,21 +120,13 @@
   --character-secondary-foreground: #ffffff;
 }
 
-[data-character='butters'] {
-  --character: #7dd3fc;
-  --primary-foreground: #082f49;
-  --character-secondary: #eab308;
-  --character-secondary-foreground: #422006;
-}
-
 /* Light-mode surface tints - mixed into the literal light base colors
    (not var(--background)/var(--border)) to avoid a self-referential
    cycle on the root element, which computes to nothing. */
 [data-character='stan']:not(.dark),
 [data-character='kyle']:not(.dark),
 [data-character='cartman']:not(.dark),
-[data-character='kenny']:not(.dark),
-[data-character='butters']:not(.dark) {
+[data-character='kenny']:not(.dark) {
   --background: color-mix(in oklch, var(--character) 4%, #ffffff);
   --card: color-mix(in oklch, var(--character) 7%, #ffffff);
   --popover: color-mix(in oklch, var(--character) 7%, #ffffff);
@@ -148,8 +139,7 @@
 .dark[data-character='stan'],
 .dark[data-character='kyle'],
 .dark[data-character='cartman'],
-.dark[data-character='kenny'],
-.dark[data-character='butters'] {
+.dark[data-character='kenny'] {
   --background: color-mix(in oklch, var(--character) 6%, #16171d);
   --card: color-mix(in oklch, var(--character) 10%, #16171d);
   --popover: color-mix(in oklch, var(--character) 10%, #16171d);

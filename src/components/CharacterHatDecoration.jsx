@@ -33,8 +33,8 @@ function Pompom() {
 }
 
 // Small decorative shapes on the header bar that echo each character's hat.
-// Butters intentionally has no decoration. Kenny's look is handled by the
-// header itself (see AppLayout), not an overlay shape.
+// Kenny's look is handled by the header itself (see AppLayout), not an
+// overlay shape.
 export default function CharacterHatDecoration() {
   const { character } = useTheme()
 
