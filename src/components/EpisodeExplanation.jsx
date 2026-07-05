@@ -25,14 +25,14 @@ export default function EpisodeExplanation({ episodeId }) {
 
       <div className="space-y-2">
         <p className="font-medium text-foreground">Sources</p>
-        <ul className="space-y-1">
+        <ul className="list-disc space-y-1 pl-4">
           {(explanation.sources ?? []).map((source) => (
             <li key={source.url}>
               <a
                 href={source.url}
                 target="_blank"
                 rel="noreferrer"
-                className="text-xs text-blue-600 underline dark:text-blue-400"
+                className="text-xs text-blue-600 dark:text-blue-400"
               >
                 {source.label}
               </a>

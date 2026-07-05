@@ -284,31 +284,77 @@ export const explanations = {
   248: {
     summary:
       "The boys try to trademark a Redskins-style team name specifically because it's offensive, betting that controversy is impossible to legally shut down. It's a direct response to the real fight over the Washington Redskins' trademark and name, tangled up with a parody of Kickstarter-style crowdfunding culture.",
+    sources: [
+      {
+        label: 'Wikipedia: Washington Redskins name controversy',
+        url: 'https://en.wikipedia.org/wiki/Washington_Redskins_name_controversy',
+      },
+      {
+        label: 'Wikipedia: Washington Redskins trademark dispute',
+        url: 'https://en.wikipedia.org/wiki/Washington_Redskins_trademark_dispute',
+      },
+    ],
   },
   // Gluten Free Ebola (S18E2)
   249: {
     summary:
       "A gluten-related epidemic panics the town just as a real disease outbreak looms in the background. It plays the mid-2010s gluten-free diet fad against real fears about the 2014 West African Ebola outbreak reaching the US, mocking which health scares actually got proportionate attention.",
+    sources: [
+      { label: 'The Times: Ebola outbreak (DRC/Uganda)', url: 'https://www.thetimes.com/world/africa/article/ebola-outbreak-drc-uganda-virus-what-is-f2qz5c880' },
+      { label: 'The Gluten-Free Diet: Fad or Necessity? (PMC)', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5439366/' },
+    ],
   },
   // Freemium Isn't Free (S18E6)
   253: {
     summary:
-      "Stan gets hooked on a mobile game that nickel-and-dimes him for virtual currency at every turn. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics.",
+      "Stan gets hooked on a mobile game that nickel-and-dimes him for virtual currency at every turn. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics - the same model behind real games like Candy Crush Saga, Clash of Clans, EA Sports FC's Ultimate Team packs, and Genshin Impact's gacha banners.",
+    sources: [
+      {
+        label: 'Investopedia: How Microtransactions Are Evolving the Economics of Gaming',
+        url: 'https://www.investopedia.com/articles/investing/022216/how-microtransactions-are-evolving-economics-gaming.asp',
+      },
+      {
+        label: 'ScienceDirect: microtransactions/gaming research article',
+        url: 'https://www.sciencedirect.com/science/article/pii/S1875952124000612',
+      },
+    ],
   },
   // Stunning and Brave (S19E1)
   258: {
     summary:
       "PC Principal arrives to police the school's language, and the show's discussion of a public gender transition draws directly on Caitlyn Jenner's widely covered 2015 announcement and Vanity Fair cover. It kicks off a season-long thread about campus-style political correctness culture.",
+    sources: [
+      { label: 'Vanity Fair: Caitlyn Jenner cover story (June 2015)', url: 'https://www.vanityfair.com/hollywood/2015/06/caitlyn-jenner-bruce-cover-annie-leibovitz' },
+      { label: 'Vanity Fair: Call Me Caitlyn (documentary video)', url: 'https://www.vanityfair.com/video/watch/call-me-caitlyn-documentary' },
+      {
+        label: 'The Guardian: PC culture, freedom of speech, freedom to be offended',
+        url: 'https://www.theguardian.com/commentisfree/2015/jan/28/pc-culture-freedom-of-speech-freedom-to-be-offended',
+      },
+    ],
   },
   // Where My Country Gone? (S19E2)
   259: {
     summary:
       "A wall goes up around South Park and Canadian immigrants are demonized as job-stealing outsiders. It's a direct parody of Donald Trump's early 2016 campaign rhetoric on immigration and border walls, with Mr. Garrison standing in for Trump himself.",
+    sources: [
+      {
+        label: 'Wikipedia: Immigration policy of the first Trump administration',
+        url: 'https://en.wikipedia.org/wiki/Immigration_policy_of_the_first_Trump_administration',
+      },
+      { label: 'Trump pledges to build a wall (YouTube)', url: 'https://www.youtube.com/watch?v=cBW8mTHDgvk' },
+      {
+        label: 'Trump Outlines Immigration, Trade Policies | USA Election News 2016 (YouTube)',
+        url: 'https://www.youtube.com/watch?v=A21IvnW3WZ0',
+      },
+    ],
   },
   // Safe Space (S19E5)
   262: {
     summary:
       "Cartman demands everyone only post positive comments on his Instagram, weaponizing 'safe space' language to shut down any criticism. It's a satire of both campus safe-space culture debates and the curated, filtered unreality of social media image culture.",
+    sources: [
+      { label: "Flexa: How safe are 'safe spaces' really?", url: 'https://flexa.careers/blog/how-safe-are-safe-spaces-really' },
+    ],
   },
   // Skank Hunt (S20E2)
   269: {
@@ -449,6 +495,10 @@ export const explanations = {
   251: {
     summary:
       "Cartman launches an unlicensed car service using disabled people's motorized wheelchairs to dodge taxi regulations - a broad swipe at Uber and the ride-sharing boom of the mid-2010s, and the wider debate over 'gig economy' apps undercutting regulated labor and treating workers as disposable.",
+    sources: [
+      { label: 'The Guardian: How Uber conquered London', url: 'https://www.theguardian.com/technology/2016/apr/27/how-uber-conquered-london' },
+      { label: 'BBC News: Uber technology article', url: 'https://www.bbc.co.uk/news/technology-27733971' },
+    ],
   },
   // With Apologies to Jesse Jackson (S11E1)
   154: {
@@ -464,5 +514,8 @@ export const explanations = {
   268: {
     summary:
       "Talking berries flood South Park with warm nostalgia ('member Chewbacca? Member the Password Sing-Along?') while quietly making people receptive to xenophobic, wall-building rhetoric. Season 20 aired during the 2016 US election and this episode is a pointed critique of how nostalgia - 'make it like it used to be' - was being used as a political weapon on both sides of the Atlantic that year.",
+    sources: [
+      { label: 'CNN: 2016 Election Results (President)', url: 'https://edition.cnn.com/election/2016/results/president' },
+    ],
   },
 }
