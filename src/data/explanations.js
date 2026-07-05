@@ -314,56 +314,131 @@ export const explanations = {
   269: {
     summary:
       "An anonymous account starts viciously trolling people online for fun, and no one can figure out who's behind it. It's a direct engagement with the mid-2010s rise of anonymous internet trolling and harassment as a recognized, damaging cultural phenomenon.",
+    sources: [
+      { label: 'BBC Bitesize: online trolling', url: 'https://www.bbc.co.uk/bitesize/articles/zfmkrj6' },
+      {
+        label: 'Anyone Can Become a Troll: Causes of Trolling Behavior in Online Discussions (PMC)',
+        url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5791909/',
+      },
+      {
+        label: 'The Guardian: Internet trolls are also real-life trolls',
+        url: 'https://www.theguardian.com/science/head-quarters/2014/feb/25/internet-trolls-are-also-real-life-trolls',
+      },
+    ],
   },
   // White People Renovating Houses (S21E1)
   278: {
     summary:
       "A wholesome couple's home-renovation show becomes a local obsession, echoing HGTV hits like Fixer Upper. It's a satire of the home-renovation TV boom and the gentrification that so often follows in its wake.",
+    sources: [
+      { label: 'Wikipedia: Fixer Upper (TV series)', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' },
+      {
+        label: 'Wikipedia: Category - Home renovation television series',
+        url: 'https://en.wikipedia.org/wiki/Category:Home_renovation_television_series',
+      },
+    ],
   },
   // Hummels & Heroin (S21E5)
   282: {
     summary:
       "Randy accidentally gets the whole town hooked on painkillers while running a shady side hustle. It's a direct response to the US opioid crisis, satirizing both addiction and the profiteering (from doctors to dealers) that fed it.",
+    sources: [
+      {
+        label: 'CDC: Understanding the Opioid Overdose Epidemic',
+        url: 'https://www.cdc.gov/overdose-prevention/about/understanding-the-opioid-overdose-epidemic.html',
+      },
+      { label: 'SHADAC: The Opioid Epidemic in the United States', url: 'https://www.shadac.org/opioid-epidemic-united-states' },
+      { label: 'Painkiller (Netflix)', url: 'https://www.netflix.com/gb/title/81095069' },
+    ],
   },
   // Doubling Down (S21E7)
   284: {
     summary:
       "A local news station gets bought up and forced to read identical, oddly slanted scripts from corporate. It's a jab at real local-news consolidation by conglomerates like Sinclair Broadcast Group, later notorious for making anchors nationwide recite the same promotional scripts verbatim.",
+    sources: [
+      {
+        label: "Sinclair requires anchors to read script bashing 'fake' news (YouTube)",
+        url: 'https://www.youtube.com/watch?v=aGIYU2Xznb4',
+      },
+    ],
   },
   // Dead Kids (S22E1)
   288: {
     summary:
       "A student is killed at school and the adults' reaction is to treat it as a mundane inconvenience rather than a tragedy. It's a bleak, direct commentary on how routine school shootings had become in American life, and how numb institutional responses to them felt by 2018.",
+    sources: [
+      { label: 'BBC News (business-46507514)', url: 'https://www.bbc.co.uk/news/business-46507514' },
+      { label: 'Brady: School Shootings', url: 'https://www.bradyunited.org/resources/issues/school-shootings' },
+    ],
   },
   // Tegridy Farms (S22E4)
   291: {
     summary:
       "Randy moves the family to a farm to grow marijuana now that it's legal, marketing it with a folksy 'integrity' pitch. It kicks off a long-running satire of the newly legal cannabis industry and the wave of opportunists rebranding themselves as wholesome small-farm entrepreneurs.",
+    sources: [
+      {
+        label: 'From Facing Jail Time to Growing Craft Cannabis in New Jersey | Hamilton Farms (YouTube)',
+        url: 'https://www.youtube.com/watch?v=N-uXbDVy9uA',
+      },
+      { label: 'The Guardian: disposable vapes (UK)', url: 'https://www.theguardian.com/society/2026/may/17/disposable-vapes-suez-uk' },
+      {
+        label: 'ASH: Use of vapes among young people in Great Britain (2023, PDF)',
+        url: 'https://ash.org.uk/uploads/Use-of-vapes-among-young-people-GB-2023-v2.pdf',
+      },
+    ],
   },
   // Band in China (S23E2)
   299: {
     summary:
       "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet, and the episode's blunt satire of Chinese censorship got South Park itself banned in China.",
+    sources: [
+      {
+        label: "ESPN: James Harden apologizes as controversy grows: 'We love China'",
+        url: 'https://www.espn.com/nba/story/_/id/27787634/james-harden-apologizes-controversy-grows-love-china',
+      },
+    ],
   },
   // Shots!!! (S23E3)
   300: {
     summary:
       "Parents panic over how many vaccines their kids are getting, echoing real anti-vaccine sentiment. It's a continued satire of the anti-vaccine movement, mocking both paranoid parents and the profit motives of the healthcare system around them.",
+    sources: [
+      { label: 'Wikipedia: Anti-vaccine activism', url: 'https://en.wikipedia.org/wiki/Anti-vaccine_activism' },
+      {
+        label: 'BBC Future: the strange history of the anti-vaccine movement',
+        url: 'https://www.bbc.co.uk/future/article/20250905-the-strange-history-of-the-anti-vaccine-movement',
+      },
+    ],
   },
   // The Pandemic Special (S24E1)
   308: {
     summary:
       "The boys navigate a South Park frozen mid-lockdown, mask mandates, and a virus with no cure in sight. It's the show's direct, real-time response to the COVID-19 pandemic, made and set during the actual 2020 lockdowns.",
+    sources: [
+      { label: 'Gladstone Institutes: Milestones in the COVID-19 Pandemic', url: 'https://gladstone.org/news/milestones-covid-19-pandemic' },
+      { label: 'Wikipedia: COVID-19', url: 'https://en.wikipedia.org/wiki/COVID-19' },
+    ],
   },
   // South ParQ Vaccination Special (S24E2)
   309: {
     summary:
       "The town fights over who gets the new vaccine first and whether to trust it at all. It's a direct response to the real COVID-19 vaccine rollout in late 2020/early 2021 and the hesitancy, hoarding, and politicization that surrounded it.",
+    sources: [
+      { label: 'Gladstone Institutes: Milestones in the COVID-19 Pandemic', url: 'https://gladstone.org/news/milestones-covid-19-pandemic' },
+      { label: 'Wikipedia: COVID-19', url: 'https://en.wikipedia.org/wiki/COVID-19' },
+      { label: 'ScienceDirect: vaccine research article', url: 'https://www.sciencedirect.com/science/article/pii/S0264410X24000653' },
+    ],
   },
   // Back To The Cold War (S25E4)
   313: {
     summary:
       "Randy panics that a new global conflict is dragging the world back into Cold War-style nuclear brinkmanship. It aired as Russia's invasion of Ukraine began in 2022, tapping into real anxiety about a return to Cold War-era great-power confrontation.",
+    sources: [
+      {
+        label: 'Council on Foreign Relations: War in Ukraine',
+        url: 'https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine',
+      },
+    ],
   },
   // Margaritaville (S13E3)
   184: {
