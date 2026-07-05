@@ -14,59 +14,53 @@ export default function AppLayout() {
 
   const isKenny = character === 'kenny'
 
-  const content = (
-    <>
-      <CharacterHatDecoration />
-      <div className="flex-1 text-center sm:text-left">
-        <Link
-          to="/"
-          className={cn(
-            'text-2xl font-semibold tracking-tight',
-            !isKenny && 'text-primary-foreground',
-          )}
-        >
-          South Park Decoded
-        </Link>
-        <p className={cn('mt-1 text-sm', isKenny ? 'opacity-80' : 'text-primary-foreground/80')}>
-          Every episode, and the real-world story behind it.
-        </p>
-      </div>
-      {episodes && (
-        <OptionsPopover
-          episodes={episodes}
-          search={search}
-          onSearchChange={setSearch}
-          season={season}
-          onSeasonChange={setSeason}
-          contextFilter={contextFilter}
-          onContextFilterChange={setContextFilter}
-        />
-      )}
-    </>
-  )
-
   return (
     <div className="mx-auto min-h-svh max-w-4xl px-4 py-8">
       <header
-        className={cn(
-          'relative mb-8 rounded-xl bg-primary',
-          isKenny ? 'p-2' : 'flex items-center justify-between gap-4 p-5 text-primary-foreground',
-        )}
+        className={cn('relative mb-8 rounded-xl bg-primary', isKenny ? 'p-2' : 'p-5')}
       >
-        {isKenny ? (
-          <div
-            className="relative flex items-center justify-between gap-4 rounded-lg border-4 p-2"
-            style={{
-              backgroundColor: '#e8b892',
-              borderColor: 'var(--character-secondary)',
-              color: '#3f2415',
-            }}
-          >
-            {content}
+        <div
+          className={cn(
+            'relative flex items-center justify-between gap-4 rounded-lg',
+            isKenny ? 'border-4 p-2' : 'text-primary-foreground',
+          )}
+          style={
+            isKenny
+              ? {
+                  backgroundColor: '#e8b892',
+                  borderColor: 'var(--character-secondary)',
+                  color: '#3f2415',
+                }
+              : undefined
+          }
+        >
+          <CharacterHatDecoration />
+          <div className="flex-1 text-center sm:text-left">
+            <Link
+              to="/"
+              className={cn(
+                'text-2xl font-semibold tracking-tight',
+                !isKenny && 'text-primary-foreground',
+              )}
+            >
+              South Park Decoded
+            </Link>
+            <p className={cn('mt-1 text-sm', isKenny ? 'opacity-80' : 'text-primary-foreground/80')}>
+              Every episode, and the real-world story behind it.
+            </p>
           </div>
-        ) : (
-          content
-        )}
+          {episodes && (
+            <OptionsPopover
+              episodes={episodes}
+              search={search}
+              onSearchChange={setSearch}
+              season={season}
+              onSeasonChange={setSeason}
+              contextFilter={contextFilter}
+              onContextFilterChange={setContextFilter}
+            />
+          )}
+        </div>
       </header>
 
       <Outlet context={{ search, season, contextFilter }} />
