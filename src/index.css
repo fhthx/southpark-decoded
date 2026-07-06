@@ -107,10 +107,10 @@
 }
 
 [data-character='cartman'] {
-  --character: #7dd3fc;
-  --primary-foreground: #082f49;
-  --character-secondary: #eab308;
-  --character-secondary-foreground: #422006;
+  --character: #48b3ba;
+  --primary-foreground: #ffffff;
+  --character-secondary: #d41e3f;
+  --character-secondary-foreground: #ffffff;
 }
 
 [data-character='kenny'] {
