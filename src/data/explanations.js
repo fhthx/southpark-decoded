@@ -1,6 +1,18 @@
 // Real-world inspiration behind South Park episodes, keyed by the episode's
 // spapi.dev `id`. This is authored content, not sourced from the API - most
 // episodes don't have an entry yet. Add more over time.
+
+// Shared by the S17 console-war trilogy (Black Friday, A Song of Ass and
+// Fire, Titties and Dragons) - same real-world sources apply to all three.
+const CONSOLE_WAR_SOURCES = [
+  { label: 'The Guardian: PlayStation 4 vs Xbox One', url: 'https://www.theguardian.com/technology/2013/nov/16/playstation-4-xbox-one' },
+  {
+    label: 'Forbes: Xbox One vs PS4 - The Console Wars Are Just Getting Started',
+    url: 'https://www.forbes.com/sites/erikkain/2013/11/16/xbox-one-vs-ps4-the-console-wars-are-just-getting-started/',
+  },
+  { label: 'Wikipedia: A Song of Ice and Fire', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' },
+]
+
 export const explanations = {
   // Mr. Hankey, the Christmas Poo (S1E9)
   9: {
@@ -216,26 +228,40 @@ export const explanations = {
   210: {
     summary:
       "Kyle skips reading Apple's iTunes terms and conditions and ends up unknowingly consenting to something horrific. It's a jab at how nobody reads the fine print on tech companies' sprawling terms-of-service agreements, wrapped in a parody of the film The Human Centipede.",
+    sources: [
+      { label: 'Business Insider: Apple terms and conditions', url: 'https://www.businessinsider.com/apple-terms-and-conditions' },
+      { label: 'The Human Centipede (IMDb)', url: 'https://www.imdb.com/title/tt1467304/' },
+    ],
   },
   // 1% (S15E12)
   221: {
     summary:
       "Cartman insists he must be a genetic 'one percenter' rather than admit he's just overweight and out of shape. It plays on the language of the Occupy Wall Street movement and its '99% vs 1%' framing of wealth inequality, which was dominating headlines when this episode aired in late 2011.",
+    sources: [
+      { label: 'Seton Hall: Occupy Wall Street history tour', url: 'https://blogs.shu.edu/nyc-history/tours/occupy-wall-street/' },
+      { label: 'The Guardian: Occupy Wall Street, 10 years on', url: 'https://www.theguardian.com/us-news/2021/sep/12/occupy-wall-street-10-years-on' },
+    ],
   },
   // Cash For Gold (S16E2)
   225: {
     summary:
       "Stan's grandfather signs away his prized possessions to shady door-to-door and mail-in 'cash for gold' schemes. It's a direct satire of the wave of cash-for-gold TV and radio ads that proliferated after the 2008 financial crisis, targeting older people trying to cash in on high gold prices.",
-  },
-  // Jewpacabra (S16E4)
-  227: {
-    summary:
-      "Kyle's baby brother is suspected of being a monstrous creature, while an anti-vaccine mother's paranoia is played for satire. It's a direct response to the anti-vaccine movement fueled by Jenny McCarthy and the (thoroughly debunked) vaccine-autism panic of the era.",
+    sources: [
+      { label: 'Wikipedia: Cash4Gold', url: 'https://en.wikipedia.org/wiki/Cash4Gold' },
+      {
+        label: 'Forbes: The Cash4Gold Bankruptcy',
+        url: 'https://www.forbes.com/sites/timworstall/2012/10/30/the-cash4gold-bankruptcy-this-is-the-basic-problem-with-recycling/',
+      },
+      { label: 'Fortune: Pennies for Cash4Gold', url: 'https://fortune.com/2012/10/26/pennies-for-cash4gold/' },
+    ],
   },
   // Obama Wins! (S16E14)
   237: {
     summary:
       "The boys' fantasy-football-style bet on the presidential election collides with a real election night. It's the show's real-time response to the 2012 US presidential election, in which Barack Obama won a second term.",
+    sources: [
+      { label: 'Obama Foundation: The Administration (2012-2017)', url: 'https://www.obama.org/about/administration/2012-2017/' },
+    ],
   },
   // Let Go, Let Gov (S17E1)
   238: {
@@ -264,21 +290,27 @@ export const explanations = {
   240: {
     summary:
       "Cartman falls asleep and dreams of a nationwide race war triggered by a controversial self-defense shooting. It's a direct response to the 2013 George Zimmerman trial over the killing of Trayvon Martin, and the anxious national conversation about race that followed the verdict.",
+    sources: [
+      { label: 'Wikipedia: Killing of Trayvon Martin', url: 'https://en.wikipedia.org/wiki/Killing_of_Trayvon_Martin' },
+    ],
   },
   // Black Friday (S17E7)
   244: {
     summary:
       "The kids' friendships fracture over which new game console to buy, echoing the real console war, while adults literally go to war over Black Friday doorbusters. It's a direct parody of the Xbox One vs. PS4 launch rivalry and the real chaos around Black Friday shopping stampedes.",
+    sources: CONSOLE_WAR_SOURCES,
   },
   // A Song of Ass and Fire (S17E8)
   245: {
     summary:
       "The console-war standoff continues as a sprawling Game of Thrones-style fantasy parody, with the kids' console loyalties turned into warring kingdoms. It keeps skewering the Xbox One/PS4 launch rivalry while spoofing Game of Thrones, then near its cultural peak.",
+    sources: CONSOLE_WAR_SOURCES,
   },
   // Titties and Dragons (S17E9)
   246: {
     summary:
       "The Game-of-Thrones-style console war saga wraps up. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle, wrapped in Thrones-style fantasy-political parody.",
+    sources: CONSOLE_WAR_SOURCES,
   },
   // Go Fund Yourself (S18E1)
   248: {

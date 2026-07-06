@@ -97,6 +97,7 @@
   --primary-foreground: #ffffff;
   --character-secondary: #ef4444;
   --character-secondary-foreground: #ffffff;
+  --character-bobble: #ef4444;
 }
 
 [data-character='kyle'] {
@@ -111,6 +112,7 @@
   --primary-foreground: #ffffff;
   --character-secondary: #d41e3f;
   --character-secondary-foreground: #ffffff;
+  --character-bobble: #f8dd03;
 }
 
 [data-character='kenny'] {

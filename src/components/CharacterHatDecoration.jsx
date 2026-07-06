@@ -1,32 +1,36 @@
 import { useTheme } from '@/hooks/use-theme'
+import cartmanPompom from '@/assets/pompoms/cartman.svg'
 
-const PETAL_COUNT = 14
+// A handful of overlapping rounded lobes, positioned to read as a single
+// irregular clump/tuft rather than a perfect circle or radiating starburst.
+// Used for Stan, who doesn't have a dedicated pompom asset yet.
+const LOBES = [
+  { size: 22, x: 0, y: 3 },
+  { size: 18, x: -10, y: -2 },
+  { size: 18, x: 10, y: -3 },
+  { size: 16, x: -3, y: -10 },
+  { size: 15, x: 8, y: -9 },
+  { size: 14, x: -13, y: 6 },
+]
 
 function Pompom() {
   return (
-    <div
-      aria-hidden
-      className="absolute -top-6 left-1/2 size-14 -translate-x-1/2"
-    >
+    <div aria-hidden className="absolute -top-5 left-1/2 h-8 w-11 -translate-x-1/2">
       <div className="relative size-full">
-        {Array.from({ length: PETAL_COUNT }).map((_, i) => {
-          const angle = (360 / PETAL_COUNT) * i
-          return (
-            <div
-              key={i}
-              className="absolute top-1/2 left-1/2 w-1.5 h-5 rounded-full border border-black/40"
-              style={{
-                backgroundColor: 'var(--character-secondary)',
-                transform: `translate(-50%, -100%) rotate(${angle}deg)`,
-                transformOrigin: 'bottom center',
-              }}
-            />
-          )
-        })}
-        <div
-          className="absolute top-1/2 left-1/2 size-3 -translate-x-1/2 -translate-y-1/2 rounded-full border border-black/40"
-          style={{ backgroundColor: 'var(--character-secondary)' }}
-        />
+        {LOBES.map((lobe, i) => (
+          <div
+            key={i}
+            className="absolute rounded-full border border-black/40"
+            style={{
+              width: lobe.size,
+              height: lobe.size,
+              left: `calc(50% + ${lobe.x}px)`,
+              top: `calc(50% + ${lobe.y}px)`,
+              transform: 'translate(-50%, -50%)',
+              backgroundColor: 'var(--character-bobble)',
+            }}
+          />
+        ))}
       </div>
     </div>
   )
@@ -55,7 +59,18 @@ export default function CharacterHatDecoration() {
     )
   }
 
-  if (character === 'stan' || character === 'cartman') {
+  if (character === 'cartman') {
+    return (
+      <img
+        aria-hidden
+        alt=""
+        src={cartmanPompom}
+        className="absolute -top-4 left-1/2 h-6 w-auto -translate-x-1/2"
+      />
+    )
+  }
+
+  if (character === 'stan') {
     return <Pompom />
   }
 
