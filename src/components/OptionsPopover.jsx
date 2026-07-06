@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { Separator } from '@/components/ui/separator'
-import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
+import { Switch } from '@/components/ui/switch'
 import { characterThemes } from '@/lib/character-themes'
 import { useTheme } from '@/hooks/use-theme'
 
@@ -21,8 +21,8 @@ export default function OptionsPopover({
   onSearchChange,
   season,
   onSeasonChange,
-  contextFilter,
-  onContextFilterChange,
+  decodedOnly,
+  onDecodedOnlyChange,
 }) {
   const { mode, setMode, character, setCharacter } = useTheme()
   const isKenny = character === 'kenny'
@@ -79,23 +79,10 @@ export default function OptionsPopover({
           </SelectContent>
         </Select>
 
-        <ToggleGroup
-          type="single"
-          variant="outline"
-          value={contextFilter}
-          onValueChange={(value) => value && onContextFilterChange(value)}
-          className="w-full"
-        >
-          <ToggleGroupItem value="all" className="flex-1 text-xs">
-            All
-          </ToggleGroupItem>
-          <ToggleGroupItem value="has" className="flex-1 text-xs">
-            Has story
-          </ToggleGroupItem>
-          <ToggleGroupItem value="missing" className="flex-1 text-xs">
-            No story yet
-          </ToggleGroupItem>
-        </ToggleGroup>
+        <div className="flex items-center justify-between">
+          <p className="text-xs font-medium">Decoded</p>
+          <Switch checked={decodedOnly} onCheckedChange={onDecodedOnlyChange} />
+        </div>
 
         <Separator />
 

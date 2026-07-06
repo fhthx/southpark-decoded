@@ -10,7 +10,7 @@ export default function AppLayout() {
   const { character } = useTheme()
   const [search, setSearch] = useState('')
   const [season, setSeason] = useState('all')
-  const [contextFilter, setContextFilter] = useState('all')
+  const [decodedOnly, setDecodedOnly] = useState(false)
 
   const isKenny = character === 'kenny'
 
@@ -56,14 +56,14 @@ export default function AppLayout() {
               onSearchChange={setSearch}
               season={season}
               onSeasonChange={setSeason}
-              contextFilter={contextFilter}
-              onContextFilterChange={setContextFilter}
+              decodedOnly={decodedOnly}
+              onDecodedOnlyChange={setDecodedOnly}
             />
           )}
         </div>
       </header>
 
-      <Outlet context={{ search, season, contextFilter }} />
+      <Outlet context={{ search, season, decodedOnly }} />
     </div>
   )
 }

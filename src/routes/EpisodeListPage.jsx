@@ -7,7 +7,7 @@ import { getExplanation } from '@/lib/get-explanation'
 
 export default function EpisodeListPage() {
   const episodes = useLoaderData()
-  const { search, season, contextFilter } = useOutletContext()
+  const { search, season, decodedOnly } = useOutletContext()
   const containerRef = useRef(null)
   const [scrollMargin, setScrollMargin] = useState(0)
 
@@ -23,12 +23,10 @@ export default function EpisodeListPage() {
       if (season !== 'all' && episode.season !== Number(season)) {
         return false
       }
-      const hasExplanation = Boolean(getExplanation(episode.id))
-      if (contextFilter === 'has' && !hasExplanation) return false
-      if (contextFilter === 'missing' && hasExplanation) return false
+      if (decodedOnly && !getExplanation(episode.id)) return false
       return true
     })
-  }, [episodes, search, season, contextFilter])
+  }, [episodes, search, season, decodedOnly])
 
   const rowVirtualizer = useWindowVirtualizer({
     count: filteredEpisodes.length,
