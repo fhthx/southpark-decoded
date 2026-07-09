@@ -132,97 +132,137 @@ export const explanations = {
   // Trapped in the Closet (S9E12)
   137: {
     summary:
-      "Stan is declared the reincarnation of Scientology's founder, and the episode lays out the religion's confidential origin story (Xenu, thetans, and all) on screen. It's a direct, detailed satire of Scientology and of Tom Cruise and John Travolta's outspoken celebrity advocacy for it.",
-  },
-  // Bloody Mary (S9E14)
-  139: {
-    summary:
-      "A statue of the Virgin Mary appears to weep blood from an unusual place, drawing pilgrims, while Randy is ordered into AA after a DUI. It's a dual satire: real reports of 'miracle' weeping statues, and the quasi-religious, one-size-fits-all rhetoric of 12-step recovery programs.",
+      "Stan is declared the reincarnation of Scientology's founder, and the episode lays out the religion's confidential origin story (Xenu, thetans, and all) on screen. It's a direct, detailed satire of Scientology and of Tom Cruise and John Travolta's outspoken celebrity advocacy for it - the real-world backlash was swift too, with Chef voice actor and Scientologist Isaac Hayes quitting the show over the episode, citing religious intolerance.",
+    sources: [
+      { label: 'LA Times: inside the Church of Scientology', url: 'https://www.latimes.com/news/la-fi-scientology18dec18-story.html' },
+      { label: 'LA Times: Isaac Hayes leaves South Park', url: 'https://www.latimes.com/archives/la-xpm-2006-mar-18-et-channel18-story.html' },
+      { label: '"Trapped in the Closet" clip (YouTube)', url: 'https://www.youtube.com/watch?v=8XwWntSvNLE' },
+      { label: 'The Guardian: Isaac Hayes and South Park', url: 'https://www.theguardian.com/world/2006/mar/14/media.arts' },
+    ],
   },
   // Smug Alert! (S10E2)
   141: {
     summary:
-      "Kyle's dad buys a hybrid car and becomes insufferably self-satisfied about it, and San Francisco is eventually engulfed by a cloud of pure smugness. It's a jab at hybrid-car owners' reputation for conspicuous, holier-than-thou environmentalism in the mid-2000s.",
+      "Kyle's dad buys a hybrid car and becomes insufferably self-satisfied about it, and San Francisco is eventually engulfed by a cloud of pure smugness. It's a jab at hybrid-car owners' reputation for conspicuous, holier-than-thou environmentalism in the mid-2000s, right down to a mock awards-show acceptance speech that echoes real Hollywood moments like George Clooney's self-aware 2006 Oscar speech praising the industry for being 'out of touch.'",
+    sources: [
+      { label: 'Toyota: our journey in Europe, the 2000s', url: 'https://www.toyota-europe.com/about-us/toyota-in-europe/our-journey-in-europe/the-2000s' },
+      { label: "George Clooney's 2006 Oscar speech (Academy speech database)", url: 'https://aaspeechesdb.oscars.org/link/078-2/' },
+    ],
   },
   // Cartoon Wars Part I (S10E3)
   142: {
     summary:
-      "A cartoon show plans to depict the Prophet Muhammad, and the town has to decide whether airing it is worth the risk. This directly dramatizes the 2005-06 Danish Muhammad cartoons controversy and the real censorship fight Comedy Central had with South Park's own creators over depicting Muhammad.",
+      "A cartoon show plans to depict the Prophet Muhammad, and the town has to decide whether airing it is worth the risk. This directly dramatizes the 2005-06 Danish Muhammad cartoons controversy and the real censorship fight Comedy Central had with South Park's own creators over depicting Muhammad - a fight that would resurface even more directly a few years later in the 200/201 two-parter.",
+    sources: [
+      { label: 'Wikipedia: Jyllands-Posten Muhammad cartoons controversy', url: 'https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy' },
+      { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
+      { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
+    ],
   },
   // Cartoon Wars Part II (S10E4)
   143: {
     summary:
-      "The showdown over airing an image of Muhammad continues, ending with Comedy Central itself depicted censoring the image with a black bar - which is exactly what the network did to this real episode. It's a direct, meta commentary on the network's own censorship of the Muhammad cartoon controversy.",
+      "The showdown over airing an image of Muhammad continues, ending with Comedy Central itself depicted censoring the image with a black bar - which is exactly what the network did to this real episode. It's a direct, meta commentary on the network's own censorship of the Muhammad cartoon controversy, and the same fight would flare up again, even more publicly, in the 200/201 two-parter.",
+    sources: [
+      { label: 'Wikipedia: Jyllands-Posten Muhammad cartoons controversy', url: 'https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy' },
+      { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
+      { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
+    ],
   },
   // ManBearPig (S10E6)
   145: {
     summary:
       "A washed-up celebrity turns up warning everyone about a creature called ManBearPig that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth.",
-  },
-  // Make Love, Not Warcraft (S10E8)
-  147: {
-    summary:
-      "The boys become obsessed with defeating a player who's ruining the game for everyone else in World of Warcraft. Made with Blizzard's cooperation, it's a loving parody of MMO gaming culture and the real griefers who make online games miserable for other players.",
+    sources: [
+      { label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' },
+      { label: 'TED: Al Gore, averting the climate crisis', url: 'https://www.ted.com/talks/al_gore_averting_the_climate_crisis' },
+    ],
   },
   // Mystery of the Urinal Deuce (S10E9)
   148: {
     summary:
-      "Cartman becomes convinced the government is covering up who really left a mess in a urinal, echoing 9/11 'truther' conspiracy logic point for point. It's a direct parody of 9/11 conspiracy theories and the War on Terror-era habit of distrusting official explanations for anything.",
+      "Cartman becomes convinced the government is covering up who really left a mess in a urinal, echoing 9/11 'truther' conspiracy logic point for point - and, true to the ugliest strain of real 9/11 trutherism, Cartman's 'investigation' keeps circling back to accusing Kyle, playing his antisemitism as part of the conspiracy-theory logic itself. It's a direct parody of 9/11 conspiracy theories and the War on Terror-era habit of distrusting official explanations for anything.",
+    sources: [
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/58469600' },
+      { label: 'ADL: Antisemitic conspiracies about 9/11 endure 20 years later', url: 'https://www.adl.org/resources/report/antisemitic-conspiracies-about-911-endure-20-years-later' },
+    ],
   },
   // Go God Go (S10E12)
   151: {
     summary:
       "Cartman freezes himself to skip ahead to the Wii's release date, landing in a future run by warring atheist factions, while Mrs. Garrison teaches evolution against parents' objections. It's a direct engagement with Richard Dawkins-style atheism and the evolution-vs-creationism fights in American schools.",
+    sources: [
+      { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
+      { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
+    ],
   },
   // Go God Go XII (S10E13)
   152: {
     summary:
       "The future-set atheist war concludes, with the various atheist factions bickering over the most trivial doctrinal differences. It continues the episode's satire of Richard Dawkins and organized atheism, suggesting that removing religion doesn't remove humanity's tendency to fight over ideology.",
-  },
-  // Le Petit Tourette (S11E8)
-  161: {
-    summary:
-      "Cartman fakes Tourette syndrome so he can curse at people without consequence, until Kyle actually has it and gets exploited by the media instead. It's a satire of both Tourette's being misunderstood/played for shock value, and the real news media's habit of turning sympathetic conditions into ratings-grabbing spectacle.",
+    sources: [
+      { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
+      { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
+    ],
   },
   // Britney's New Look (S12E2)
   169: {
     summary:
       "A pop star is relentlessly hounded by paparazzi and the public even as her life visibly falls apart. It's a direct response to the media circus around Britney Spears's 2007 breakdown, arguing the press and public were complicit in destroying her.",
+    sources: [
+      { label: "Ranker: Britney Spears's breakdown and comeback", url: 'https://www.ranker.com/list/britney-spears-breakdown-and-comeback/donn-saylor' },
+      { label: 'Newsweek: I interviewed Britney Spears in 2007 - how she was treated horrified me', url: 'https://www.newsweek.com/i-interviewed-britney-spears-2007how-she-was-treated-horrified-me-1604018' },
+    ],
   },
   // Canada on Strike (S12E4)
   171: {
     summary:
       "All of Canada goes on strike demanding a cut of internet money that doesn't really exist. It's a satire of the 2007-08 Writers Guild of America strike, poking fun at how hard it was for the public (and even some strikers) to understand what 'internet money' entertainment workers were fighting over.",
-  },
-  // Pandemic (S12E10)
-  177: {
-    summary:
-      "A guinea pig-piranha hybrid escapes and the media whips the country into a screaming panic about a national emergency. It's a satire of pandemic-scare news coverage in the swine-flu and avian-flu era, mocking how quickly public health fears tip into disaster-movie hysteria.",
-  },
-  // Pandemic 2: The Startling (S12E11)
-  178: {
-    summary:
-      "The giant guinea-pig disaster escalates into full Cloverfield-style monster-movie chaos. It continues the prior episode's send-up of pandemic and disaster media coverage, this time as an outright action-movie parody of how these panics get dramatized on TV.",
+    sources: [
+      { label: 'Wikipedia: 2007-08 Writers Guild of America strike', url: 'https://en.wikipedia.org/wiki/2007%E2%80%9308_Writers_Guild_of_America_strike' },
+      { label: 'The Guardian: how the 2007 writers strike gave us Bond movie heroes', url: 'https://www.theguardian.com/culture/2023/may/04/2007-writers-strike-bond-movie-heroes' },
+    ],
   },
   // Fishsticks (S13E5)
   186: {
     summary:
-      "Cartman claims co-writing credit for a joke he barely contributed to and can't handle that Kanye West won't admit he isn't a genius. It's a direct jab at Kanye West's public persona and ego at the time, built around the era's viral 'I am rich, biatch' meme.",
+      "Cartman claims co-writing credit for a joke he barely contributed to and can't handle that Kanye West won't admit he isn't a genius. It's a direct jab at Kanye West's public persona and ego at the time, built around the era's viral 'I am rich, biatch' meme - and Cartman's shameless credit-grab for someone else's joke echoes comedian Carlos Mencia's real reputation for allegedly stealing other comics' material.",
+    sources: [
+      { label: '"Fishsticks" clip (YouTube)', url: 'https://www.youtube.com/watch?v=G5iEniUb33w' },
+      { label: 'Ranker: Carlos Mencia facts', url: 'https://www.ranker.com/list/carlos-mencia-facts/chase-mcneill' },
+    ],
   },
   // Sexual Healing (S14E1)
   196: {
     summary:
-      "A string of male celebrities are revealed as sex addicts and shipped off to rehab, while the boys try to profit by inventing a fake sex-addiction test. It's a direct response to the wave of celebrity sex scandals and 'sex addiction' rehab stays in the news, most notably Tiger Woods's, right before this episode aired.",
+      "A string of male celebrities are revealed as sex addicts and shipped off to rehab, while the boys try to profit by inventing a fake sex-addiction test. It's a direct response to the wave of celebrity sex scandals and 'sex addiction' rehab stays in the news, most notably Tiger Woods's, right before this episode aired, echoing a run of earlier celebrity sex scandals from Bill Clinton to Kobe Bryant to Ben Roethlisberger.",
+    sources: [
+      { label: 'The Guardian: Tiger Woods and sex addiction', url: 'https://www.theguardian.com/global/blog/2010/jan/16/golf-tiger-woods-sex-addiction' },
+      { label: 'Wikipedia: Clinton-Lewinsky scandal', url: 'https://en.wikipedia.org/wiki/Clinton%E2%80%93Lewinsky_scandal' },
+      { label: 'ESPN (2003 NBA news)', url: 'https://www.espn.com/nba/news/2003/0718/1582701.html' },
+      { label: 'ESPN: Roethlisberger civil lawsuit settlement', url: 'https://www.espn.co.uk/nfl/story/_/id/7485346/settlement-reached-ben-roethlisberger-civil-lawsuit' },
+    ],
   },
   // 200 (S14E5)
   200: {
     summary:
       "Every celebrity South Park has ever mocked bands together to sue the town unless Muhammad is handed over to them, unmasking a years-long argument about who gets mocked and who doesn't. It's the start of a landmark two-parter revisiting the Muhammad-depiction fight from Cartoon Wars.",
+    sources: [
+      { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
+      { label: "NPR: op-ed, you can't portray Muhammad on TV", url: 'https://www.npr.org/2010/04/26/126283217/op-ed-you-cant-portray-muhammad-on-tv' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-europe-30813742' },
+      { label: 'The Guardian: South Park 200th episode', url: 'https://www.theguardian.com/tv-and-radio/tvandradioblog/2010/apr/16/south-park-200th-episode' },
+    ],
   },
   // 201 (S14E6)
   201: {
     summary:
       "The Muhammad standoff concludes with Comedy Central bleeping out an entire speech about intimidation and censorship - which is exactly what the network really did to this episode. It's the show's most direct, self-referential statement on being censored over depicting Muhammad.",
+    sources: [
+      { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
+      { label: "NPR: op-ed, you can't portray Muhammad on TV", url: 'https://www.npr.org/2010/04/26/126283217/op-ed-you-cant-portray-muhammad-on-tv' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-europe-30813742' },
+    ],
   },
   // HUMANCENTiPAD (S15E1)
   210: {
@@ -465,6 +505,11 @@ export const explanations = {
       },
     ],
   },
+  // The Scoots (S22E5)
+  292: {
+    summary:
+      "The kids discover electric scooters left scattered around town and start riding them everywhere to haul in more Halloween candy than ever, while the adults grumble about reckless riders clogging up the sidewalks. It's a direct parody of the sudden 2018 rise of dockless e-scooter rental apps like Bird and Lime, which dropped scooters on city streets almost overnight and set off a real backlash over sidewalk clutter and reckless riding.",
+  },
   // Band in China (S23E2)
   299: {
     summary:
@@ -521,7 +566,11 @@ export const explanations = {
   // Margaritaville (S13E3)
   184: {
     summary:
-      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.",
+      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans. Stan and Kyle's plot even restages the Last Supper, with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
+    sources: [
+      { label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' },
+      { label: 'Wikipedia: Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' },
+    ],
   },
   // Handicar (S18E4)
   251: {
@@ -536,11 +585,18 @@ export const explanations = {
   154: {
     summary:
       "Randy blurts a racial slur on live TV and becomes a national pariah, while a parallel plot mocks how the word 'the n-word' gets used as a stand-in slur for little people. The episode aired a few months after comedian Michael Richards's real-life racist tirade went viral, and it's built directly around that era's raw, unresolved argument over slurs, intent, and who gets to say what.",
+    sources: [
+      { label: 'The Guardian: Michael Richards racist tirade fallout', url: 'https://www.theguardian.com/world/2006/nov/22/usa.danglaister' },
+    ],
   },
   // It's a Jersey Thing (S14E9)
   204: {
     summary:
       "The town is 'infected' by loud, spray-tanned, fist-pumping Jersey culture spreading like a disease. It's a direct parody of MTV's Jersey Shore (which had just become a phenomenon) and the reality-TV era's habit of turning a regional/ethnic identity into a mockable stereotype for entertainment.",
+    sources: [
+      { label: 'The Guardian: Charlie Brooker on Jersey Shore', url: 'https://www.theguardian.com/tv-and-radio/2010/mar/20/charlie-brooker-jersey-shore' },
+      { label: 'Vice: the Jersey Shore scene that made Snooki a star', url: 'https://www.vice.com/en/article/17-years-ago-one-shocking-jersey-shore-scene-turned-snooki-into-a-reality-tv-star-overnight/' },
+    ],
   },
   // Member Berries (S20E1)
   268: {
