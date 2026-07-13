@@ -17,75 +17,125 @@ const CONSOLE_WAR_SOURCES = [CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FOR
 const CONSOLE_WAR_SOURCES_GOT_FIRST = [CONSOLE_WAR_SOURCE_GOT, CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES]
 
 export const explanations = {
-  // Mr. Hankey, the Christmas Poo (S1E9)
-  9: {
-    summary:
-      "A school bans anything religious from its Christmas pageant, terrified of offending anyone - until a talking piece of feces convinces everyone that a totally secular Christmas is just as absurd. It's a swipe at the annual 'War on Christmas'-style fights over religion in public schools and how far institutions will go to avoid controversy.",
-  },
   // Chinpokomon (S3E11)
   42: {
     summary:
-      "A Japanese toy company's pocket-monster craze sweeps South Park's kids while secretly indoctrinating them to rebuild a WWII-era war machine. It's a broad parody of Pokemon-mania and the wider anxiety, in the late '90s, about how much control foreign entertainment franchises had over American children's attention (and wallets).",
+      "A Japanese toy company's pocket-monster craze sweeps South Park's kids while secretly indoctrinating them to rebuild a WWII-era war machine. It's a broad parody of Pokemon-mania[1] and the wider anxiety, in the late '90s, about how much control foreign entertainment franchises had over American children's attention (and wallets)[2].",
+    sources: [
+      { label: 'Time: Beware of the Poke-Mania!', url: 'https://time.com/archive/6737018/beware-of-the-poke-mania/' },
+      { label: 'The New York Times: Pokemon Mania Takes on Criminal Proportions', url: 'https://www.nytimes.com/1999/12/04/nyregion/pokemon-mania-takes-on-criminal-proportions.html' },
+    ],
   },
   // Are You There God? It's Me, Jesus (S3E17)
   47: {
     summary:
-      "The town spends the last days of 1999 in escalating panic that computers - and civilization - will collapse the moment the year rolls over. This is a direct parody of the real Y2K scare, when genuine fears about date-formatted software bugs curdled into full-blown doomsday hysteria.",
-  },
-  // Cartman's Silly Hate Crime 2000 (S4E2)
-  50: {
-    summary:
-      "Cartman gets charged with a hate crime for a schoolyard fight, exposing how the same act can be punished totally differently depending on who's involved. It's a direct engagement with hate-crime legislation debates of the era: whether laws should weigh a perpetrator's bias more heavily than an ordinary assault.",
+      "The town spends the last days of 1999 in escalating panic that computers - and civilization - will collapse the moment the year rolls over. This is a direct parody of the real Y2K scare[1], when genuine fears about date-formatted software bugs curdled into full-blown doomsday hysteria[2].",
+    sources: [
+      { label: 'Wikipedia: Year 2000 problem', url: 'https://en.wikipedia.org/wiki/Year_2000_problem' },
+      { label: 'The New York Times: Fear of the Year 2000 Bug Is a Problem, Too', url: 'https://www.nytimes.com/1999/02/09/business/fear-of-the-year-2000-bug-is-a-problem-too.html' },
+    ],
   },
   // Timmy 2000 (S4E3)
   51: {
     summary:
-      "Every kid in school suddenly gets diagnosed with 'Attention Deficit Disorder' and put on Ritalin so they'll sit still. It's a pointed jab at the explosion of ADHD diagnoses and child stimulant prescriptions in the late '90s, and the suspicion that medication was being used to paper over ordinary rowdiness.",
+      "Every kid in school suddenly gets diagnosed with 'Attention Deficit Disorder' and put on Ritalin so they'll sit still[1]. It's a pointed jab at the explosion of ADHD diagnoses and child stimulant prescriptions in the late '90s[2], and the suspicion that medication was being used to paper over ordinary rowdiness.",
+    sources: [
+      { label: 'The Guardian: Q&A on Ritalin and ADHD', url: 'https://www.theguardian.com/world/2000/oct/31/qanda' },
+      { label: 'APA Monitor: Ritalin', url: 'https://www.apa.org/monitor/jun01/ritalin' },
+    ],
   },
   // It Hits the Fan (S5E1)
   66: {
     summary:
-      "A TV show says the word 'shit' uncensored, and it becomes a media sensation with an on-screen counter tallying every use. It's a direct parody of real fights over broadcast decency standards and the FCC - and, cheekily, of South Park itself testing what Comedy Central would let it get away with.",
+      "A TV show says the word 'shit' uncensored, and it becomes a media sensation with an on-screen counter tallying every use. It's a direct parody of real fights over broadcast decency standards and the FCC[1] - like the real radio station fined for playing Eminem's 'The Real Slim Shady'[2] - and, cheekily, of South Park itself testing what Comedy Central would let it get away with.",
+    sources: [
+      { label: 'FCC: indecency enforcement order (PDF)', url: 'https://docs.fcc.gov/public/attachments/DA-99-1099A2.pdf' },
+      { label: 'The Washington Post: station fined for playing "The Real Slim Shady"', url: 'https://www.washingtonpost.com/archive/lifestyle/2001/01/20/station-fined-for-playing-the-whole-slim-shady/6bf0d192-4e57-4341-96cd-ae4c5534f86c/' },
+    ],
   },
   // Osama bin Laden Has Farty Pants (S5E9)
   74: {
     summary:
-      "Cartman gets an Afghan pen pal and the boys go looking for Osama bin Laden themselves. Made and aired within weeks of the September 11 attacks, it's the show's raw first attempt to process 9/11, the start of the war in Afghanistan, and the wave of American patriotism (and jingoism) that followed.",
+      "Cartman gets an Afghan pen pal and the boys go looking for Osama bin Laden themselves. Made and aired within weeks of the September 11 attacks[1], it's the show's raw first attempt to process 9/11, the start of the war in Afghanistan[2], and the wave of American patriotism (and jingoism) that followed.",
+    sources: [
+      { label: '9/11 Memorial: the events of the day', url: 'https://www.911memorial.org/learn/resources/911-primer/module-1-events-day' },
+      { label: 'Watchlist on Children and Armed Conflict: Afghanistan report (PDF)', url: 'https://watchlist.org/wp-content/uploads/WL-Report-Afghanistan-2001.pdf' },
+    ],
   },
   // Jared Has Aides (S6E1)
   80: {
     summary:
-      "A weight-loss pitchman becomes a local celebrity and surrounds himself with 'aides.' It's a parody of Subway's real Jared Fogle ad campaign, which built an entire marketing empire around one man's sandwich-diet weight loss story.",
+      "A weight-loss pitchman becomes a local celebrity and surrounds himself with 'aides.' It's a parody of Subway's real Jared Fogle ad campaign[1], which built an entire marketing empire around one man's sandwich-diet weight loss story[2].",
+    sources: [
+      { label: 'The Wall Street Journal: Subway\'s Jared Fogle ad campaign', url: 'https://www.wsj.com/articles/SB106141954065633000' },
+      { label: 'Subway "Jared" commercial (YouTube)', url: 'https://www.youtube.com/watch?v=w2TR8QssCbA' },
+    ],
   },
   // Red Hot Catholic Love (S6E8)
   87: {
     summary:
-      "Parents in South Park are outraged to learn Catholic priests have been abusing children for years - and that the Church hierarchy in Rome already knew. This is a direct response to the Catholic Church sex-abuse scandal that broke wide open in the US press in 2002, including the cover-ups by bishops.",
-  },
-  // Free Hat (S6E9)
-  88: {
-    summary:
-      "The boys try to stop a beloved old sci-fi trilogy from being digitally 're-mastered' with pointless new special effects. It's a direct parody of George Lucas re-releasing the original Star Wars trilogy with added CGI, and the backlash from fans who felt classic films were being tampered with.",
+      "Parents in South Park are outraged to learn Catholic priests have been abusing children for years[1][2] - and that the Church hierarchy in Rome already knew. This is a direct response to the Catholic Church sex-abuse scandal that broke wide open in the US press in 2002[3], including the cover-ups by bishops.",
+    sources: [
+      { label: 'The Boston Globe: church allowed abuse by priest for years', url: 'https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html' },
+      { label: 'The Boston Globe: scores of priests involved in sex abuse cases', url: 'https://www.bostonglobe.com/news/special-reports/2002/01/31/scores-priests-involved-sex-abuse-cases/kmRm7JtqBdEZ8UF0ucR16L/story.html' },
+      { label: 'The Guardian (2002)', url: 'https://www.theguardian.com/world/2002/feb/23/usa.matthewengel' },
+    ],
   },
   // The Biggest Douche in the Universe (S6E15)
   94: {
     summary:
-      "Cartman channels the spirit of a TV psychic who claims to talk to dead relatives. It's a direct takedown of real 'medium' John Edward and shows like Crossing Over, accused of cold-reading grieving audiences for ratings rather than genuinely communicating with the dead.",
+      "Cartman channels the spirit of a TV psychic who claims to talk to dead relatives. It's a direct takedown of real 'medium' John Edward[1] and shows like Crossing Over[2], accused of cold-reading grieving audiences for ratings rather than genuinely communicating with the dead.",
+    sources: [
+      { label: 'Wikipedia: John Edward', url: 'https://en.wikipedia.org/wiki/John_Edward' },
+      { label: 'Crossing Over with John Edward (IMDb)', url: 'https://www.imdb.com/title/tt0292776/' },
+    ],
   },
   // My Future Self n' Me (S6E16)
   95: {
     summary:
-      "Stan's parents hire an actor to play his drug-addicted future self as a scare tactic. It's a jab at D.A.R.E.-style anti-drug programs and scared-straight PSAs, which the show suggests are so heavy-handed and dishonest that kids see right through them.",
+      "Stan's parents hire an actor to play his drug-addicted future self as a scare tactic. It's a jab at D.A.R.E.-style anti-drug programs and scared-straight PSAs[1], which the show suggests are so heavy-handed and dishonest that kids see right through them.",
+    sources: [
+      { label: 'White House (George W. Bush archives): anti-drug initiative', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2002/04/20020410-7.html' },
+    ],
   },
   // I'm a Little Bit Country (S7E4)
   100: {
     summary:
-      "The kids stage dueling school reports on whether protest is patriotic, while flashbacks revisit the Revolutionary War. It aired just as the US invaded Iraq in March 2003, landing squarely in the national argument over whether opposing the war was principled dissent or unpatriotic.",
+      "The kids stage dueling school reports on whether protest is patriotic[1], while flashbacks revisit the Revolutionary War. It aired just as the US invaded Iraq in March 2003, landing squarely in the national argument over whether opposing the war was principled dissent or unpatriotic[2].",
+    sources: [
+      { label: '"I\'m a Little Bit Country" clip (YouTube)', url: 'https://www.youtube.com/watch?v=sZvia527dN0' },
+      {
+        label: 'Pew Research: how fear and false beliefs bolstered US public support for war in Iraq',
+        url: 'https://www.pewresearch.org/politics/2023/03/14/a-look-back-at-how-fear-and-false-beliefs-bolstered-u-s-public-support-for-war-in-iraq/',
+      },
+    ],
+  },
+  // Red Man's Greed (S7E7)
+  103: {
+    summary:
+      "A local Native American tribe uses its casino fortune to buy up South Park and build a highway through downtown, evicting the townspeople. It's a sharp, ironic inversion of European colonization of the Americas[1] - down to a subplot where the tribe hands out blankets that make the townspeople sick, mirroring the historically disputed but culturally potent story of colonizers deliberately giving Native Americans disease-ridden blankets[2].",
+    sources: [
+      { label: 'Wikipedia: European colonization of the Americas', url: 'https://en.wikipedia.org/wiki/European_colonization_of_the_Americas' },
+      { label: 'History Reclaimed: the myth of New World genocide', url: 'https://historyreclaimed.co.uk/the-myth-of-new-world-genocide/' },
+    ],
+  },
+  // South Park is Gay! (S7E8)
+  104: {
+    summary:
+      "The men of South Park get swept up in the early-2000s 'metrosexual' craze - manscaping, product, and all - while the boys struggle to figure out what still makes them look normal. It's a direct parody of the metrosexual trend that exploded in UK and US style coverage in the early 2000s[1], a movement so of-its-moment that entertainment writers were already declaring it dead within a couple of years[2].",
+    sources: [
+      { label: 'The Guardian/Observer: travel and style coverage (2005)', url: 'https://www.theguardian.com/travel/2005/mar/27/observerescapesection2' },
+      { label: 'The Times: metrosexual, RIP', url: 'https://www.thetimes.com/travel/destinations/uk-travel/england/london-travel/metrosexual-rip-nls8dw78cds' },
+    ],
   },
   // All About Mormons (S7E12)
   108: {
     summary:
-      "A cheerful new Mormon family moves to town, and the show intercuts their story with a musical-comedy recap of Joseph Smith and the founding of the LDS Church. It's a direct, detailed satire of Mormon history and doctrine - while ultimately being surprisingly gentle about the family's actual character.",
+      "A cheerful new Mormon family moves to town, and the show intercuts their story with a musical-comedy recap of Joseph Smith[1] and the founding of the LDS Church. It's a direct, detailed satire of Mormon history and doctrine[2] - while ultimately being surprisingly gentle about the family's actual character.",
+    sources: [
+      { label: 'Church of Jesus Christ of Latter-day Saints: the life of the prophet Joseph Smith', url: 'https://uk.churchofjesuschrist.org/the-life-of-the-prophet-joseph-smith:-his-childhood' },
+      { label: 'Wikipedia: Mormonism', url: 'https://en.wikipedia.org/wiki/Mormonism' },
+    ],
   },
   // Butt Out (S7E13)
   109: {
@@ -551,16 +601,45 @@ export const explanations = {
   // The Scoots (S22E5)
   292: {
     summary:
-      "The kids discover electric scooters left scattered around town and start riding them everywhere to haul in more Halloween candy than ever, while the adults grumble about reckless riders clogging up the sidewalks. It's a direct parody of the sudden 2018 rise of dockless e-scooter rental apps like Bird and Lime, which dropped scooters on city streets almost overnight and set off a real backlash over sidewalk clutter and reckless riding.",
+      "The kids discover electric scooters left scattered around town and start riding them everywhere to haul in more Halloween candy than ever, while the adults grumble about reckless riders clogging up the sidewalks. It's a direct parody of the sudden 2018 rise of dockless e-scooter rental apps like Bird and Lime[1], which dropped scooters on city streets almost overnight and set off a real backlash over sidewalk clutter and reckless riding[2].",
+    sources: [
+      { label: 'TechCrunch: the electric scooter wars of 2018', url: 'https://techcrunch.com/2018/12/23/the-electric-scooter-wars-of-2018/' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/uk-53219331' },
+    ],
+  },
+  // Unfulfilled (S22E9)
+  296: {
+    summary:
+      "The town gets a company-town glow-up when an Amazon Fulfillment Center moves in, until the contradictions of underpaid warehouse labor start to show. It's a direct satire of Amazon's real fulfillment-center boom and its warehouse workers' brutal conditions[1], amid the company's rapid nationwide expansion[2] - including the 2018 spectacle of cities across the US publicly competing to host its second headquarters.",
+    sources: [
+      {
+        label: 'The Guardian: Amazon fulfillment center warehouse employees union',
+        url: 'https://www.theguardian.com/technology/2019/jan/01/amazon-fulfillment-center-warehouse-employees-union-new-york-minnesota',
+      },
+      { label: 'Business Insider: Amazon warehouse locations in the US (2017)', url: 'https://www.businessinsider.com/amazon-warehouse-locations-in-us-2017-9' },
+    ],
+  },
+  // Mexican Joker (S23E1)
+  298: {
+    summary:
+      "Kyle gets sent off to a summer camp that turns out to be a parody of the real US immigrant child-detention centers making headlines[1][2]. The episode's dark joke is that locking traumatized kids in cages risks manufacturing the very threat the policy claims to guard against - its satire cuts at how both sides of the immigration debate flattened a genuinely complicated issue into slogans, without either fully owning a workable fix.",
+    sources: [
+      { label: 'CNN: ICE kids in detention', url: 'https://edition.cnn.com/2019/10/24/us/ice-kids-detention-invs' },
+      { label: 'Freedom for Immigrants: child detention stories', url: 'https://www.freedomforimmigrants.org/child-detention-stories' },
+    ],
   },
   // Band in China (S23E2)
   299: {
     summary:
-      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship got South Park itself banned in China.",
+      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship - echoing China's real ban on Winnie the Pooh imagery over comparisons to President Xi Jinping[2] - got South Park itself banned in China.",
     sources: [
       {
         label: "ESPN: James Harden apologizes as controversy grows: 'We love China'",
         url: 'https://www.espn.com/nba/story/_/id/27787634/james-harden-apologizes-controversy-grows-love-china',
+      },
+      {
+        label: 'The Guardian: China bans Winnie the Pooh film to stop comparisons to President Xi',
+        url: 'https://www.theguardian.com/world/2018/aug/07/china-bans-winnie-the-pooh-film-to-stop-comparisons-to-president-xi',
       },
     ],
   },
@@ -573,6 +652,50 @@ export const explanations = {
       {
         label: 'BBC Future: the strange history of the anti-vaccine movement',
         url: 'https://www.bbc.co.uk/future/article/20250905-the-strange-history-of-the-anti-vaccine-movement',
+      },
+    ],
+  },
+  // Let Them Eat Goo (S23E4)
+  301: {
+    summary:
+      "Told almost entirely in Dr. Seuss-style rhyme[1], the kids switch the whole school over to a mysterious plant-based 'goo' as South Park's cafeteria - and then the country - abandons meat overnight. It's a direct satire of the sudden early rise of alternative proteins like Beyond Meat, and the real backlash from cattle ranchers[2] and farmers[3] who saw plant-based meat substitutes as an existential threat to their industry.",
+    sources: [
+      { label: 'Wikipedia: Dr. Seuss', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' },
+      {
+        label: "The Wall Street Journal: America's cattle ranchers are fighting back against fake meat",
+        url: 'https://www.wsj.com/articles/americas-cattle-ranchers-are-fighting-back-against-fake-meat-11574850603',
+      },
+      {
+        label: 'Big Issue: farmers are fighting back against the fake-meat supermarket invasion',
+        url: 'https://www.bigissue.com/news/environment/farmers-are-fighting-back-against-the-fake-meat-supermarket-invasion/',
+      },
+    ],
+  },
+  // Turd Burglars (S23E8)
+  305: {
+    summary:
+      "Kyle's mom looks amazing after a fecal transplant, and soon everyone in town is desperate to get their hands on primo microbiome material. It's a direct satire of the real, rapid rise of fecal microbiota transplantation (FMT)[1], a once-fringe treatment that had become standard of care for recurrent C. diff infections by the time this aired[2].",
+    sources: [
+      { label: 'The New York Times: what is a fecal transplant, and why would I want one?', url: 'https://www.nytimes.com/2019/01/18/well/live/what-is-a-fecal-transplant-and-why-would-i-want-one.html' },
+      {
+        label: 'Harvard Health: stool transplants are now standard of care for recurrent C. diff infections',
+        url: 'https://www.health.harvard.edu/blog/stool-transplants-are-now-standard-of-care-for-recurrent-c-difficile-infections-2019050916576',
+      },
+    ],
+  },
+  // Basic Cable (S23E9)
+  306: {
+    summary:
+      "Scott Malkinson's chances with a girl hinge on getting the hot new streaming platform, while his dad clings to basic cable out of stubborn loyalty to the local cable company. It's a direct satire of streaming's takeover of TV - real surveys already showed viewers found it cheaper, more convenient, and more enjoyable than cable[1], part of an economic shift that only accelerated in the years after[2], culminating in streaming outright overtaking combined broadcast and cable viewership for the first time[3].",
+    sources: [
+      {
+        label: 'PCMag: survey - streaming saves money and time, and is more entertaining than cable',
+        url: 'https://uk.pcmag.com/news/124151/survey-streaming-saves-money-and-time-and-is-more-entertaining-than-cable-which-sucks',
+      },
+      { label: 'Boardroom: streaming vs. cable economics (2025)', url: 'https://boardroom.tv/streaming-cable-economics-2025/' },
+      {
+        label: 'Nielsen: streaming eclipses combined broadcast and cable viewing for the first time',
+        url: 'https://www.nielsen.com/news-center/2025/streaming-reaches-historic-tv-milestone-eclipses-combined-broadcast-and-cable-viewing-for-first-time/',
       },
     ],
   },
