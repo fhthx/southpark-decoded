@@ -43,44 +43,50 @@ export default function EpisodeExplanation({ episodeId }) {
   }
 
   const sources = explanation.sources ?? [];
+  // Long summaries can use a blank line to break into paragraphs.
+  const paragraphs = explanation.summary.split(/\n\n+/);
 
   return (
     <>
       <div className="space-y-2">
         <p className="font-medium text-foreground">Decoded</p>
-        <p className="text-sm leading-relaxed">
-          {renderSummary(explanation.summary, episodeId)}
-        </p>
+        {paragraphs.map((paragraph, i) => (
+          <p key={i} className="text-sm leading-relaxed">
+            {renderSummary(paragraph, episodeId)}
+          </p>
+        ))}
       </div>
 
-      <div className="space-y-2">
-        <p className="font-medium text-foreground">Sources</p>
-        <ol className="list-decimal space-y-1 pl-4">
-          {sources.map((source, i) => {
-            const n = i + 1;
-            return (
-              <li key={source.url} id={`source-${episodeId}-${n}`}>
-                <a
-                  href={source.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1 text-xs text-blue-600 dark:text-blue-400"
-                >
-                  {source.label}
-                  <ExternalLink className="size-3 shrink-0" />
-                </a>
-                <a
-                  href={`#citation-${episodeId}-${n}`}
-                  aria-label="Back to reference in text"
-                  className="ml-1 inline-block align-middle text-muted-foreground"
-                >
-                  <CornerUpLeft className="size-3" />
-                </a>
-              </li>
-            );
-          })}
-        </ol>
-      </div>
+      {sources.length > 0 && (
+        <div className="space-y-2">
+          <p className="font-medium text-foreground">Sources</p>
+          <ol className="list-decimal space-y-1 pl-4">
+            {sources.map((source, i) => {
+              const n = i + 1;
+              return (
+                <li key={source.url} id={`source-${episodeId}-${n}`}>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-xs text-blue-600 dark:text-blue-400"
+                  >
+                    {source.label}
+                    <ExternalLink className="size-3 shrink-0" />
+                  </a>
+                  <a
+                    href={`#citation-${episodeId}-${n}`}
+                    aria-label="Back to reference in text"
+                    className="ml-1 inline-block align-middle text-muted-foreground"
+                  >
+                    <CornerUpLeft className="size-3" />
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      )}
     </>
   );
 }

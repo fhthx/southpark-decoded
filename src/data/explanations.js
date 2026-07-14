@@ -265,7 +265,7 @@ export const explanations = {
   // ManBearPig (S10E6)
   145: {
     summary:
-      "A washed-up celebrity turns up warning everyone about a creature called ManBearPig[1] that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth[2].",
+      "A washed-up celebrity turns up warning everyone about a creature called ManBearPig[1] that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth[2] - the joke here lands on Gore's perceived grandiosity and crying-wolf theatrics, not on the underlying science. Twelve years later, South Park would explicitly walk this back in Time to Get Cereal and Nobody Got Cereal?, in which ManBearPig turns out to have been real all along.",
     sources: [
       { label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' },
       { label: 'TED: Al Gore, averting the climate crisis', url: 'https://www.ted.com/talks/al_gore_averting_the_climate_crisis' },
@@ -537,6 +537,14 @@ export const explanations = {
       },
     ],
   },
+  // Oh, Jeez (S20E7)
+  274: {
+    summary:
+      "Mr. Garrison, having accidentally become President-elect, privately admits to Caitlyn Jenner that he never actually wanted to win and has no real plan for governing. Made and aired the night after the real 2016 US election[1], it's the show's raw, same-week reaction to Donald Trump's shock victory over Hillary Clinton.",
+    sources: [
+      { label: 'The Guardian: Donald Trump wins US election', url: 'https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news' },
+    ],
+  },
   // White People Renovating Houses (S21E1)
   278: {
     summary:
@@ -547,6 +555,33 @@ export const explanations = {
         label: 'Wikipedia: Category - Home renovation television series',
         url: 'https://en.wikipedia.org/wiki/Category:Home_renovation_television_series',
       },
+    ],
+  },
+  // Put It Down (S21E2)
+  279: {
+    summary:
+      "Craig tries to talk Tweek down from a spiral of stress over real-world headlines - North Korea's escalating nuclear tests and tension with the US[1][2], and Donald Trump's habit of picking fights on Twitter[3] - even as their own on-again-off-again 'relationship' becomes the actual town-wide obsession.",
+    sources: [
+      { label: 'BBC News: North Korea profile', url: 'https://www.bbc.co.uk/news/world-asia-17823706' },
+      { label: 'CBS News: North Korea\'s nuclear tests timeline', url: 'https://www.cbsnews.com/news/north-koreas-nuclear-tests-timeline/' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-38245530' },
+    ],
+  },
+  // Holiday Special (S21E3)
+  280: {
+    summary:
+      "A forbidden romance between a white townsperson and a Native American man plays out against the town's fight over celebrating Columbus Day. It's a direct engagement with the real, then-growing movement to replace Columbus Day with Indigenous Peoples' Day[1], and the protests and city-by-city fights that came with it[2].",
+    sources: [
+      { label: 'Time: the history of Columbus Day and Indigenous Peoples\' Day', url: 'https://time.com/4971178/indigenous-peoples-day-history-columbus-day/' },
+      { label: 'The New York Times: Columbus Day protest', url: 'https://www.nytimes.com/2017/10/09/us/columbus-day-protest.html' },
+    ],
+  },
+  // Franchise Prequel (S21E4)
+  281: {
+    summary:
+      "Professor Chaos weaponizes Facebook itself as his latest evil scheme, exploiting how easily fake news and misinformation spread across the platform. It's a direct satire of the real 2016-17 uproar over Facebook's role in spreading fake news, and the company's own scramble to start fact-checking and flagging it[1].",
+    sources: [
+      { label: 'The Guardian: Facebook to "flag" fake news', url: 'https://www.theguardian.com/technology/2016/dec/15/facebook-flag-fake-news-fact-check' },
     ],
   },
   // Hummels & Heroin (S21E5)
@@ -562,6 +597,19 @@ export const explanations = {
       { label: 'Painkiller (Netflix)', url: 'https://www.netflix.com/gb/title/81095069' },
     ],
   },
+  // Sons A Witches (S21E6)
+  283: {
+    summary:
+      "At the annual grown-ups-only Halloween party, one of the dads reads from a real spellbook and becomes an actual witch - and the other men scramble to brand him uniquely monstrous while brushing past their own reckless behavior. It's a Halloween allegory for the Harvey Weinstein revelations that had broken weeks earlier[1], skewering the industry figures who publicly denounced Weinstein while having their own history in the same 'poisonous environment'[2][3].",
+    sources: [
+      { label: 'BBC News: entertainment and arts', url: 'https://www.bbc.co.uk/news/entertainment-arts-41551656' },
+      {
+        label: 'The Telegraph: Hollywood accused of hypocrisy over Harvey Weinstein sexual harassment',
+        url: 'https://www.telegraph.co.uk/news/2017/10/07/hollywood-accused-hypocrisy-harvey-weinstein-sexual-harrassment/',
+      },
+      { label: 'People: Ben Affleck statement on Harvey Weinstein allegations', url: 'https://people.com/movies/ben-affleck-statement-harvey-weinstein-allegations/' },
+    ],
+  },
   // Doubling Down (S21E7)
   284: {
     summary:
@@ -573,6 +621,26 @@ export const explanations = {
       },
     ],
   },
+  // Moss Piglets (S21E8)
+  285: {
+    summary:
+      "Heidi Turner refuses to play until the school addresses her thin, self-serving 'protest,' and volleyball attendance craters as a result - a direct parody of the real ratings and attendance drop the NFL saw amid the national anthem protests[1][2].",
+    sources: [
+      {
+        label: 'Forbes: confirmed - NFL losing millions of TV viewers because of national anthem protests',
+        url: 'https://www.forbes.com/sites/mikeozanian/2016/10/05/confirmed-nfl-losing-millions-of-tv-viewers-because-of-national-anthem-protests/',
+      },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-44230772' },
+    ],
+  },
+  // Splatty Tomato (S21E10)
+  287: {
+    summary:
+      "A supernatural, Stranger Things/It-style horror plot unfolds around Mr. Garrison's return to town, centered on the aggrieved, anxious White family - a pointed stand-in for the white, middle-class voters whose anger and resentment fueled real support for Donald Trump[1].",
+    sources: [
+      { label: 'The New York Times: who are the angriest Republicans?', url: 'https://www.nytimes.com/2016/03/30/opinion/campaign-stops/who-are-the-angriest-republicans.html' },
+    ],
+  },
   // Dead Kids (S22E1)
   288: {
     summary:
@@ -580,6 +648,30 @@ export const explanations = {
     sources: [
       { label: 'Brady: School Shootings', url: 'https://www.bradyunited.org/resources/issues/school-shootings' },
       { label: 'BBC News (business-46507514)', url: 'https://www.bbc.co.uk/news/business-46507514' },
+    ],
+  },
+  // A Boy And A Priest (S22E2)
+  289: {
+    summary:
+      "Butters strikes up a suspiciously close bond with the new parish priest, and the town's panic points straight back at the Catholic Church's real, ongoing reckoning with clergy sex abuse and cover-ups[1][2][3] - the same scandal Red Hot Catholic Love tackled years earlier.",
+    sources: [
+      { label: 'The Boston Globe: church allowed abuse by priest for years', url: 'https://www.bostonglobe.com/news/special-reports/2002/01/06/church-allowed-abuse-priest-for-years/cSHfGkTIrAT25qKGvBuDNM/story.html' },
+      { label: 'The Boston Globe: scores of priests involved in sex abuse cases', url: 'https://www.bostonglobe.com/news/special-reports/2002/01/31/scores-priests-involved-sex-abuse-cases/kmRm7JtqBdEZ8UF0ucR16L/story.html' },
+      { label: 'The Guardian (2002)', url: 'https://www.theguardian.com/world/2002/feb/23/usa.matthewengel' },
+    ],
+  },
+  // The Problem with a Poo (S22E3)
+  290: {
+    summary:
+      "Mr. Hankey's un-PC old jokes threaten to get him fired as director of the Christmas pageant, in an episode whose title riffs directly on 'The Problem with Apu' documentary about outdated ethnic stereotypes on TV - and, per the show's own framing, on Roseanne Barr's real racist-tweet scandal that got her sitcom cancelled just months earlier[1][2]. It aired in the thick of the Brett Kavanaugh confirmation fight[3][4], another public reckoning over old behavior catching up with someone in real time.",
+    sources: [
+      {
+        label: 'The Hollywood Reporter: South Park goes after Roseanne Barr, Simpsons\' Apu character',
+        url: 'https://www.hollywoodreporter.com/tv/tv-news/south-park-goes-roseanne-barr-simpsons-apu-character-1151462/',
+      },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-44294632' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-45774174' },
+      { label: 'Axios: Brett Kavanaugh timeline', url: 'https://www.axios.com/2018/10/02/brett-kavanaugh-timeline-allegations-vote' },
     ],
   },
   // Tegridy Farms (S22E4)
@@ -607,6 +699,19 @@ export const explanations = {
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/uk-53219331' },
     ],
   },
+  // Time To Get Cereal (S22E6)
+  293: {
+    summary:
+      "Twelve years after ManBearPig was laughed out of town, the creature turns out to have been real all along - and is now devastating South Park while Al Gore, still trying to warn everyone, becomes the only person who's actually been right the whole time. It's South Park doing something it rarely does: explicitly retracting its own earlier punchline, reframing the 2006 original as satirizing the messenger's grandiosity rather than the message itself.",
+  },
+  // Nobody Got Cereal? (S22E7)
+  294: {
+    summary:
+      "The fallout from ManBearPig's return escalates as the boys go on the run from the police and the creature itself, while the town scrambles to cover up the damage rather than face what's actually happening.\n\nThe reveal driving it all is a sharp climate-change allegory in its own right[1]: decades ago, Stan's Grandpa and the town's other elderly residents struck a deal with the demonic ManBearPig, trading a future of mass death for a present full of cool stuff - gas-guzzling cars, boutique ice cream - handing the consequences down to their kids and grandkids to deal with.\n\nBy the end, South Park itself doesn't break the cycle so much as continue it: the townspeople cut their own new deal with ManBearPig, buying another five years of comfort at the cost of a murder rampage that will fall on children in the Third World instead of them - a pointed dig at how wealthy nations keep offloading climate change's worst consequences onto the developing world. Together with Time To Get Cereal, it completes South Park's rare self-corrective two-parter - Trey Parker and Matt Stone have both described the arc in interviews as an explicit apology for playing climate change for a punchline back in 2006.",
+    sources: [
+      { label: 'Salon: South Park, climate change, and ManBearPig', url: 'https://www.salon.com/2018/11/15/south-park-climate-change-manbearpig/' },
+    ],
+  },
   // Unfulfilled (S22E9)
   296: {
     summary:
@@ -619,19 +724,33 @@ export const explanations = {
       { label: 'Business Insider: Amazon warehouse locations in the US (2017)', url: 'https://www.businessinsider.com/amazon-warehouse-locations-in-us-2017-9' },
     ],
   },
+  // Bike Parade (S22E10)
+  297: {
+    summary:
+      "The chaos at the Amazon Fulfillment Center from Unfulfilled boils over into the town's Bike Parade, as Kenny refuses to take corporate sponsorship money in solidarity with the striking warehouse workers[1][2]. It's a direct continuation of the show's satire of Amazon's real fulfillment-center labor conditions and rapid expansion.",
+    sources: [
+      {
+        label: 'The Guardian: Amazon fulfillment center warehouse employees union',
+        url: 'https://www.theguardian.com/technology/2019/jan/01/amazon-fulfillment-center-warehouse-employees-union-new-york-minnesota',
+      },
+      { label: 'Business Insider: Amazon warehouse locations in the US (2017)', url: 'https://www.businessinsider.com/amazon-warehouse-locations-in-us-2017-9' },
+    ],
+  },
   // Mexican Joker (S23E1)
   298: {
     summary:
-      "Kyle gets sent off to a summer camp that turns out to be a parody of the real US immigrant child-detention centers making headlines[1][2]. The episode's dark joke is that locking traumatized kids in cages risks manufacturing the very threat the policy claims to guard against - its satire cuts at how both sides of the immigration debate flattened a genuinely complicated issue into slogans, without either fully owning a workable fix.",
+      "Kyle gets sent off to a summer camp that turns out to be a parody of the real US immigrant child-detention centers making headlines[1][2][3].\n\nThe episode's dark joke - explicitly modeled on the year's other big pop-culture villain-origin story, Joker[4] - is that locking traumatized kids in cages risks manufacturing the very threat the policy claims to guard against: a 'Mexican Joker' born from the exact system meant to prevent him. Its satire cuts at how both sides of the immigration debate flattened a genuinely complicated issue into slogans, without either fully owning a workable fix.",
     sources: [
       { label: 'CNN: ICE kids in detention', url: 'https://edition.cnn.com/2019/10/24/us/ice-kids-detention-invs' },
       { label: 'Freedom for Immigrants: child detention stories', url: 'https://www.freedomforimmigrants.org/child-detention-stories' },
+      { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
+      { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
     ],
   },
   // Band in China (S23E2)
   299: {
     summary:
-      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship - echoing China's real ban on Winnie the Pooh imagery over comparisons to President Xi Jinping[2] - got South Park itself banned in China.",
+      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship - echoing China's real ban on Winnie the Pooh imagery over comparisons to President Xi Jinping[2] - got South Park itself scrubbed from the Chinese internet and banned in China within days of airing[3].",
     sources: [
       {
         label: "ESPN: James Harden apologizes as controversy grows: 'We love China'",
@@ -641,6 +760,7 @@ export const explanations = {
         label: 'The Guardian: China bans Winnie the Pooh film to stop comparisons to President Xi',
         url: 'https://www.theguardian.com/world/2018/aug/07/china-bans-winnie-the-pooh-film-to-stop-comparisons-to-president-xi',
       },
+      { label: 'BBC News: China scrubs South Park after episode mocks censorship', url: 'https://www.bbc.co.uk/news/world-asia-china-49968867' },
     ],
   },
   // Shots!!! (S23E3)
@@ -671,6 +791,25 @@ export const explanations = {
       },
     ],
   },
+  // Season Finale (S23E6)
+  303: {
+    summary:
+      "Randy gets caught red-handed vandalizing his neighbors' yards over homegrown-weed paranoia, then tries to pin the blame on a fabricated 'Mexican Joker' rather than own up to it - a pointed jab at Donald Trump's real habit of casting himself as the victim rather than admit fault[1]. The invented scapegoat leans on both the year's ICE detention-center controversy[2] and the 2019 film Joker[3], tying Randy's blame-shifting theatrics to the same news cycle Mexican Joker had just satirized.",
+    sources: [
+      { label: 'The Washington Post: Trump doubles down on male victimhood', url: 'https://www.washingtonpost.com/news/opinions/wp/2018/10/03/trump-doubles-down-on-male-victimhood/' },
+      { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
+      { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
+    ],
+  },
+  // Board Girls (S23E7)
+  304: {
+    summary:
+      "Strong Woman, an even stronger new competitor, causes a stir by dominating a women's competition, echoing the real, still-unresolved debate over transgender women's inclusion in women's sports - the same debate later crystallized by swimmer Lia Thomas[1] and weightlifter Laurel Hubbard[2] becoming lightning rods for the issue.",
+    sources: [
+      { label: 'Wikipedia: Lia Thomas', url: 'https://en.wikipedia.org/wiki/Lia_Thomas' },
+      { label: 'Wikipedia: Laurel Hubbard', url: 'https://en.wikipedia.org/wiki/Laurel_Hubbard' },
+    ],
+  },
   // Turd Burglars (S23E8)
   305: {
     summary:
@@ -686,7 +825,7 @@ export const explanations = {
   // Basic Cable (S23E9)
   306: {
     summary:
-      "Scott Malkinson's chances with a girl hinge on getting the hot new streaming platform, while his dad clings to basic cable out of stubborn loyalty to the local cable company. It's a direct satire of streaming's takeover of TV - real surveys already showed viewers found it cheaper, more convenient, and more enjoyable than cable[1], part of an economic shift that only accelerated in the years after[2], culminating in streaming outright overtaking combined broadcast and cable viewership for the first time[3].",
+      "Scott Malkinson's chances with a girl hinge on getting the hot new streaming platform, while his dad clings to basic cable out of stubborn loyalty to the local cable company. It's a direct satire of streaming's takeover of TV - real surveys already showed viewers found it cheaper, more convenient, and more enjoyable than cable[1], part of an economic shift that only accelerated in the years after[2], culminating in streaming outright overtaking combined broadcast and cable viewership for the first time[3].\n\nScott specifically lures the new girl over to watch Disney+'s The Mandalorian[4] - and in a neat bit of real-world irony, South Park itself would go on to land an exclusive streaming deal with HBO Max[5].",
     sources: [
       {
         label: 'PCMag: survey - streaming saves money and time, and is more entertaining than cable',
@@ -697,6 +836,8 @@ export const explanations = {
         label: 'Nielsen: streaming eclipses combined broadcast and cable viewing for the first time',
         url: 'https://www.nielsen.com/news-center/2025/streaming-reaches-historic-tv-milestone-eclipses-combined-broadcast-and-cable-viewing-for-first-time/',
       },
+      { label: 'Wikipedia: The Mandalorian', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' },
+      { label: 'Variety: South Park to stream exclusively on HBO Max', url: 'https://variety.com/2019/tv/news/south-park-stream-exclusively-hbo-max-1203387212/' },
     ],
   },
   // The Pandemic Special (S24E1)
@@ -732,7 +873,7 @@ export const explanations = {
   // Margaritaville (S13E3)
   184: {
     summary:
-      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans. Stan and Kyle's plot even restages the Last Supper[2], with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
+      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.\n\nStan and Kyle's plot even restages the Last Supper[2], with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
     sources: [
       { label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' },
       { label: 'Wikipedia: Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' },
