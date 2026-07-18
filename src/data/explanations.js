@@ -314,6 +314,15 @@ export const explanations = {
       { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
     ],
   },
+  // Tonsil Trouble (S12E1)
+  168: {
+    summary:
+      "Cartman deliberately infects himself with Kyle's HIV-positive blood to milk sympathy and get out of gym class, only to actually contract the virus, while Kyle's own diagnosis briefly opens doors that money and fame usually open faster than public health systems do. Magic Johnson - real NBA legend and long-term HIV survivor - ends up personally funding a literal cure, a satire on how effective HIV/AIDS treatment in the real world was, and still is, far more accessible to the wealthy and well-connected than to the general population living with the disease[1][2].",
+    sources: [
+      { label: 'The Guardian: Aids - the story of a disease that changed the world', url: 'https://www.theguardian.com/world/2007/may/09/aids.comment' },
+      { label: 'VOA: South Africa AIDS', url: 'https://www.voanews.com/a/south-africa-aids-pt1-taylor-16nov09-69963137/415664.html' },
+    ],
+  },
   // Britney's New Look (S12E2)
   169: {
     summary:
@@ -323,6 +332,15 @@ export const explanations = {
       { label: 'Newsweek: I interviewed Britney Spears in 2007 - how she was treated horrified me', url: 'https://www.newsweek.com/i-interviewed-britney-spears-2007how-she-was-treated-horrified-me-1604018' },
     ],
   },
+  // Major Boobage (S12E3)
+  170: {
+    summary:
+      "Kenny gets hooked on 'cheesing' - huffing fumes off cats exposed to a mysterious toxin - and his trips are drawn as a full parody of the 1981 animated cult film Heavy Metal, chasing a buxom fantasy woman through a breast-shaped dreamscape[1]. The episode also folds in Jenkem, the real 2007-08 media panic over a supposed fermented-sewage inhalant that authorities feared (wrongly) was about to spread from Zambian street kids to American teenagers[2].",
+    sources: [
+      { label: 'Fox News: drug made from human waste causing stink on web, in law enforcement', url: 'https://www.foxnews.com/story/drug-made-from-human-waste-causing-stink-on-web-in-law-enforcement' },
+      { label: 'ABC News: Jenkem drug scare', url: 'https://abcnews.com/Health/Drugs/story?id=3834092&page=1' },
+    ],
+  },
   // Canada on Strike (S12E4)
   171: {
     summary:
@@ -330,6 +348,24 @@ export const explanations = {
     sources: [
       { label: 'Wikipedia: 2007-08 Writers Guild of America strike', url: 'https://en.wikipedia.org/wiki/2007%E2%80%9308_Writers_Guild_of_America_strike' },
       { label: 'The Guardian: how the 2007 writers strike gave us Bond movie heroes', url: 'https://www.theguardian.com/culture/2023/may/04/2007-writers-strike-bond-movie-heroes' },
+    ],
+  },
+  // About Last Night... (S12E12)
+  179: {
+    summary:
+      "The night of the 2008 election plays out as pure partisan hysteria - South Park's Democrats drunkenly riot in celebration of Obama's win while its Republicans build a doomsday ark, convinced the country is over[1]. Underneath the parody, Obama and McCain turn out to be old friends running a joint Ocean's Eleven-style jewel heist, using the frenzy of election night as cover to rob the Smithsonian - a plot Trey Parker built explicitly as a spoof of Ocean's Eleven so the episode wouldn't have to be about the actual politics[2].",
+    sources: [
+      { label: 'The Guardian: Barack Obama, Hillary Clinton', url: 'https://www.theguardian.com/world/2008/jun/04/barackobama.hillaryclinton' },
+      { label: 'New York Times: New York crowds celebrate Obama', url: 'https://archive.nytimes.com/cityroom.blogs.nytimes.com/2008/11/04/new-york-crowds-celebrate-obama/' },
+    ],
+  },
+  // The Ungroundable (S12E14)
+  181: {
+    summary:
+      "Butters becomes convinced he's a vampire after falling in with a group of goth kids who insist they're the real thing, brooding, pale, and obsessed with the aesthetic - a direct spoof of the late-2000s vampire boom kicked off by Twilight, whose sudden mainstream, tween-girl-driven popularity critics described at the time as spreading like a virus[1][2].",
+    sources: [
+      { label: 'New York Times: Are you a Twilight convert?', url: 'https://archive.nytimes.com/artsbeat.blogs.nytimes.com/2009/11/19/are-you-a-twilight-convert/' },
+      { label: 'The Telegraph: Robert Pattinson describes spreading Twilight craze as a virus', url: 'https://www.telegraph.co.uk/news/uknews/6548251/Robert-Pattinson-describes-spreading-Twilight-craze-as-a-virus.html' },
     ],
   },
   // The Ring (S13E1)
