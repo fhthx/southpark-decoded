@@ -16,6 +16,22 @@ const CONSOLE_WAR_SOURCE_GOT = { label: 'Wikipedia: A Song of Ice and Fire', url
 const CONSOLE_WAR_SOURCES = [CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES, CONSOLE_WAR_SOURCE_GOT]
 const CONSOLE_WAR_SOURCES_GOT_FIRST = [CONSOLE_WAR_SOURCE_GOT, CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES]
 
+// Shared by the S19 season-finale advertising arc (Sponsored Content, Truth
+// and Advertising, PC Principal Final Justice) - same real-world sources
+// apply across the three episodes, continuing the season's political
+// correctness satire.
+const AD_ARC_SOURCE_BBC = { label: 'BBC News: Clickbait - the changing face of online journalism', url: 'https://www.bbc.co.uk/news/uk-wales-34213693' }
+const AD_ARC_SOURCE_ATLANTIC = { label: 'The Atlantic: What Is Clickbait?', url: 'https://www.theatlantic.com/entertainment/archive/2014/11/clickbait-what-is/382545/' }
+const AD_ARC_SOURCE_NYFA = {
+  label: 'NYFA: What Is Native Advertising, Explained',
+  url: 'https://www.nyfa.edu/student-resources/what-is-native-advertising-explained/',
+}
+const AD_ARC_SOURCE_GUARDIAN_AI = {
+  label: 'The Guardian: the future of advertising and artificial intelligence',
+  url: 'https://www.theguardian.com/media-network/2015/jul/27/artificial-intelligence-future-advertising-saatchi-clearchannel',
+}
+const AD_ARC_SOURCE_GUN_POLITICS = { label: 'Wikipedia: Gun politics in the United States', url: 'https://en.wikipedia.org/wiki/Gun_politics_in_the_United_States' }
+
 export const explanations = {
   // Chinpokomon (S3E11)
   42: {
@@ -316,6 +332,15 @@ export const explanations = {
       { label: 'The Guardian: how the 2007 writers strike gave us Bond movie heroes', url: 'https://www.theguardian.com/culture/2023/may/04/2007-writers-strike-bond-movie-heroes' },
     ],
   },
+  // The Ring (S13E1)
+  182: {
+    summary:
+      "Kenny's new girlfriend gets swept up in a Jonas Brothers-endorsed 'purity ring' pledge, which turns out to be a scheme by their real boss - a foul-mouthed, sadistic Mickey Mouse - to market abstinence as a way of selling sexual titillation to young girls. It's a direct, unusually sharp satire of the Jonas Brothers' 2009 concert film and their band's real purity-ring campaign[1][2], reframed as a broader indictment of Disney's whole family-friendly-brand-as-marketing-machine business model.",
+    sources: [
+      { label: 'TODAY: purity rings are the hot accessory in pop music', url: 'https://www.today.com/popculture/purity-rings-are-hot-accessory-pop-music-wbna26680718' },
+      { label: 'Jonas Brothers: The 3D Concert Experience - foam-hose scene (YouTube)', url: 'https://www.youtube.com/watch?v=crCmEQi8K4k' },
+    ],
+  },
   // Fishsticks (S13E5)
   186: {
     summary:
@@ -323,6 +348,52 @@ export const explanations = {
     sources: [
       { label: '"Fishsticks" clip (YouTube)', url: 'https://www.youtube.com/watch?v=G5iEniUb33w' },
       { label: 'Ranker: Carlos Mencia facts', url: 'https://www.ranker.com/list/carlos-mencia-facts/chase-mcneill' },
+    ],
+  },
+  // Fatbeard (S13E7)
+  188: {
+    summary:
+      "Cartman mistakes real news coverage of Somali piracy for a return of swashbuckling Golden Age piracy and drags a few of the boys to Mogadishu to join a crew, only to find genuine poverty and desperation instead of adventure. It's a direct response to the surge of international media attention on piracy in the Indian Ocean in 2008-09[1][2], written and animated around the real-time hijacking of the MV Maersk Alabama - and notably sympathetic to the pirates themselves, whom the episode frames as driven by poverty rather than any romantic outlaw streak.",
+    sources: [
+      { label: 'BBC News: pirates of the 21st century', url: 'http://news.bbc.co.uk/1/hi/world/africa/7734985.stm' },
+      { label: 'The Atlantic: the truth about the Somali pirates', url: 'https://www.theatlantic.com/magazine/archive/2009/04/the-truth-about-the-somali-pirates/307418/' },
+    ],
+  },
+  // Dead Celebrities (S13E8)
+  189: {
+    summary:
+      "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense[1] and the medium subplot of Poltergeist[2].",
+    sources: [
+      { label: 'Wikipedia: The Sixth Sense', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
+      { label: 'Wikipedia: Poltergeist (1982 film)', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
+    ],
+  },
+  // Butters' Bottom Bitch (S13E9)
+  190: {
+    summary:
+      "Butters accidentally becomes South Park's most successful, oddly principled pimp after monetizing his classmates' first kisses, and the episode's most talked-about scene has him visiting a local ACORN office to apply for low-income housing and tax benefits on behalf of his prostitutes. It's a direct, fast-turnaround response to the real 2009 ACORN sting videos[1][2], in which conservative activist James O'Keefe secretly filmed ACORN employees appearing to offer advice to a man posing as a pimp.",
+    sources: [
+      { label: "CNN: O'Keefe pleads guilty in ACORN prank case", url: 'https://edition.cnn.com/2010/US/09/29/okeefe.cnn.prank/index.html' },
+      { label: 'NPR: ACORN grapples with fallout of damaging videos', url: 'https://www.npr.org/2009/09/16/112904370/acorn-grapples-with-fallout-of-damaging-videos' },
+    ],
+  },
+  // Whale Whores (S13E11)
+  192: {
+    summary:
+      "Stan joins an anti-whaling crew to fight back after Japanese whalers massacre dolphins and whales across South Park, and the episode saves as much scorn for the activists as for the whalers themselves. It's a pointed satire of Japanese whaling practices[1], and, more specifically, of the Animal Planet reality series Whale Wars[2] and its self-mythologizing captain Paul Watson, accused of chasing ratings and media attention as much as any real conservation outcome[3].",
+    sources: [
+      { label: 'This Magazine: whaling culture war', url: 'https://this.org/2009/05/05/whaling-culture-war/' },
+      { label: 'Wikipedia: Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' },
+      { label: 'CBS News: activists hurl acid at Japanese whalers', url: 'https://www.cbsnews.com/news/activists-hurl-acid-at-japanese-whalers/' },
+    ],
+  },
+  // Dances with Smurfs (S13E13)
+  194: {
+    summary:
+      "Cartman takes over the school's morning announcements and turns them into a Glenn Beck-style program, complete with chalkboard conspiracy diagrams accusing student body president Wendy Testaburger of plotting genocide against the Smurfs. It's a close parody of Glenn Beck's on-air style and persona[1], tangled up with a pre-emptive dig at the then-unreleased James Cameron film Avatar - the episode argues its Na'vi are just Dances with Wolves crossed with ten-foot-tall blue Smurfs[2] - plus a nod to Sarah Palin's real, just-published memoir Going Rogue, which Wendy adopts as the title of her own tell-all.",
+    sources: [
+      { label: 'The Guardian: Glenn Beck, prophet of Fox News', url: 'https://www.theguardian.com/commentisfree/2009/sep/16/hadley-freeman-glenn-beck' },
+      { label: 'Wikipedia: Avatar (2009 film)', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
     ],
   },
   // Sexual Healing (S14E1)
@@ -334,6 +405,35 @@ export const explanations = {
       { label: 'Wikipedia: Clinton-Lewinsky scandal', url: 'https://en.wikipedia.org/wiki/Clinton%E2%80%93Lewinsky_scandal' },
       { label: 'ESPN (2003 NBA news)', url: 'https://www.espn.com/nba/news/2003/0718/1582701.html' },
       { label: 'ESPN: Roethlisberger civil lawsuit settlement', url: 'https://www.espn.co.uk/nfl/story/_/id/7485346/settlement-reached-ben-roethlisberger-civil-lawsuit' },
+    ],
+  },
+  // The Tale of Scrotie McBoogerballs (S14E2)
+  197: {
+    summary:
+      "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy[1], including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.",
+    sources: [{ label: 'Wikipedia: The Catcher in the Rye', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' }],
+  },
+  // Medicinal Fried Chicken (S14E3)
+  198: {
+    summary:
+      "New Colorado laws shut down every KFC in the state while medical-marijuana dispensaries boom - echoing a real Kentucky Fried Chicken location in Los Angeles that had just become a marijuana dispensary of its own[1] - so Cartman starts running an illegal fried-chicken cartel while Randy gives himself testicular cancer just to get a weed referral. Airing amid real Colorado fights over medical-marijuana access and fast-food zoning restrictions[2][3], the episode argues that legislating lifestyle choices just breeds black markets, telling Cartman's rise-and-fall as a broad Scarface parody with Colonel Sanders standing in for drug lord Alejandro Sosa[4] - while also working in a string of jokes about Pope Benedict XVI's handling of the Catholic Church's child sex-abuse scandals[5].",
+    sources: [
+      {
+        label: "Fast Company: sign of the times - abandoned KFC transformed into marijuana dispensary",
+        url: 'https://www.fastcompany.com/1342963/sign-times-abandoned-kfc-transformed-marijuana-dispensary',
+      },
+      { label: 'The New York Times: fast-food zoning enforcement', url: 'https://www.nytimes.com/2009/10/18/us/18enforce.html' },
+      { label: 'The New York Times: cities target fast food in poor areas', url: 'https://www.nytimes.com/2011/01/16/us/16fastfood.html' },
+      { label: 'Wikipedia: Scarface (1983 film)', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' },
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/10407559' },
+    ],
+  },
+  // You Have 0 Friends (S14E4)
+  199: {
+    summary:
+      "Stan gets forcibly sucked into a monstrous virtual-reality version of his own bloated Facebook account, in a plot styled as a direct parody of Tron, while Kyle nearly loses his real friends chasing Facebook popularity instead. It's a pointed, fairly early satire of social networking's redefinition of 'friendship' as a quantifiable status symbol[1], written right as Facebook was becoming a genuinely inescapable part of adult social life.",
+    sources: [
+      { label: 'Forbes: are all Facebook friends created equal?', url: 'https://www.forbes.com/sites/danschawbel/2011/11/28/are-all-facebook-friends-created-equal/' },
     ],
   },
   // 200 (S14E5)
@@ -357,6 +457,22 @@ export const explanations = {
       { label: "NPR: op-ed, you can't portray Muhammad on TV", url: 'https://www.npr.org/2010/04/26/126283217/op-ed-you-cant-portray-muhammad-on-tv' },
     ],
   },
+  // Crippled Summer (S14E7)
+  202: {
+    summary:
+      "The boys stage an Intervention-style rescue mission for Towelie's spiraling drug addiction while, in a parallel plot at a summer camp for disabled kids, a scheming bully's sabotage attempts keep backfiring on him instead. It's a direct, format-accurate parody of A&E's Intervention[1] - down to the black title cards and tearful confrontation - closing with a joke that compares Towelie's fictional rehab to the real 'Restore Stephen Baldwin' fundraising campaign for the actor's own history of addiction.",
+    sources: [{ label: 'Wikipedia: Intervention (TV series)', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
+  },
+  // Insheeption (S14E10)
+  205: {
+    summary:
+      "Stan and Mr. Mackey are both diagnosed as compulsive hoarders, and a team of specialists sends them into Mackey's subconscious to find the trauma behind it, pulling in a second team modeled directly on the cast of Inception to rescue the rescuers. It's a dense, structurally faithful spoof of Inception's dream-within-a-dream mechanics[1], grafted onto a parody of reality shows like Hoarders and Hoarding: Buried Alive[2][3], which built entire seasons out of exactly this kind of intervention.",
+    sources: [
+      { label: 'Wikipedia: Inception', url: 'https://en.wikipedia.org/wiki/Inception' },
+      { label: 'Wikipedia: Hoarders (TV series)', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
+      { label: 'Wikipedia: Hoarding: Buried Alive', url: 'https://en.wikipedia.org/wiki/Hoarding:_Buried_Alive' },
+    ],
+  },
   // HUMANCENTiPAD (S15E1)
   210: {
     summary:
@@ -366,6 +482,39 @@ export const explanations = {
       { label: 'The Human Centipede (IMDb)', url: 'https://www.imdb.com/title/tt1467304/' },
     ],
   },
+  // Royal Pudding (S15E3)
+  212: {
+    summary:
+      "A Canadian princess is abducted at the altar mid-wedding, sending Ike Broflovski on a quest across the Canadian Arctic to rescue her from the monster Tooth Decay. Airing twelve days after the real thing, it's a deliberately loopy parody of the 2011 wedding of Prince William and Catherine Middleton[1][2], filtered - per the show's habit of routing anything it finds bewildering through Canada - into the show's long-running Canadian mythology rather than a direct royal-family satire.",
+    sources: [
+      { label: 'The Guardian: South Park takes on the royal wedding', url: 'https://www.theguardian.com/tv-and-radio/2011/may/11/south-park-royal-wedding' },
+      { label: 'Royal wedding of Prince William and Catherine Middleton (YouTube)', url: 'https://www.youtube.com/watch?v=schQZY3QjCw' },
+    ],
+  },
+  // Crack Baby Athletic Association (S15E5)
+  214: {
+    summary:
+      "Cartman turns crack-addicted infants into a bare-knuckle fighting league streamed online, and the plot turns on his outrage that EA Sports can profit off his 'athletes' likenesses without paying them a cent - a pointed jab at the real, then-heated debate over whether the NCAA should compensate college athletes for the use of their names and images[1][2], with the crack babies standing in for unpaid student-athletes throughout. Cartman's attempt to justify it by comparing his 'athletes' to plantation-era slave labor makes the metaphor about as blunt as South Park gets.",
+    sources: [
+      { label: 'ESPN: do college athletes deserve to be paid?', url: 'https://www.espn.com/college-sports/story/_/id/6778847/college-athletes-deserve-paid' },
+      { label: "The New York Times: let's start paying college athletes", url: 'https://www.nytimes.com/2012/01/01/magazine/lets-start-paying-college-athletes.html' },
+    ],
+  },
+  // The Last of the Meheecans (S15E9)
+  218: {
+    summary:
+      "A backyard game of 'Texans vs. Mexicans' spirals into a real immigration crisis once Cartman joins the actual US Border Patrol and Butters, mistaken for a Mexican immigrant, accidentally triggers a mass emigration back to Mexico that tanks the American economy overnight. It's a direct, deliberately absurd parody of illegal immigration debates and reality shows like Border Wars[1][2], turning the usual argument on its head by showing how dependent the US economy actually is on immigrant labor once it's gone.",
+    sources: [
+      { label: 'IMDb: Border Wars episode guide', url: 'https://www.imdb.com/title/tt1569544/episodes/' },
+      { label: 'UNODC: migrant smuggling', url: 'https://www.unodc.org/toc/en/crimes/migrant-smuggling.html' },
+    ],
+  },
+  // Bass to Mouth (S15E10)
+  219: {
+    summary:
+      "An anonymous gossip site called Eavesdropper starts posting embarrassing private information hacked from students' phones and emails, and the ensuing hunt for its source - a rat literally named Wikileaks - plays out as a direct, none-too-subtle allegory for the real WikiLeaks[1] and the fraught debate over anonymous mass-leaking of private and confidential material that dominated headlines in 2010-11.",
+    sources: [{ label: 'WikiLeaks: About', url: 'https://wikileaks.org/About.html' }],
+  },
   // 1% (S15E12)
   221: {
     summary:
@@ -373,6 +522,18 @@ export const explanations = {
     sources: [
       { label: 'Seton Hall: Occupy Wall Street history tour', url: 'https://blogs.shu.edu/nyc-history/tours/occupy-wall-street/' },
       { label: 'The Guardian: Occupy Wall Street, 10 years on', url: 'https://www.theguardian.com/us-news/2021/sep/12/occupy-wall-street-10-years-on' },
+    ],
+  },
+  // A History Channel Thanksgiving (S15E13)
+  222: {
+    summary:
+      "The boys' school report on Thanksgiving spirals into an actual alien-Pilgrim conflict after they lazily source it from a History Channel special claiming extraterrestrials attended the first Thanksgiving. It's a direct parody of Ancient Aliens[1] and the History Channel's real drift from documentary programming into pseudo-historical conspiracy content, wrapped in a broad Thor pastiche[2] complete with its own Asgard-style alien world and a very confused Natalie Portman.",
+    sources: [
+      {
+        label: 'Smithsonian Magazine: the idiocy, fabrications, and lies of Ancient Aliens',
+        url: 'https://www.smithsonianmag.com/science-nature/the-idiocy-fabrications-and-lies-of-ancient-aliens-86294030/',
+      },
+      { label: 'Wikipedia: Thor (2011 film)', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
     ],
   },
   // Cash For Gold (S16E2)
@@ -388,12 +549,58 @@ export const explanations = {
       { label: 'Fortune: Pennies for Cash4Gold', url: 'https://fortune.com/2012/10/26/pennies-for-cash4gold/' },
     ],
   },
+  // Butterballs (S16E5)
+  228: {
+    summary:
+      "Butters' schoolmates rally around him after spotting a black eye, not realizing his own grandmother is the one actually bullying him, while an anti-bullying counselor turns the fallout into a school-wide 'awareness' campaign that ends up glorifying Stan's own heroics more than addressing any real bullying. It's a direct, unusually blunt spoof of the 2011 documentary Bully[1] and its most visible advocate, Kony 2012 director Jason Russell[2], skewering the era's anti-bullying movement for chasing viral moments and merchandising deals over real solutions - right down to Stan's own breakdown, stripping naked and dancing in public in San Diego, just as Russell infamously did during his own real, widely covered breakdown[2].",
+    sources: [
+      { label: 'Wikipedia: Bully (2011 film)', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
+      { label: 'Wikipedia: Jason Russell - brief psychosis incident', url: 'https://en.wikipedia.org/wiki/Jason_Russell#Brief_psychosis_incident' },
+    ],
+  },
+  // Raising the Bar (S16E9)
+  232: {
+    summary:
+      "Cartman refuses to diet and instead claims a disability right to a motorized scooter, kicking off a nationwide movement of unashamed obesity that eventually pits him against Here Comes Honey Boo Boo's Alana Thompson in a spaghetti-wrestling match on the White House lawn. It's a broad satire of Here Comes Honey Boo Boo[1] and reality TV's embrace of parading working-class excess for ratings, tangled up with genuine anxiety over rising obesity rates and the accommodations - like extra-wide amusement-park queue lines for mobility scooters - businesses were being asked to make. A parallel subplot has James Cameron diving to the ocean floor to literally locate and raise a societal 'bar' of decency, a nod to Cameron's real record-setting solo dive to the bottom of the Mariana Trench that same year[2].",
+    sources: [
+      {
+        label: 'The Hollywood Reporter: Here Comes Honey Boo Boo\'s Alana "Honey Boo Boo" Thompson',
+        url: 'https://www.hollywoodreporter.com/tv/tv-news/here-comes-honey-boo-boo-alana-mama-364933/',
+      },
+      { label: "Deepsea Challenge: James Cameron's Mariana Trench expedition", url: 'https://deepseachallenge.com/' },
+    ],
+  },
+  // A Nightmare on Face Time (S16E12)
+  235: {
+    summary:
+      "Randy sinks the family's savings into a Blockbuster Video store just as brick-and-mortar rental is collapsing, and slowly loses his mind in a fairly faithful The Shining pastiche[1] - an eerie, empty store standing in for the Overlook Hotel. It's both a pointed eulogy for Blockbuster, whose real rental business had already been gutted by streaming and Redbox kiosks by 2012[2], and a jab at how casually FaceTime and iPads were starting to mediate real-world experiences like trick-or-treating.",
+    sources: [
+      { label: 'Wikipedia: The Shining (film)', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' },
+      { label: 'BBC News: Blockbuster to close remaining outlets', url: 'https://www.bbc.co.uk/news/business-11397020' },
+    ],
+  },
+  // A Scause For Applause (S16E13)
+  236: {
+    summary:
+      "After trace performance-enhancing drugs turn up on the Shroud of Turin, South Park concludes Jesus's miracles were doping all along and ditches its 'What Would Jesus Do?' bracelets - except Stan, who refuses out of pure stubbornness and accidentally becomes a symbol of authenticity, only to be accused (accurately) of gluing his own bracelet back together. It's a direct, thinly veiled parody of the Lance Armstrong doping scandal[1][2] and the mass abandonment of Livestrong wristbands after he was stripped of his Tour de France titles, extended into a broader satire of how quickly the public migrates from one wristband 'cause' to the next without much thought for the underlying issue.",
+    sources: [
+      {
+        label: 'ABC News: Lance Armstrong stripped of Tour de France titles, banned',
+        url: 'https://abcnews.com/US/lance-armstrong-stripped-tour-de-france-titles-banned/story?id=17535635',
+      },
+      {
+        label: 'The Conversation: Lance Armstrong, doping, and the illusion of control',
+        url: 'https://theconversation.com/lance-armstrong-doping-and-the-illusion-of-control-11680',
+      },
+    ],
+  },
   // Obama Wins! (S16E14)
   237: {
     summary:
-      "The boys' fantasy-football-style bet on the presidential election collides with a real election night. It's the show's real-time response to the 2012 US presidential election, in which Barack Obama won a second term[1].",
+      "The boys' fantasy-football-style bet on the presidential election collides with a real election night. It's the show's real-time response to the 2012 US presidential election, in which Barack Obama won a second term[1].\n\nA subplot has Cartman brokering a deal with the Chinese government, who are trying to buy the Star Wars franchise away from a Mickey Mouse-piloted Disney to keep it out of the studio's hands - a direct, fast-turnaround parody of Disney's real, just-announced $4 billion purchase of Lucasfilm that same month[2].",
     sources: [
       { label: 'Obama Foundation: The Administration (2012-2017)', url: 'https://www.obama.org/about/administration/2012-2017/' },
+      { label: 'The New York Times: Disney Buying Lucasfilm for $4 Billion', url: 'https://archive.nytimes.com/mediadecoder.blogs.nytimes.com/2012/10/30/disney-buying-lucas-films-for-4-billion/' },
     ],
   },
   // Let Go, Let Gov (S17E1)
@@ -422,9 +629,27 @@ export const explanations = {
   // World War Zimmerman (S17E3)
   240: {
     summary:
-      "Cartman falls asleep and dreams of a nationwide race war triggered by a controversial self-defense shooting. It's a direct response to the 2013 George Zimmerman trial over the killing of Trayvon Martin[1], and the anxious national conversation about race that followed the verdict.",
+      "Cartman falls asleep and dreams of a nationwide race war triggered by a controversial self-defense shooting. It's a direct response to the 2013 George Zimmerman trial over the killing of Trayvon Martin[1], and the anxious national conversation about race that followed the verdict. Cartman's nightmare doubles as a fairly direct parody of the zombie-apocalypse film World War Z[2], released just months earlier, while the shooting itself turns on the same self-defense reasoning behind Florida's real 'stand your ground' law[3].",
     sources: [
       { label: 'Wikipedia: Killing of Trayvon Martin', url: 'https://en.wikipedia.org/wiki/Killing_of_Trayvon_Martin' },
+      { label: 'Wikipedia: World War Z (film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' },
+      { label: 'Wikipedia: Stand-your-ground law', url: 'https://en.wikipedia.org/wiki/Stand-your-ground_law' },
+    ],
+  },
+  // Taming Strange (S17E5)
+  242: {
+    summary:
+      "Kyle struggles to bond with his little brother Ike, who is going through early-onset puberty, while Ike ends up managing a Yo Gabba Gabba! character through a sudden, raunchy image overhaul en route to a Video Music Awards performance - a fairly direct parody of Miley Cyrus's much-discussed twerking performance at the 2013 MTV Video Music Awards[1][2]. In a separate plot, South Park Elementary's new computer system collapses under one 'upgrade' after another, mirroring the real, well-publicized meltdown of the HealthCare.gov website at its October 2013 launch[3].",
+    sources: [
+      { label: "Miley Cyrus's 2013 VMA performance (YouTube)", url: 'https://www.youtube.com/watch?v=nGmzyS_9Kxo' },
+      {
+        label: 'The Guardian: Miley Cyrus and the backlash over her MTV Video Music Awards performance',
+        url: 'https://www.theguardian.com/music/2013/aug/27/miley-cyrus-mtv-video-music-awards-criticism',
+      },
+      {
+        label: "The Guardian: Obamacare website's computer meltdown",
+        url: 'https://www.theguardian.com/technology/2013/nov/03/obamacare-website-barack-obama-healthcare-computer-meltdown',
+      },
     ],
   },
   // Black Friday (S17E7)
@@ -444,6 +669,15 @@ export const explanations = {
     summary:
       "The Game-of-Thrones-style console war saga wraps up[1]. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle[2][3], wrapped in Thrones-style fantasy-political parody.",
     sources: CONSOLE_WAR_SOURCES_GOT_FIRST,
+  },
+  // The Hobbit (S17E10)
+  247: {
+    summary:
+      "Wendy tries to explain how Photoshop distorts the public's idea of female beauty, using Kim Kardashian as her example, but the lesson backfires into a viral craze once photo-edited images of a classmate go around school - with Kanye West storming in more than once to defend Kardashian's honor. It's a sharp, if scattershot, satire of airbrushed celebrity photos and the media's outsized impact on body image[1][2], undercut by its own bittersweet ending in which Wendy gives up the fight and photoshops herself too.",
+    sources: [
+      { label: 'BBC News: media and body image', url: 'https://www.bbc.co.uk/news/uk-england-tyne-20251825' },
+      { label: 'BBC News: media and body image', url: 'https://www.bbc.co.uk/news/health-29569473' },
+    ],
   },
   // Go Fund Yourself (S18E1)
   248: {
@@ -469,10 +703,28 @@ export const explanations = {
       { label: 'The Times: Ebola outbreak (DRC/Uganda)', url: 'https://www.thetimes.com/world/africa/article/ebola-outbreak-drc-uganda-virus-what-is-f2qz5c880' },
     ],
   },
+  // The Cissy (S18E3)
+  250: {
+    summary:
+      "Cartman fakes being 'transginger' to get out of using the crowded boys' room, kicking off a school fight over bathroom access that ends with dueling 'transgender' and 'cissy' facilities. It's a surprisingly earnest entry into the mid-2010s surge of mainstream visibility and debate around transgender identity[1][2] - the same year Time magazine declared a transgender 'tipping point' - anchored by a sincere parallel plot revealing that Randy has secretly been pop star Lorde all along, quietly grappling with an identity he isn't ready to share publicly.",
+    sources: [
+      { label: 'Time: The Transgender Tipping Point', url: 'https://time.com/135480/transgender-tipping-point/' },
+      { label: 'Time: What the Fight Over Bathrooms and Transgender Rights Is Really About', url: 'https://time.com/3974186/transgender-bathroom-debate/' },
+    ],
+  },
+  // The Magic Bush (S18E5)
+  252: {
+    summary:
+      "Cartman talks Butters and Kenny into flying a stolen drone around town to spy on the neighbors, and the resulting privacy panic escalates into police and National Guard drones patrolling South Park after one 'shoots down' a civilian's drone - a plot beat that pointedly echoes the real 2014 shooting of Michael Brown and the Ferguson unrest that followed[1]. It's also a broader jab at the sudden, unregulated boom in recreational drones[2], and, via the footage Cartman uploads of a neighbor caught undressing, at the wave of leaked nude celebrity photos that had gone viral just months earlier.",
+    sources: [
+      { label: 'Wikipedia: Shooting of Michael Brown', url: 'https://en.wikipedia.org/wiki/Shooting_of_Michael_Brown' },
+      { label: 'BBC Future: I use a drone to spy on people', url: 'https://www.bbc.com/future/article/20150318-i-use-a-drone-to-spy-on-people' },
+    ],
+  },
   // Freemium Isn't Free (S18E6)
   253: {
     summary:
-      "Stan gets hooked on a mobile game that nickel-and-dimes him for virtual currency at every turn. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics[1][2] - the same model behind real games like Candy Crush Saga, Clash of Clans, EA Sports FC's Ultimate Team packs, and Genshin Impact's gacha banners.",
+      "Stan gets hooked on a Terrance and Phillip mobile game that nickel-and-dimes him for virtual currency at every turn, eventually blowing through tens of thousands of dollars on microtransactions. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics[1][2][3] - the same model behind real games like Candy Crush Saga, Clash of Clans, EA Sports FC's Ultimate Team packs, and Genshin Impact's gacha banners - and, more specifically, a jab at other adult animated shows' own freemium cash-ins, namely The Simpsons: Tapped Out[4] and Family Guy: The Quest for Stuff[5].\n\nThe episode also draws an explicit parallel between Stan's freemium addiction and his family's other compulsions - Grandpa Marvin's gambling and Randy's drinking - floating the idea that a predisposition to addiction, whether to slot machines, alcohol, or in-app purchases, might run in families and simply find a different outlet in each generation[6].",
     sources: [
       {
         label: 'Investopedia: How Microtransactions Are Evolving the Economics of Gaming',
@@ -482,7 +734,26 @@ export const explanations = {
         label: 'ScienceDirect: microtransactions/gaming research article',
         url: 'https://www.sciencedirect.com/science/article/pii/S1875952124000612',
       },
+      { label: 'Harvard Business Review: Making Freemium Work', url: 'https://hbr.org/2014/05/making-freemium-work' },
+      { label: 'The Simpsons: Tapped Out (Fandom wiki)', url: 'https://simpsonstappedout.fandom.com/wiki/The_Simpsons:_Tapped_Out' },
+      { label: 'Family Guy: The Quest for Stuff (Fandom wiki)', url: 'https://family-guy-the-quest-for-stuff.fandom.com/wiki/Family_Guy:_The_Quest_for_Stuff' },
+      { label: 'University of Iowa: pathological gambling runs in families', url: 'https://now.uiowa.edu/news/2014/06/pathological-gambling-runs-families' },
     ],
+  },
+  // Grounded Vindaloop (S18E7)
+  254: {
+    summary:
+      "Cartman convinces Butters he's trapped in a virtual-reality simulation of his own life, and the prank spirals into a nested, increasingly confusing series of fake VR realities involving the whole group - all while a Bill Hader-voiced call-center rep patiently, uselessly tries to walk them through tech support. It's a direct spoof of the Oculus Rift[1], the VR headset that had just relaunched the format's popularity through a high-profile Kickstarter and prototype buzz, paired with a dead-on parody of the maddening, script-bound loops of outsourced customer service call centers[2].",
+    sources: [
+      { label: 'Wired: hands-on with the Oculus Rift', url: 'https://www.wired.com/2014/05/oculus-rift-4/' },
+      { label: 'Talkdesk: a guide to call center agent feedback loops', url: 'https://www.talkdesk.com/blog/guide-to-call-center-agent-feedback-loops/' },
+    ],
+  },
+  // #REHASH (S18E9)
+  256: {
+    summary:
+      "Ike ditches the video games Kyle bought to bond with him in favor of watching PewDiePie's Let's Play commentary, and Cartman - noticing how much traction reaction videos get - starts filming his own commentary on his classmates. It's a direct engagement with the mid-2010s explosion of Let's Play and reaction-video YouTube celebrities like PewDiePie, who voices himself in the episode[1], and a broader jab at how much online attention had shifted to watching other people react to things rather than the things themselves - fittingly, the title itself mocks the empty churn of trending hashtags that dominate news cycles without carrying much actual substance.",
+    sources: [{ label: 'PewDiePie in South Park "#REHASH" (YouTube)', url: 'https://www.youtube.com/watch?v=h4XifO5eWIo' }],
   },
   // Stunning and Brave (S19E1)
   258: {
@@ -513,6 +784,34 @@ export const explanations = {
       { label: 'Trump pledges to build a wall (YouTube)', url: 'https://www.youtube.com/watch?v=cBW8mTHDgvk' },
     ],
   },
+  // The City Part of Town (S19E3)
+  260: {
+    summary:
+      "After Mr. Garrison's anti-immigration campaigning gets South Park mocked on national TV, the town builds a shiny 'gentrified' district, SoDoSoPa, around Kenny's dilapidated home to win over a Whole Foods scout - all while running ads claiming, falsely, that the new shops and condos are 'supporting' the poor residents they've quietly priced out. It's a direct, unusually pointed satire of urban gentrification[1][2] and the marketing language that dresses displacement up as revitalization, sharpened by a rival subplot in which City Wok's owner builds his own exploitative gentrified district staffed with child labor.",
+    sources: [
+      {
+        label: 'Scholars Strategy Network: how gentrification in American cities maintains inequality',
+        url: 'https://scholars.org/contribution/how-gentrification-american-cities-maintains',
+      },
+      { label: 'Forbes: understanding gentrification', url: 'https://www.forbes.com/sites/petesaunders1/2016/08/29/understanding-gentrification/' },
+    ],
+  },
+  // You're Not Yelping (S19E4)
+  261: {
+    summary:
+      "Cartman starts extorting free meals from restaurants by threatening bad Yelp reviews, and the practice spreads until South Park's Yelp reviewers form an unruly mob that 'beheads' a restaurant mascot in a scene deliberately staged like an ISIS execution video[1]. It's a pointed, deliberately uncomfortable satire of Yelp reviewer entitlement and the real, well-documented trend of restaurant owners publicly fighting back against bad-faith reviewers[2][3], resolved when the town quietly starts spiking elite reviewers' food with bodily fluids instead of confronting them directly.",
+    sources: [
+      {
+        label: 'Wikipedia: Islamic State of Iraq and the Levant - beheadings and mass executions',
+        url: 'https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant#Beheadings_and_mass_executions',
+      },
+      {
+        label: 'Thrillist: restaurant owner vs. Yelpers - fighting back at Yelp',
+        url: 'https://www.thrillist.com/eat/nation/restaurant-owner-vs-yelpers-fighting-back-at-yelp-we-talk-to-a-restaurant-owner-who-is-hilariously-destroying-yelp-reviewers',
+      },
+      { label: 'Eater: South Park takes down Yelpers', url: 'https://www.eater.com/2015/10/15/9538845/south-park-takes-down-yelpers-restaurant-critics' },
+    ],
+  },
   // Safe Space (S19E5)
   262: {
     summary:
@@ -520,6 +819,33 @@ export const explanations = {
     sources: [
       { label: "Flexa: How safe are 'safe spaces' really?", url: 'https://flexa.careers/blog/how-safe-are-safe-spaces-really' },
     ],
+  },
+  // Naughty Ninjas (S19E7)
+  264: {
+    summary:
+      "PC Principal calls in a full riot-gear police response to silence a student for allegedly talking during an assembly, and the ensuing chaos - including an officer accidentally shooting a bystander - turns the town hostile toward its own police force. It's a direct, unusually blunt engagement with the mid-2010s national reckoning over police militarization and the use of lethal force in low-stakes encounters[1], continuing the season's satire of campus-style political correctness. A subplot in which kids' harmless ninja play gets breathlessly mistaken by local news for ISIS recruitment adds a jab at that era's overheated media coverage of the group[2].",
+    sources: [
+      { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-32740523' },
+      { label: 'The Guardian: Isis - the inside story', url: 'https://www.theguardian.com/world/2014/dec/11/-sp-isis-the-inside-story' },
+    ],
+  },
+  // Sponsored Content (S19E8)
+  265: {
+    summary:
+      "Jimmy turns out to have a freakish knack for spotting real news stories buried among disguised ads, and gets partnered with a new classmate, Leslie, who's suspiciously good at holding everyone's attention. It kicks off the season finale arc's takedown of online publishing's slide into clickbait headlines[1] and 'native' advertising dressed up to look like real editorial content[2], continuing the season's parallel satire of political correctness.",
+    sources: [AD_ARC_SOURCE_BBC, AD_ARC_SOURCE_NYFA],
+  },
+  // Truth and Advertising (S19E9)
+  266: {
+    summary:
+      "As PC Principal mysteriously vanishes with two students, Jimmy keeps digging into what makes Leslie tick - inching toward the reveal that she isn't a person at all, but a piece of advertising made unsettlingly lifelike. It continues the arc's satire of how indistinguishable native advertising and real editorial content had become[1], while gesturing at the era's growing use of artificial intelligence to target and personalize ads[2].",
+    sources: [AD_ARC_SOURCE_ATLANTIC, AD_ARC_SOURCE_GUARDIAN_AI],
+  },
+  // PC Principal Final Justice (S19E10)
+  267: {
+    summary:
+      "The season finale reveals Leslie as a self-aware, seemingly unkillable advertisement, and half the town arms itself out of pure paranoia - a jab at America's gun politics and self-defense debates[1]. PC Principal finally 'expels' her by literally punching her to pieces, a violent, on-the-nose punchline to the arc's running satire of clickbait[2] and native advertising[3], and to the season-long fight over political correctness.",
+    sources: [AD_ARC_SOURCE_GUN_POLITICS, AD_ARC_SOURCE_BBC, AD_ARC_SOURCE_NYFA],
   },
   // Skank Hunt (S20E2)
   269: {
@@ -537,6 +863,40 @@ export const explanations = {
       },
     ],
   },
+  // The Damned (S20E3)
+  270: {
+    summary:
+      "Aired just two days after the real thing, the episode has Mr. Garrison - campaigning as 'the Giant Douche' - gain ground purely by admitting on stage that he's a dishonest, unqualified candidate, while Randy switches to backing 'the Turd Sandwich,' a stand-in for Hillary Clinton. It's a direct parody of the first Clinton-Trump presidential debate[1], looping back to South Park's own 2004 'douche vs. turd sandwich' joke from Douche and Turd. Meanwhile the season's trolling arc tightens around Gerald Broflovski, the still-anonymous troll Skankhunt42, as a grieving Denmark vows to hunt him down after his harassment campaign drives a cancer-charity founder to suicide.",
+    sources: [
+      { label: 'South Park spoofs the first Clinton-Trump presidential debate (YouTube)', url: 'https://www.youtube.com/watch?v=855Am6ovK7s' },
+    ],
+  },
+  // Douche and a Danish (S20E5)
+  272: {
+    summary:
+      "Garrison starts firing off sexually explicit comments about women at his own rallies, hoping to tank his numbers and lose the election on purpose - only for his crowds to riot in support anyway. It's a direct response to the wave of stories about Donald Trump's lewd comments and sexual-misconduct allegations that broke just before this aired[1][2]. In parallel, Gerald Broflovski and his fellow trolls scramble to sabotage Denmark's Troll Trace identity-tracing site before it can expose them, while Cartman and Heidi run a school fundraiser selling Danish pastries to help fund it.",
+    sources: [
+      {
+        label: 'The Guardian: list of Donald Trump sexual misconduct allegations',
+        url: 'https://www.theguardian.com/us-news/2016/oct/13/list-of-donald-trump-sexual-misconduct-allegations',
+      },
+      {
+        label: 'PBS NewsHour: sexual misconduct allegations against Trump, recapped',
+        url: 'https://www.pbs.org/newshour/politics/sexual-misconduct-allegations-trump-recapped',
+      },
+    ],
+  },
+  // Fort Collins (S20E6)
+  273: {
+    summary:
+      "The Danes turn Heidi's emoji-based detective work into an actual tool, using their Troll Trace program to publicly dox an entire town's internet history and expose a member of Gerald's trolling crew - who is then burned alive by a victim's father as Fort Collins descends into chaos. It's a direct parody of the real DDoS cyberattack that knocked major sites offline across the US East Coast just five days before this aired[1], here reimagined as a mass, town-levelling privacy breach. The episode also escalates the season's Member Berries plot, revealing the nostalgia-berries are sentient and actively working to keep Garrison in the race against Hillary Clinton.",
+    sources: [
+      {
+        label: 'The Guardian: DDoS attack that disrupted internet was largest of its kind in history, say experts',
+        url: 'https://www.theguardian.com/technology/2016/oct/26/ddos-attack-dyn-mirai-botnet',
+      },
+    ],
+  },
   // Oh, Jeez (S20E7)
   274: {
     summary:
@@ -545,15 +905,31 @@ export const explanations = {
       { label: 'The Guardian: Donald Trump wins US election', url: 'https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news' },
     ],
   },
+  // Members Only (S20E8)
+  275: {
+    summary:
+      "The newly 'elected' President Garrison starts abusing his authority and gets himself a Trump-style toupee, while Cartman, Heidi, and Butters try to hitch a literal ride off Earth with SpaceX - only to get a factory tour from Elon Musk himself, who explains that a Mars rocket is still years away. It's a cameo built around Musk's real, well-publicized SpaceX Mars-colonization ambitions[1], dropped into an episode otherwise dramatizing a worst-case Trump-style presidency and closing in on Gerald Broflovski's unmasking as the troll Skankhunt42.",
+    sources: [
+      { label: 'The Guardian: Elon Musk unveils his interplanetary spaceship to take humans to Mars', url: 'https://www.theguardian.com/technology/2016/sep/27/elon-musk-spacex-mars-colony' },
+    ],
+  },
   // White People Renovating Houses (S21E1)
   278: {
     summary:
-      "A wholesome couple's home-renovation show becomes a local obsession, echoing HGTV hits like Fixer Upper[1]. It's a satire of the home-renovation TV boom[2] and the gentrification that so often follows in its wake.",
+      "A wholesome couple's home-renovation show becomes a local obsession, echoing HGTV hits like Fixer Upper[1]. It's a satire of the home-renovation TV boom[2] and the gentrification that so often follows in its wake.\n\nCartman spends the episode barking commands and profanity at an Amazon Echo-style smart speaker, mocking the sudden mid-2010s rush of Alexa, Google Home, and Siri devices into American living rooms[3] - a bit that famously backfired in real life, setting off actual Echoes and Google Homes in viewers' houses. Meanwhile, a group of men waving torches and Confederate flags march through the background protesting that the devices have taken their jobs, a direct visual echo of the torch-lit white nationalist march at the deadly August 2017 'Unite the Right' rally in Charlottesville, Virginia[4].",
     sources: [
       { label: 'Wikipedia: Fixer Upper (TV series)', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' },
       {
         label: 'Wikipedia: Category - Home renovation television series',
         url: 'https://en.wikipedia.org/wiki/Category:Home_renovation_television_series',
+      },
+      {
+        label: 'The Guardian: Amazon Echo, Google Home, Sonos One - which smart speaker should you buy?',
+        url: 'https://www.theguardian.com/technology/2017/dec/01/amazon-echo-google-home-sonos-one-which-smart-speaker-buy',
+      },
+      {
+        label: 'SPLC: flags and other symbols used by far-right groups in Charlottesville',
+        url: 'https://www.splcenter.org/resources/hatewatch/flags-and-other-symbols-used-far-right-groups-charlottesville/',
       },
     ],
   },
@@ -587,7 +963,7 @@ export const explanations = {
   // Hummels & Heroin (S21E5)
   282: {
     summary:
-      "Randy accidentally gets the whole town hooked on painkillers while running a shady side hustle. It's a direct response to the US opioid crisis[1][2][3], satirizing both addiction and the profiteering (from doctors to dealers) that fed it.",
+      "Randy accidentally gets the whole town hooked on painkillers while running a shady side hustle. It's a direct response to the US opioid crisis[1][2][3], satirizing both addiction and the profiteering (from doctors to dealers) that fed it.\n\nA parallel plot follows Stan's grandfather scheming for control of his retirement home, which the episode plays as a straight prison-yard power struggle complete with a reigning 'top bitch,' smuggled contraband, and a stint in 'solitaire confinement' - a broad joke that daily life in assisted living can look a lot like life behind bars, just with shuffleboard instead of a yard.",
     sources: [
       {
         label: 'CDC: Understanding the Opioid Overdose Epidemic',
@@ -613,11 +989,15 @@ export const explanations = {
   // Doubling Down (S21E7)
   284: {
     summary:
-      "A local news station gets bought up and forced to read identical, oddly slanted scripts from corporate. It's a jab at real local-news consolidation by conglomerates like Sinclair Broadcast Group, later notorious for making anchors nationwide recite the same promotional scripts verbatim[1].",
+      "A local news station gets bought up and forced to read identical, oddly slanted scripts from corporate. It's a jab at real local-news consolidation by conglomerates like Sinclair Broadcast Group, later notorious for making anchors nationwide recite the same promotional scripts verbatim[1].\n\nA parallel White House subplot has President Garrison sexually and psychologically abusing Mitch McConnell, Paul Ryan, and Mike Pence, who keep making excuses for him and staying loyal anyway. It's a pointed dramatization of the real commentary, common by late 2017, that accused the GOP establishment of a kind of Stockholm syndrome with Trump - defending and normalizing behavior from their own leader that they'd never tolerate from anyone else[2].",
     sources: [
       {
         label: "Sinclair requires anchors to read script bashing 'fake' news (YouTube)",
         url: 'https://www.youtube.com/watch?v=aGIYU2Xznb4',
+      },
+      {
+        label: "Vanity Fair: The Trump White House's Stockholm Syndrome",
+        url: 'https://www.vanityfair.com/news/2017/12/trump-white-house-stockholm-syndrome-ed-letter',
       },
     ],
   },
@@ -677,11 +1057,15 @@ export const explanations = {
   // Tegridy Farms (S22E4)
   291: {
     summary:
-      "Randy moves the family to a farm to grow marijuana now that it's legal, marketing it with a folksy 'integrity' pitch[1]. It kicks off a long-running satire of the newly legal cannabis industry and the wave of opportunists rebranding themselves as wholesome small-farm entrepreneurs[2][3].",
+      "Randy moves the family to a farm to grow marijuana now that it's legal, marketing it with a folksy 'integrity' pitch[1]. It kicks off a long-running satire of the newly legal cannabis industry and the wave of opportunists rebranding themselves as wholesome small-farm entrepreneurs.\n\nThe saga later spins off into Tegridy-branded vapes, with the show taking aim at the real, explosive rise of teen vaping in the US - a public-health scare serious enough that commentators worried it would cross the Atlantic and take hold in Britain too[2], where youth vaping rates were already climbing fast[3][4].",
     sources: [
       {
         label: 'From Facing Jail Time to Growing Craft Cannabis in New Jersey | Hamilton Farms (YouTube)',
         url: 'https://www.youtube.com/watch?v=N-uXbDVy9uA',
+      },
+      {
+        label: "The Guardian: can we stop America's teen vaping epidemic arriving in Britain?",
+        url: 'https://www.theguardian.com/society/2019/aug/11/can-we-stop-americas-teen-vaping-epidemic-arriving-in-britain-',
       },
       { label: 'The Guardian: disposable vapes (UK)', url: 'https://www.theguardian.com/society/2026/may/17/disposable-vapes-suez-uk' },
       {
@@ -899,8 +1283,10 @@ export const explanations = {
   // It's a Jersey Thing (S14E9)
   204: {
     summary:
-      "The town is 'infected' by loud, spray-tanned, fist-pumping Jersey culture spreading like a disease. It's a direct parody of MTV's Jersey Shore (which had just become a phenomenon)[1][2] and the reality-TV era's habit of turning a regional/ethnic identity into a mockable stereotype for entertainment.",
+      "The town is 'infected' by loud, spray-tanned, fist-pumping Jersey culture spreading like a disease, with the possessed townspeople modeled directly on cast members from both MTV's Jersey Shore[1] and Bravo's The Real Housewives of New Jersey[2]. It's a direct parody of Jersey Shore (which had just become a phenomenon)[3][4] and the reality-TV era's habit of turning a regional/ethnic identity into a mockable stereotype for entertainment.",
     sources: [
+      { label: 'Wikipedia: Jersey Shore (TV series)', url: 'https://en.wikipedia.org/wiki/Jersey_Shore_(TV_series)' },
+      { label: 'Wikipedia: The Real Housewives of New Jersey', url: 'https://en.wikipedia.org/wiki/The_Real_Housewives_of_New_Jersey' },
       { label: 'The Guardian: Charlie Brooker on Jersey Shore', url: 'https://www.theguardian.com/tv-and-radio/2010/mar/20/charlie-brooker-jersey-shore' },
       { label: 'Vice: the Jersey Shore scene that made Snooki a star', url: 'https://www.vice.com/en/article/17-years-ago-one-shocking-jersey-shore-scene-turned-snooki-into-a-reality-tv-star-overnight/' },
     ],
