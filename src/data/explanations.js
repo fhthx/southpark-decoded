@@ -1,6 +1,14 @@
 // Real-world inspiration behind South Park episodes, keyed by the episode's
 // spapi.dev `id`. This is authored content, not sourced from the API - most
 // episodes don't have an entry yet. Add more over time.
+//
+// Optional `parodyOf` field: a short list of specific films/shows/people an
+// episode is directly spoofing (e.g. `parodyOf: ['300 (2006 film)']`). This
+// is separate from `summary`/`sources`, which cover real-world social or
+// political commentary - some episodes have one, some have the other, some
+// have both (e.g. Stunning and Brave parodies Tom Brady while also
+// commenting on Caitlyn Jenner's Vanity Fair cover). Keep it short - a
+// label or two, not a paragraph.
 
 // Shared by the S17 console-war trilogy (Black Friday, A Song of Ass and
 // Fire, Titties and Dragons) - same real-world sources apply to all three.
@@ -41,6 +49,7 @@ export const explanations = {
       { label: 'Time: Beware of the Poke-Mania!', url: 'https://time.com/archive/6737018/beware-of-the-poke-mania/' },
       { label: 'The New York Times: Pokemon Mania Takes on Criminal Proportions', url: 'https://www.nytimes.com/1999/12/04/nyregion/pokemon-mania-takes-on-criminal-proportions.html' },
     ],
+    parodyOf: ["Pok\u00e9mon"],
   },
   // Are You There God? It's Me, Jesus (S3E17)
   47: {
@@ -50,6 +59,7 @@ export const explanations = {
       { label: 'Wikipedia: Year 2000 problem', url: 'https://en.wikipedia.org/wiki/Year_2000_problem' },
       { label: 'The New York Times: Fear of the Year 2000 Bug Is a Problem, Too', url: 'https://www.nytimes.com/1999/02/09/business/fear-of-the-year-2000-bug-is-a-problem-too.html' },
     ],
+    parodyOf: ["Are You There God? It's Me, Margaret (Judy Blume novel)"],
   },
   // Timmy 2000 (S4E3)
   51: {
@@ -86,6 +96,7 @@ export const explanations = {
       { label: 'The Wall Street Journal: Subway\'s Jared Fogle ad campaign', url: 'https://www.wsj.com/articles/SB106141954065633000' },
       { label: 'Subway "Jared" commercial (YouTube)', url: 'https://www.youtube.com/watch?v=w2TR8QssCbA' },
     ],
+    parodyOf: ["Subway \"Jared\" ad campaign"],
   },
   // Red Hot Catholic Love (S6E8)
   87: {
@@ -105,6 +116,7 @@ export const explanations = {
       { label: 'Wikipedia: John Edward', url: 'https://en.wikipedia.org/wiki/John_Edward' },
       { label: 'Crossing Over with John Edward (IMDb)', url: 'https://www.imdb.com/title/tt0292776/' },
     ],
+    parodyOf: ["John Edward / Crossing Over (TV series)"],
   },
   // My Future Self n' Me (S6E16)
   95: {
@@ -171,6 +183,7 @@ export const explanations = {
       { label: 'The Guardian: Mel Gibson and The Passion of the Christ', url: 'https://www.theguardian.com/film/2005/mar/16/news.melgibson' },
       { label: 'ADL: The Passion relies on theme of antisemitism', url: 'https://www.adl.org/resources/news/passion-relies-theme-anti-semitism' },
     ],
+    parodyOf: ["The Passion of the Christ (2004 film)"],
   },
   // Goobacks (S8E7)
   118: {
@@ -200,6 +213,7 @@ export const explanations = {
       { label: 'Forbes: Walmart coverage', url: 'https://www.forbes.com/?swb_redirect=true' },
       { label: 'PBS Frontline: Is Walmart Good for America?', url: 'https://www.pbs.org/video/frontline-wal-mart-good-america/' },
     ],
+    parodyOf: ["Something Wicked This Way Comes (Ray Bradbury novel / 1983 film)"],
   },
   // Stupid Spoiled Whore Video Playset (S8E12)
   123: {
@@ -209,6 +223,7 @@ export const explanations = {
       { label: 'IMDb: Paris Hilton', url: 'https://www.imdb.com/title/tt0362153/' },
       { label: 'Wikipedia: 1 Night in Paris', url: 'https://en.wikipedia.org/wiki/1_Night_in_Paris' },
     ],
+    parodyOf: ["Paris Hilton"],
   },
   // Mr. Garrison's Fancy New Vagina (S9E1)
   126: {
@@ -236,6 +251,7 @@ export const explanations = {
     sources: [
       { label: 'Wikipedia: The Day After Tomorrow', url: 'https://en.wikipedia.org/wiki/The_Day_After_Tomorrow' },
     ],
+    parodyOf: ["The Day After Tomorrow (2004 film)"],
   },
   // Trapped in the Closet (S9E12)
   137: {
@@ -248,6 +264,7 @@ export const explanations = {
       { label: 'LA Times: Isaac Hayes leaves South Park', url: 'https://www.latimes.com/archives/la-xpm-2006-mar-18-et-channel18-story.html' },
       { label: 'The Guardian: Isaac Hayes and South Park', url: 'https://www.theguardian.com/world/2006/mar/14/media.arts' },
     ],
+    parodyOf: ["R. Kelly - Trapped in the Closet (hip-hopera)", "Tom Cruise and John Travolta (Scientology advocacy)"],
   },
   // Smug Alert! (S10E2)
   141: {
@@ -267,6 +284,7 @@ export const explanations = {
       { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
       { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
     ],
+    parodyOf: ["Family Guy"],
   },
   // Cartoon Wars Part II (S10E4)
   143: {
@@ -277,6 +295,7 @@ export const explanations = {
       { label: 'Wikipedia: Jyllands-Posten Muhammad cartoons controversy', url: 'https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy' },
       { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
     ],
+    parodyOf: ["Family Guy"],
   },
   // ManBearPig (S10E6)
   145: {
@@ -286,6 +305,7 @@ export const explanations = {
       { label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' },
       { label: 'TED: Al Gore, averting the climate crisis', url: 'https://www.ted.com/talks/al_gore_averting_the_climate_crisis' },
     ],
+    parodyOf: ["Al Gore (An Inconvenient Truth)"],
   },
   // Mystery of the Urinal Deuce (S10E9)
   148: {
@@ -304,6 +324,7 @@ export const explanations = {
       { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
       { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
     ],
+    parodyOf: ["Richard Dawkins"],
   },
   // Go God Go XII (S10E13)
   152: {
@@ -313,6 +334,16 @@ export const explanations = {
       { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
       { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
     ],
+    parodyOf: ["Richard Dawkins"],
+  },
+  // Night of the Living Homeless (S11E7)
+  160: {
+    summary:
+      "South Park's homeless population suddenly swells, and the townsfolk respond with rising panic and open discrimination, treating the homeless as a faceless, almost zombie-like threat to be feared and driven out rather than people to help[1]. It's a pointed jab at the stigma, dehumanization, and NIMBY-style hostility real communities direct at homeless people, wrapped in a straight zombie-movie parody.",
+    sources: [
+      { label: 'Petite Adventure Films: Night of the Living Homeless', url: 'https://www.petiteadventurefilms.com/media/5266/' },
+    ],
+    parodyOf: ['Night of the Living Dead (zombie films)'],
   },
   // Tonsil Trouble (S12E1)
   168: {
@@ -340,6 +371,7 @@ export const explanations = {
       { label: 'Fox News: drug made from human waste causing stink on web, in law enforcement', url: 'https://www.foxnews.com/story/drug-made-from-human-waste-causing-stink-on-web-in-law-enforcement' },
       { label: 'ABC News: Jenkem drug scare', url: 'https://abcnews.com/Health/Drugs/story?id=3834092&page=1' },
     ],
+    parodyOf: ["Heavy Metal (1981 animated film)"],
   },
   // Canada on Strike (S12E4)
   171: {
@@ -358,6 +390,7 @@ export const explanations = {
       { label: 'The Guardian: Barack Obama, Hillary Clinton', url: 'https://www.theguardian.com/world/2008/jun/04/barackobama.hillaryclinton' },
       { label: 'New York Times: New York crowds celebrate Obama', url: 'https://archive.nytimes.com/cityroom.blogs.nytimes.com/2008/11/04/new-york-crowds-celebrate-obama/' },
     ],
+    parodyOf: ["Ocean's Eleven (2001 film)"],
   },
   // The Ungroundable (S12E14)
   181: {
@@ -367,6 +400,7 @@ export const explanations = {
       { label: 'New York Times: Are you a Twilight convert?', url: 'https://archive.nytimes.com/artsbeat.blogs.nytimes.com/2009/11/19/are-you-a-twilight-convert/' },
       { label: 'The Telegraph: Robert Pattinson describes spreading Twilight craze as a virus', url: 'https://www.telegraph.co.uk/news/uknews/6548251/Robert-Pattinson-describes-spreading-Twilight-craze-as-a-virus.html' },
     ],
+    parodyOf: ["Twilight (film series)"],
   },
   // The Ring (S13E1)
   182: {
@@ -376,6 +410,7 @@ export const explanations = {
       { label: 'TODAY: purity rings are the hot accessory in pop music', url: 'https://www.today.com/popculture/purity-rings-are-hot-accessory-pop-music-wbna26680718' },
       { label: 'Jonas Brothers: The 3D Concert Experience - foam-hose scene (YouTube)', url: 'https://www.youtube.com/watch?v=crCmEQi8K4k' },
     ],
+    parodyOf: ["Jonas Brothers: The 3D Concert Experience (2009 film)"],
   },
   // Fishsticks (S13E5)
   186: {
@@ -403,6 +438,7 @@ export const explanations = {
       { label: 'Wikipedia: The Sixth Sense', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
       { label: 'Wikipedia: Poltergeist (1982 film)', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
     ],
+    parodyOf: ["The Sixth Sense (1999 film)", "Poltergeist (1982 film)"],
   },
   // Butters' Bottom Bitch (S13E9)
   190: {
@@ -422,6 +458,7 @@ export const explanations = {
       { label: 'Wikipedia: Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' },
       { label: 'CBS News: activists hurl acid at Japanese whalers', url: 'https://www.cbsnews.com/news/activists-hurl-acid-at-japanese-whalers/' },
     ],
+    parodyOf: ["Whale Wars (Animal Planet series)"],
   },
   // Dances with Smurfs (S13E13)
   194: {
@@ -431,6 +468,7 @@ export const explanations = {
       { label: 'The Guardian: Glenn Beck, prophet of Fox News', url: 'https://www.theguardian.com/commentisfree/2009/sep/16/hadley-freeman-glenn-beck' },
       { label: 'Wikipedia: Avatar (2009 film)', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
     ],
+    parodyOf: ["Glenn Beck", "Avatar (2009 film)", "Dances with Wolves (1990 film)"],
   },
   // Sexual Healing (S14E1)
   196: {
@@ -448,6 +486,7 @@ export const explanations = {
     summary:
       "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy[1], including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.",
     sources: [{ label: 'Wikipedia: The Catcher in the Rye', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' }],
+    parodyOf: ["The Catcher in the Rye (J.D. Salinger novel)"],
   },
   // Medicinal Fried Chicken (S14E3)
   198: {
@@ -463,6 +502,7 @@ export const explanations = {
       { label: 'Wikipedia: Scarface (1983 film)', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' },
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/10407559' },
     ],
+    parodyOf: ["Scarface (1983 film)"],
   },
   // You Have 0 Friends (S14E4)
   199: {
@@ -471,6 +511,7 @@ export const explanations = {
     sources: [
       { label: 'Forbes: are all Facebook friends created equal?', url: 'https://www.forbes.com/sites/danschawbel/2011/11/28/are-all-facebook-friends-created-equal/' },
     ],
+    parodyOf: ["Tron (film franchise)"],
   },
   // 200 (S14E5)
   200: {
@@ -498,6 +539,7 @@ export const explanations = {
     summary:
       "The boys stage an Intervention-style rescue mission for Towelie's spiraling drug addiction while, in a parallel plot at a summer camp for disabled kids, a scheming bully's sabotage attempts keep backfiring on him instead. It's a direct, format-accurate parody of A&E's Intervention[1] - down to the black title cards and tearful confrontation - closing with a joke that compares Towelie's fictional rehab to the real 'Restore Stephen Baldwin' fundraising campaign for the actor's own history of addiction.",
     sources: [{ label: 'Wikipedia: Intervention (TV series)', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
+    parodyOf: ["Intervention (A&E series)"],
   },
   // Insheeption (S14E10)
   205: {
@@ -508,6 +550,7 @@ export const explanations = {
       { label: 'Wikipedia: Hoarders (TV series)', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
       { label: 'Wikipedia: Hoarding: Buried Alive', url: 'https://en.wikipedia.org/wiki/Hoarding:_Buried_Alive' },
     ],
+    parodyOf: ["Inception (2010 film)", "Hoarders / Hoarding: Buried Alive (TV series)"],
   },
   // HUMANCENTiPAD (S15E1)
   210: {
@@ -517,6 +560,7 @@ export const explanations = {
       { label: 'Business Insider: Apple terms and conditions', url: 'https://www.businessinsider.com/apple-terms-and-conditions' },
       { label: 'The Human Centipede (IMDb)', url: 'https://www.imdb.com/title/tt1467304/' },
     ],
+    parodyOf: ["The Human Centipede (2009 film)"],
   },
   // Royal Pudding (S15E3)
   212: {
@@ -544,6 +588,7 @@ export const explanations = {
       { label: 'IMDb: Border Wars episode guide', url: 'https://www.imdb.com/title/tt1569544/episodes/' },
       { label: 'UNODC: migrant smuggling', url: 'https://www.unodc.org/toc/en/crimes/migrant-smuggling.html' },
     ],
+    parodyOf: ["The Last of the Mohicans (1992 film)", "Border Wars (National Geographic series)"],
   },
   // Bass to Mouth (S15E10)
   219: {
@@ -571,6 +616,7 @@ export const explanations = {
       },
       { label: 'Wikipedia: Thor (2011 film)', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
     ],
+    parodyOf: ["Ancient Aliens (History Channel series)", "Thor (2011 film)"],
   },
   // Cash For Gold (S16E2)
   225: {
@@ -593,6 +639,7 @@ export const explanations = {
       { label: 'Wikipedia: Bully (2011 film)', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
       { label: 'Wikipedia: Jason Russell - brief psychosis incident', url: 'https://en.wikipedia.org/wiki/Jason_Russell#Brief_psychosis_incident' },
     ],
+    parodyOf: ["Bully (2011 documentary)", "Jason Russell (Kony 2012, persona parody)"],
   },
   // Raising the Bar (S16E9)
   232: {
@@ -605,6 +652,7 @@ export const explanations = {
       },
       { label: "Deepsea Challenge: James Cameron's Mariana Trench expedition", url: 'https://deepseachallenge.com/' },
     ],
+    parodyOf: ["Here Comes Honey Boo Boo (TLC series)", "James Cameron (persona parody)"],
   },
   // A Nightmare on Face Time (S16E12)
   235: {
@@ -614,6 +662,7 @@ export const explanations = {
       { label: 'Wikipedia: The Shining (film)', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' },
       { label: 'BBC News: Blockbuster to close remaining outlets', url: 'https://www.bbc.co.uk/news/business-11397020' },
     ],
+    parodyOf: ["The Shining (1980 film)"],
   },
   // A Scause For Applause (S16E13)
   236: {
@@ -638,6 +687,7 @@ export const explanations = {
       { label: 'Obama Foundation: The Administration (2012-2017)', url: 'https://www.obama.org/about/administration/2012-2017/' },
       { label: 'The New York Times: Disney Buying Lucasfilm for $4 Billion', url: 'https://archive.nytimes.com/mediadecoder.blogs.nytimes.com/2012/10/30/disney-buying-lucas-films-for-4-billion/' },
     ],
+    parodyOf: ["Star Wars (Lucasfilm/Disney franchise)"],
   },
   // Let Go, Let Gov (S17E1)
   238: {
@@ -671,6 +721,7 @@ export const explanations = {
       { label: 'Wikipedia: World War Z (film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' },
       { label: 'Wikipedia: Stand-your-ground law', url: 'https://en.wikipedia.org/wiki/Stand-your-ground_law' },
     ],
+    parodyOf: ["World War Z (2013 film)"],
   },
   // Taming Strange (S17E5)
   242: {
@@ -687,24 +738,28 @@ export const explanations = {
         url: 'https://www.theguardian.com/technology/2013/nov/03/obamacare-website-barack-obama-healthcare-computer-meltdown',
       },
     ],
+    parodyOf: ["Miley Cyrus's 2013 VMA performance"],
   },
   // Black Friday (S17E7)
   244: {
     summary:
       "The kids' friendships fracture over which new game console to buy, splitting the town into Thrones-style warring camps[1], while adults literally go to war over Black Friday doorbusters. It's a direct parody of the Xbox One vs. PS4 launch rivalry[2][3] and the real chaos around Black Friday shopping stampedes.",
     sources: CONSOLE_WAR_SOURCES_GOT_FIRST,
+    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
   },
   // A Song of Ass and Fire (S17E8)
   245: {
     summary:
       "The console-war standoff continues as a sprawling Game of Thrones-style fantasy parody, with the kids' console loyalties turned into warring kingdoms. It keeps skewering the Xbox One/PS4 launch rivalry[1][2] while spoofing Game of Thrones[3], then near its cultural peak.",
     sources: CONSOLE_WAR_SOURCES,
+    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
   },
   // Titties and Dragons (S17E9)
   246: {
     summary:
       "The Game-of-Thrones-style console war saga wraps up[1]. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle[2][3], wrapped in Thrones-style fantasy-political parody.",
     sources: CONSOLE_WAR_SOURCES_GOT_FIRST,
+    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
   },
   // The Hobbit (S17E10)
   247: {
@@ -775,6 +830,7 @@ export const explanations = {
       { label: 'Family Guy: The Quest for Stuff (Fandom wiki)', url: 'https://family-guy-the-quest-for-stuff.fandom.com/wiki/Family_Guy:_The_Quest_for_Stuff' },
       { label: 'University of Iowa: pathological gambling runs in families', url: 'https://now.uiowa.edu/news/2014/06/pathological-gambling-runs-families' },
     ],
+    parodyOf: ["The Simpsons: Tapped Out (mobile game)", "Family Guy: The Quest for Stuff (mobile game)"],
   },
   // Grounded Vindaloop (S18E7)
   254: {
@@ -784,12 +840,14 @@ export const explanations = {
       { label: 'Wired: hands-on with the Oculus Rift', url: 'https://www.wired.com/2014/05/oculus-rift-4/' },
       { label: 'Talkdesk: a guide to call center agent feedback loops', url: 'https://www.talkdesk.com/blog/guide-to-call-center-agent-feedback-loops/' },
     ],
+    parodyOf: ["Oculus Rift (VR headset)"],
   },
   // #REHASH (S18E9)
   256: {
     summary:
       "Ike ditches the video games Kyle bought to bond with him in favor of watching PewDiePie's Let's Play commentary, and Cartman - noticing how much traction reaction videos get - starts filming his own commentary on his classmates. It's a direct engagement with the mid-2010s explosion of Let's Play and reaction-video YouTube celebrities like PewDiePie, who voices himself in the episode[1], and a broader jab at how much online attention had shifted to watching other people react to things rather than the things themselves - fittingly, the title itself mocks the empty churn of trending hashtags that dominate news cycles without carrying much actual substance.",
     sources: [{ label: 'PewDiePie in South Park "#REHASH" (YouTube)', url: 'https://www.youtube.com/watch?v=h4XifO5eWIo' }],
+    parodyOf: ["PewDiePie (YouTube personality)"],
   },
   // Stunning and Brave (S19E1)
   258: {
@@ -803,6 +861,7 @@ export const explanations = {
       { label: 'Vanity Fair: Caitlyn Jenner cover story (June 2015)', url: 'https://www.vanityfair.com/hollywood/2015/06/caitlyn-jenner-bruce-cover-annie-leibovitz' },
       { label: 'Vanity Fair: Call Me Caitlyn (documentary video)', url: 'https://www.vanityfair.com/video/watch/call-me-caitlyn-documentary' },
     ],
+    parodyOf: ["Tom Brady (Deflategate)"],
   },
   // Where My Country Gone? (S19E2)
   259: {
@@ -819,6 +878,7 @@ export const explanations = {
       },
       { label: 'Trump pledges to build a wall (YouTube)', url: 'https://www.youtube.com/watch?v=cBW8mTHDgvk' },
     ],
+    parodyOf: ["Donald Trump (persona parody)"],
   },
   // The City Part of Town (S19E3)
   260: {
@@ -968,6 +1028,7 @@ export const explanations = {
         url: 'https://www.splcenter.org/resources/hatewatch/flags-and-other-symbols-used-far-right-groups-charlottesville/',
       },
     ],
+    parodyOf: ["Fixer Upper (HGTV series)"],
   },
   // Put It Down (S21E2)
   279: {
@@ -1056,6 +1117,7 @@ export const explanations = {
     sources: [
       { label: 'The New York Times: who are the angriest Republicans?', url: 'https://www.nytimes.com/2016/03/30/opinion/campaign-stops/who-are-the-angriest-republicans.html' },
     ],
+    parodyOf: ["Stranger Things (Netflix series)", "It (Stephen King novel/film)"],
   },
   // Dead Kids (S22E1)
   288: {
@@ -1089,6 +1151,7 @@ export const explanations = {
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-45774174' },
       { label: 'Axios: Brett Kavanaugh timeline', url: 'https://www.axios.com/2018/10/02/brett-kavanaugh-timeline-allegations-vote' },
     ],
+    parodyOf: ["The Problem with Apu (2017 documentary)", "Roseanne Barr (2018 Twitter scandal)"],
   },
   // Tegridy Farms (S22E4)
   291: {
@@ -1123,6 +1186,7 @@ export const explanations = {
   293: {
     summary:
       "Twelve years after ManBearPig was laughed out of town, the creature turns out to have been real all along - and is now devastating South Park while Al Gore, still trying to warn everyone, becomes the only person who's actually been right the whole time. It's South Park doing something it rarely does: explicitly retracting its own earlier punchline, reframing the 2006 original as satirizing the messenger's grandiosity rather than the message itself.",
+    parodyOf: ["Al Gore (An Inconvenient Truth)"],
   },
   // Nobody Got Cereal? (S22E7)
   294: {
@@ -1131,6 +1195,7 @@ export const explanations = {
     sources: [
       { label: 'Salon: South Park, climate change, and ManBearPig', url: 'https://www.salon.com/2018/11/15/south-park-climate-change-manbearpig/' },
     ],
+    parodyOf: ["Al Gore (An Inconvenient Truth)"],
   },
   // Unfulfilled (S22E9)
   296: {
@@ -1166,6 +1231,7 @@ export const explanations = {
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
       { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
     ],
+    parodyOf: ["Joker (2019 film)"],
   },
   // Band in China (S23E2)
   299: {
@@ -1210,6 +1276,7 @@ export const explanations = {
         url: 'https://www.bigissue.com/news/environment/farmers-are-fighting-back-against-the-fake-meat-supermarket-invasion/',
       },
     ],
+    parodyOf: ["Dr. Seuss (rhyming verse style)"],
   },
   // Season Finale (S23E6)
   303: {
@@ -1220,6 +1287,7 @@ export const explanations = {
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
       { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
     ],
+    parodyOf: ["Joker (2019 film)"],
   },
   // Board Girls (S23E7)
   304: {
@@ -1241,6 +1309,7 @@ export const explanations = {
         url: 'https://www.health.harvard.edu/blog/stool-transplants-are-now-standard-of-care-for-recurrent-c-difficile-infections-2019050916576',
       },
     ],
+    parodyOf: ["Dune (1965 novel) / Dune (1984 film)"],
   },
   // Basic Cable (S23E9)
   306: {
@@ -1259,6 +1328,7 @@ export const explanations = {
       { label: 'Wikipedia: The Mandalorian', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' },
       { label: 'Variety: South Park to stream exclusively on HBO Max', url: 'https://variety.com/2019/tv/news/south-park-stream-exclusively-hbo-max-1203387212/' },
     ],
+    parodyOf: ["The Mandalorian (Disney+ series)"],
   },
   // The Pandemic Special (S24E1)
   308: {
@@ -1289,6 +1359,7 @@ export const explanations = {
         url: 'https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine',
       },
     ],
+    parodyOf: ["WarGames (1983 film)", "Red Dawn (1984 film)", "Rocky IV (1985 film)"],
   },
   // Margaritaville (S13E3)
   184: {
@@ -1298,6 +1369,7 @@ export const explanations = {
       { label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' },
       { label: 'Wikipedia: Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' },
     ],
+    parodyOf: ["The Last Supper (biblical scene)"],
   },
   // Handicar (S18E4)
   251: {
@@ -1326,6 +1398,7 @@ export const explanations = {
       { label: 'The Guardian: Charlie Brooker on Jersey Shore', url: 'https://www.theguardian.com/tv-and-radio/2010/mar/20/charlie-brooker-jersey-shore' },
       { label: 'Vice: the Jersey Shore scene that made Snooki a star', url: 'https://www.vice.com/en/article/17-years-ago-one-shocking-jersey-shore-scene-turned-snooki-into-a-reality-tv-star-overnight/' },
     ],
+    parodyOf: ["Jersey Shore (MTV series)", "The Real Housewives of New Jersey (Bravo series)"],
   },
   // Member Berries (S20E1)
   268: {
@@ -1334,5 +1407,6 @@ export const explanations = {
     sources: [
       { label: 'CNN: 2016 Election Results (President)', url: 'https://edition.cnn.com/election/2016/results/president' },
     ],
+    parodyOf: ["Star Wars (Chewbacca nostalgia callback)"],
   },
 }

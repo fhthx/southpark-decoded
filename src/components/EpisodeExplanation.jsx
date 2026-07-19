@@ -28,8 +28,9 @@ function renderSummary(summary, episodeId) {
 
 export default function EpisodeExplanation({ episodeId }) {
   const explanation = getExplanation(episodeId);
+  const parodyOf = explanation?.parodyOf ?? [];
 
-  if (!explanation) {
+  if (!explanation?.summary && parodyOf.length === 0) {
     return (
       <div className="space-y-2">
         <p className="font-medium text-foreground">
@@ -42,20 +43,33 @@ export default function EpisodeExplanation({ episodeId }) {
     );
   }
 
-  const sources = explanation.sources ?? [];
+  const sources = explanation?.sources ?? [];
   // Long summaries can use a blank line to break into paragraphs.
-  const paragraphs = explanation.summary.split(/\n\n+/);
+  const paragraphs = explanation?.summary ? explanation.summary.split(/\n\n+/) : [];
 
   return (
     <>
-      <div className="space-y-2">
-        <p className="font-medium text-foreground">Decoded</p>
-        {paragraphs.map((paragraph, i) => (
-          <p key={i} className="text-sm leading-relaxed">
-            {renderSummary(paragraph, episodeId)}
-          </p>
-        ))}
-      </div>
+      {paragraphs.length > 0 && (
+        <div className="space-y-2">
+          <p className="font-medium text-foreground">Decoded</p>
+          {paragraphs.map((paragraph, i) => (
+            <p key={i} className="text-sm leading-relaxed">
+              {renderSummary(paragraph, episodeId)}
+            </p>
+          ))}
+        </div>
+      )}
+
+      {parodyOf.length > 0 && (
+        <div className="space-y-1">
+          <p className="font-medium text-foreground">Parodies</p>
+          <ul className="list-disc space-y-0.5 pl-4 text-sm leading-relaxed text-muted-foreground">
+            {parodyOf.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {sources.length > 0 && (
         <div className="space-y-2">

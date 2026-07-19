@@ -7,7 +7,10 @@ import { cn } from '@/lib/utils'
 
 export default function EpisodeRow({ episode, ref, ...rest }) {
   const navigate = useNavigate()
-  const hasExplanation = Boolean(getExplanation(episode.id))
+  const explanation = getExplanation(episode.id)
+  const hasExplanation = Boolean(explanation)
+  const hasDecoded = Boolean(explanation?.summary)
+  const hasParody = Boolean(explanation?.parodyOf?.length)
 
   return (
     <TableRow
@@ -39,6 +42,16 @@ export default function EpisodeRow({ episode, ref, ...rest }) {
           <Badge className="h-4 bg-character-secondary px-1.5 text-[10px] text-character-secondary-foreground">
             {formatAirDate(episode.air_date)}
           </Badge>
+          {hasDecoded && (
+            <Badge className="h-4 bg-blue-600 px-1.5 text-[10px] text-white dark:bg-blue-500">
+              Decoded
+            </Badge>
+          )}
+          {hasParody && (
+            <Badge className="h-4 bg-amber-600 px-1.5 text-[10px] text-white dark:bg-amber-500">
+              Parody
+            </Badge>
+          )}
         </div>
         <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">{episode.description}</p>
       </TableCell>
