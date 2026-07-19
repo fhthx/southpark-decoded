@@ -7,7 +7,7 @@ import { getExplanation } from '@/lib/get-explanation'
 
 export default function EpisodeListPage() {
   const episodes = useLoaderData()
-  const { search, season, decodedOnly } = useOutletContext()
+  const { search, season, decodedOnly, parodiedOnly } = useOutletContext()
   const containerRef = useRef(null)
   const [scrollMargin, setScrollMargin] = useState(0)
 
@@ -24,9 +24,10 @@ export default function EpisodeListPage() {
         return false
       }
       if (decodedOnly && !getExplanation(episode.id)) return false
+      if (parodiedOnly && !getExplanation(episode.id)?.parodyOf?.length) return false
       return true
     })
-  }, [episodes, search, season, decodedOnly])
+  }, [episodes, search, season, decodedOnly, parodiedOnly])
 
   const rowVirtualizer = useWindowVirtualizer({
     count: filteredEpisodes.length,

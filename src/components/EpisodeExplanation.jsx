@@ -65,7 +65,17 @@ export default function EpisodeExplanation({ episodeId }) {
           <p className="font-medium text-foreground">Parodies</p>
           <ul className="list-disc space-y-0.5 pl-4 text-sm leading-relaxed text-muted-foreground">
             {parodyOf.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item.name}>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 text-blue-600 dark:text-blue-400"
+                >
+                  {item.name}
+                  <ExternalLink className="size-3 shrink-0" />
+                </a>
+              </li>
             ))}
           </ul>
         </div>

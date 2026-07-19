@@ -11,6 +11,7 @@ export default function AppLayout() {
   const [search, setSearch] = useState('')
   const [season, setSeason] = useState('all')
   const [decodedOnly, setDecodedOnly] = useState(false)
+  const [parodiedOnly, setParodiedOnly] = useState(false)
 
   const isKenny = character === 'kenny'
 
@@ -58,12 +59,14 @@ export default function AppLayout() {
               onSeasonChange={setSeason}
               decodedOnly={decodedOnly}
               onDecodedOnlyChange={setDecodedOnly}
+              parodiedOnly={parodiedOnly}
+              onParodiedOnlyChange={setParodiedOnly}
             />
           )}
         </div>
       </header>
 
-      <Outlet context={{ search, season, decodedOnly }} />
+      <Outlet context={{ search, season, decodedOnly, parodiedOnly }} />
     </div>
   )
 }

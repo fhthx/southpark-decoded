@@ -19,10 +19,7 @@ const CONSOLE_WAR_SOURCE_FORBES = {
   label: 'Forbes: Xbox One vs PS4 - The Console Wars Are Just Getting Started',
   url: 'https://www.forbes.com/sites/erikkain/2013/11/16/xbox-one-vs-ps4-the-console-wars-are-just-getting-started/',
 }
-const CONSOLE_WAR_SOURCE_GOT = { label: 'Wikipedia: A Song of Ice and Fire', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }
-
-const CONSOLE_WAR_SOURCES = [CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES, CONSOLE_WAR_SOURCE_GOT]
-const CONSOLE_WAR_SOURCES_GOT_FIRST = [CONSOLE_WAR_SOURCE_GOT, CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES]
+const CONSOLE_WAR_SOURCES = [CONSOLE_WAR_SOURCE_GUARDIAN, CONSOLE_WAR_SOURCE_FORBES]
 
 // Shared by the S19 season-finale advertising arc (Sponsored Content, Truth
 // and Advertising, PC Principal Final Justice) - same real-world sources
@@ -49,7 +46,7 @@ export const explanations = {
       { label: 'Time: Beware of the Poke-Mania!', url: 'https://time.com/archive/6737018/beware-of-the-poke-mania/' },
       { label: 'The New York Times: Pokemon Mania Takes on Criminal Proportions', url: 'https://www.nytimes.com/1999/12/04/nyregion/pokemon-mania-takes-on-criminal-proportions.html' },
     ],
-    parodyOf: ["Pok\u00e9mon"],
+    parodyOf: [{ name: 'Pokémon', url: 'https://en.wikipedia.org/wiki/Pok%C3%A9mon' }],
   },
   // Are You There God? It's Me, Jesus (S3E17)
   47: {
@@ -59,7 +56,7 @@ export const explanations = {
       { label: 'Wikipedia: Year 2000 problem', url: 'https://en.wikipedia.org/wiki/Year_2000_problem' },
       { label: 'The New York Times: Fear of the Year 2000 Bug Is a Problem, Too', url: 'https://www.nytimes.com/1999/02/09/business/fear-of-the-year-2000-bug-is-a-problem-too.html' },
     ],
-    parodyOf: ["Are You There God? It's Me, Margaret (Judy Blume novel)"],
+    parodyOf: [{ name: "Are You There God? It's Me, Margaret (Judy Blume novel)", url: 'https://en.wikipedia.org/wiki/Are_You_There_God%3F_It%27s_Me,_Margaret.' }],
   },
   // Timmy 2000 (S4E3)
   51: {
@@ -96,7 +93,7 @@ export const explanations = {
       { label: 'The Wall Street Journal: Subway\'s Jared Fogle ad campaign', url: 'https://www.wsj.com/articles/SB106141954065633000' },
       { label: 'Subway "Jared" commercial (YouTube)', url: 'https://www.youtube.com/watch?v=w2TR8QssCbA' },
     ],
-    parodyOf: ["Subway \"Jared\" ad campaign"],
+    parodyOf: [{ name: 'Subway "Jared" ad campaign', url: 'https://en.wikipedia.org/wiki/Jared_Fogle' }],
   },
   // Red Hot Catholic Love (S6E8)
   87: {
@@ -111,12 +108,8 @@ export const explanations = {
   // The Biggest Douche in the Universe (S6E15)
   94: {
     summary:
-      "Cartman channels the spirit of a TV psychic who claims to talk to dead relatives. It's a direct takedown of real 'medium' John Edward[1] and shows like Crossing Over[2], accused of cold-reading grieving audiences for ratings rather than genuinely communicating with the dead.",
-    sources: [
-      { label: 'Wikipedia: John Edward', url: 'https://en.wikipedia.org/wiki/John_Edward' },
-      { label: 'Crossing Over with John Edward (IMDb)', url: 'https://www.imdb.com/title/tt0292776/' },
-    ],
-    parodyOf: ["John Edward / Crossing Over (TV series)"],
+      "Cartman channels the spirit of a TV psychic who claims to talk to dead relatives. It's a direct takedown of real 'medium' John Edward and shows like Crossing Over, accused of cold-reading grieving audiences for ratings rather than genuinely communicating with the dead.",
+    parodyOf: [{ name: 'John Edward / Crossing Over (TV series)', url: 'https://en.wikipedia.org/wiki/John_Edward' }],
   },
   // My Future Self n' Me (S6E16)
   95: {
@@ -177,13 +170,12 @@ export const explanations = {
   // The Passion of the Jew (S8E3)
   114: {
     summary:
-      "Cartman becomes obsessed with a gruesome new religious film and starts a Mel Gibson fan club. This is a direct response to Mel Gibson's 2004 film The Passion of the Christ[1], both its extreme violence[2] and the controversy over whether it played into antisemitic stereotypes[3].",
+      "Cartman becomes obsessed with a gruesome new religious film and starts a Mel Gibson fan club. This is a direct response to Mel Gibson's 2004 film The Passion of the Christ, both its extreme violence[1] and the controversy over whether it played into antisemitic stereotypes[2].",
     sources: [
-      { label: 'The Passion of the Christ (IMDb)', url: 'https://www.imdb.com/title/tt0335345/' },
       { label: 'The Guardian: Mel Gibson and The Passion of the Christ', url: 'https://www.theguardian.com/film/2005/mar/16/news.melgibson' },
       { label: 'ADL: The Passion relies on theme of antisemitism', url: 'https://www.adl.org/resources/news/passion-relies-theme-anti-semitism' },
     ],
-    parodyOf: ["The Passion of the Christ (2004 film)"],
+    parodyOf: [{ name: 'The Passion of the Christ (2004 film)', url: 'https://en.wikipedia.org/wiki/The_Passion_of_the_Christ' }],
   },
   // Goobacks (S8E7)
   118: {
@@ -213,17 +205,14 @@ export const explanations = {
       { label: 'Forbes: Walmart coverage', url: 'https://www.forbes.com/?swb_redirect=true' },
       { label: 'PBS Frontline: Is Walmart Good for America?', url: 'https://www.pbs.org/video/frontline-wal-mart-good-america/' },
     ],
-    parodyOf: ["Something Wicked This Way Comes (Ray Bradbury novel / 1983 film)"],
+    parodyOf: [{ name: 'Something Wicked This Way Comes (Ray Bradbury novel / 1983 film)', url: 'https://en.wikipedia.org/wiki/Something_Wicked_This_Way_Comes_(novel)' }],
   },
   // Stupid Spoiled Whore Video Playset (S8E12)
   123: {
     summary:
-      "Girls in South Park become obsessed with a vapid, famous-for-being-famous heiress and get a toy playset that rewards acting just like her. It's a direct parody of Paris Hilton[1] and the mid-2000s tabloid/reality-TV machine that made fame itself the product - fueled in part by the leaked 1 Night in Paris sex tape with Rick Salomon that had made her a household name just before this aired[2].",
-    sources: [
-      { label: 'IMDb: Paris Hilton', url: 'https://www.imdb.com/title/tt0362153/' },
-      { label: 'Wikipedia: 1 Night in Paris', url: 'https://en.wikipedia.org/wiki/1_Night_in_Paris' },
-    ],
-    parodyOf: ["Paris Hilton"],
+      "Girls in South Park become obsessed with a vapid, famous-for-being-famous heiress and get a toy playset that rewards acting just like her. It's a direct parody of Paris Hilton and the mid-2000s tabloid/reality-TV machine that made fame itself the product - fueled in part by the leaked 1 Night in Paris sex tape with Rick Salomon that had made her a household name just before this aired[1].",
+    sources: [{ label: 'Wikipedia: 1 Night in Paris', url: 'https://en.wikipedia.org/wiki/1_Night_in_Paris' }],
+    parodyOf: [{ name: 'Paris Hilton', url: 'https://en.wikipedia.org/wiki/Paris_Hilton' }],
   },
   // Mr. Garrison's Fancy New Vagina (S9E1)
   126: {
@@ -247,11 +236,8 @@ export const explanations = {
   // Two Days Before the Day After Tomorrow (S9E8)
   133: {
     summary:
-      "A dam breaks and the ensuing disaster gets treated like a preview of climate catastrophe, complete with a Al Gore-style scientist explaining the science badly. It's a parody of disaster films like The Day After Tomorrow[1] and the sometimes-overheated way climate change was dramatized in pop culture.",
-    sources: [
-      { label: 'Wikipedia: The Day After Tomorrow', url: 'https://en.wikipedia.org/wiki/The_Day_After_Tomorrow' },
-    ],
-    parodyOf: ["The Day After Tomorrow (2004 film)"],
+      "A dam breaks and the ensuing disaster gets treated like a preview of climate catastrophe, complete with a Al Gore-style scientist explaining the science badly. It's a parody of disaster films like The Day After Tomorrow and the sometimes-overheated way climate change was dramatized in pop culture.",
+    parodyOf: [{ name: 'The Day After Tomorrow (2004 film)', url: 'https://en.wikipedia.org/wiki/The_Day_After_Tomorrow' }],
   },
   // Trapped in the Closet (S9E12)
   137: {
@@ -264,7 +250,10 @@ export const explanations = {
       { label: 'LA Times: Isaac Hayes leaves South Park', url: 'https://www.latimes.com/archives/la-xpm-2006-mar-18-et-channel18-story.html' },
       { label: 'The Guardian: Isaac Hayes and South Park', url: 'https://www.theguardian.com/world/2006/mar/14/media.arts' },
     ],
-    parodyOf: ["R. Kelly - Trapped in the Closet (hip-hopera)", "Tom Cruise and John Travolta (Scientology advocacy)"],
+    parodyOf: [
+      { name: 'R. Kelly - Trapped in the Closet (hip-hopera)', url: 'https://en.wikipedia.org/wiki/Trapped_in_the_Closet' },
+      { name: 'Tom Cruise and John Travolta (Scientology advocacy)', url: 'https://en.wikipedia.org/wiki/Tom_Cruise' },
+    ],
   },
   // Smug Alert! (S10E2)
   141: {
@@ -284,7 +273,7 @@ export const explanations = {
       { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
       { label: 'The Guardian: South Park censored over Muhammad fatwa fears', url: 'https://www.theguardian.com/tv-and-radio/2010/apr/22/south-park-censored-fatwa-muhammad' },
     ],
-    parodyOf: ["Family Guy"],
+    parodyOf: [{ name: 'Family Guy', url: 'https://en.wikipedia.org/wiki/Family_Guy' }],
   },
   // Cartoon Wars Part II (S10E4)
   143: {
@@ -295,17 +284,14 @@ export const explanations = {
       { label: 'Wikipedia: Jyllands-Posten Muhammad cartoons controversy', url: 'https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy' },
       { label: 'The Guardian: Danish cartoonist axe attack', url: 'https://www.theguardian.com/world/2010/jan/04/danish-cartoonist-axe-attack' },
     ],
-    parodyOf: ["Family Guy"],
+    parodyOf: [{ name: 'Family Guy', url: 'https://en.wikipedia.org/wiki/Family_Guy' }],
   },
   // ManBearPig (S10E6)
   145: {
     summary:
-      "A washed-up celebrity turns up warning everyone about a creature called ManBearPig[1] that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth[2] - the joke here lands on Gore's perceived grandiosity and crying-wolf theatrics, not on the underlying science. Twelve years later, South Park would explicitly walk this back in Time to Get Cereal and Nobody Got Cereal?, in which ManBearPig turns out to have been real all along.",
-    sources: [
-      { label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' },
-      { label: 'TED: Al Gore, averting the climate crisis', url: 'https://www.ted.com/talks/al_gore_averting_the_climate_crisis' },
-    ],
-    parodyOf: ["Al Gore (An Inconvenient Truth)"],
+      "A washed-up celebrity turns up warning everyone about a creature called ManBearPig[1] that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth - the joke here lands on Gore's perceived grandiosity and crying-wolf theatrics, not on the underlying science. Twelve years later, South Park would explicitly walk this back in Time to Get Cereal and Nobody Got Cereal?, in which ManBearPig turns out to have been real all along.",
+    sources: [{ label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' }],
+    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Mystery of the Urinal Deuce (S10E9)
   148: {
@@ -324,7 +310,7 @@ export const explanations = {
       { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
       { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
     ],
-    parodyOf: ["Richard Dawkins"],
+    parodyOf: [{ name: 'Richard Dawkins', url: 'https://en.wikipedia.org/wiki/Richard_Dawkins' }],
   },
   // Go God Go XII (S10E13)
   152: {
@@ -334,7 +320,7 @@ export const explanations = {
       { label: '"Go God Go" clip (YouTube)', url: 'https://www.youtube.com/watch?v=yQUN_6XKKVs&t=194s' },
       { label: 'The Guardian: evolution and schools', url: 'https://www.theguardian.com/education/2006/nov/27/schools.religion' },
     ],
-    parodyOf: ["Richard Dawkins"],
+    parodyOf: [{ name: 'Richard Dawkins', url: 'https://en.wikipedia.org/wiki/Richard_Dawkins' }],
   },
   // Night of the Living Homeless (S11E7)
   160: {
@@ -343,7 +329,7 @@ export const explanations = {
     sources: [
       { label: 'Petite Adventure Films: Night of the Living Homeless', url: 'https://www.petiteadventurefilms.com/media/5266/' },
     ],
-    parodyOf: ['Night of the Living Dead (zombie films)'],
+    parodyOf: [{ name: 'Night of the Living Dead (zombie films)', url: 'https://en.wikipedia.org/wiki/Night_of_the_Living_Dead' }],
   },
   // Tonsil Trouble (S12E1)
   168: {
@@ -371,7 +357,7 @@ export const explanations = {
       { label: 'Fox News: drug made from human waste causing stink on web, in law enforcement', url: 'https://www.foxnews.com/story/drug-made-from-human-waste-causing-stink-on-web-in-law-enforcement' },
       { label: 'ABC News: Jenkem drug scare', url: 'https://abcnews.com/Health/Drugs/story?id=3834092&page=1' },
     ],
-    parodyOf: ["Heavy Metal (1981 animated film)"],
+    parodyOf: [{ name: 'Heavy Metal (1981 animated film)', url: 'https://en.wikipedia.org/wiki/Heavy_Metal_(film)' }],
   },
   // Canada on Strike (S12E4)
   171: {
@@ -390,7 +376,7 @@ export const explanations = {
       { label: 'The Guardian: Barack Obama, Hillary Clinton', url: 'https://www.theguardian.com/world/2008/jun/04/barackobama.hillaryclinton' },
       { label: 'New York Times: New York crowds celebrate Obama', url: 'https://archive.nytimes.com/cityroom.blogs.nytimes.com/2008/11/04/new-york-crowds-celebrate-obama/' },
     ],
-    parodyOf: ["Ocean's Eleven (2001 film)"],
+    parodyOf: [{ name: "Ocean's Eleven (2001 film)", url: 'https://en.wikipedia.org/wiki/Ocean%27s_Eleven' }],
   },
   // The Ungroundable (S12E14)
   181: {
@@ -400,17 +386,16 @@ export const explanations = {
       { label: 'New York Times: Are you a Twilight convert?', url: 'https://archive.nytimes.com/artsbeat.blogs.nytimes.com/2009/11/19/are-you-a-twilight-convert/' },
       { label: 'The Telegraph: Robert Pattinson describes spreading Twilight craze as a virus', url: 'https://www.telegraph.co.uk/news/uknews/6548251/Robert-Pattinson-describes-spreading-Twilight-craze-as-a-virus.html' },
     ],
-    parodyOf: ["Twilight (film series)"],
+    parodyOf: [{ name: 'Twilight (film series)', url: 'https://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)' }],
   },
   // The Ring (S13E1)
   182: {
     summary:
-      "Kenny's new girlfriend gets swept up in a Jonas Brothers-endorsed 'purity ring' pledge, which turns out to be a scheme by their real boss - a foul-mouthed, sadistic Mickey Mouse - to market abstinence as a way of selling sexual titillation to young girls. It's a direct, unusually sharp satire of the Jonas Brothers' 2009 concert film and their band's real purity-ring campaign[1][2], reframed as a broader indictment of Disney's whole family-friendly-brand-as-marketing-machine business model.",
+      "Kenny's new girlfriend gets swept up in a Jonas Brothers-endorsed 'purity ring' pledge, which turns out to be a scheme by their real boss - a foul-mouthed, sadistic Mickey Mouse - to market abstinence as a way of selling sexual titillation to young girls. It's a direct, unusually sharp satire of the Jonas Brothers' 2009 concert film and their band's real purity-ring campaign[1], reframed as a broader indictment of Disney's whole family-friendly-brand-as-marketing-machine business model.",
     sources: [
       { label: 'TODAY: purity rings are the hot accessory in pop music', url: 'https://www.today.com/popculture/purity-rings-are-hot-accessory-pop-music-wbna26680718' },
-      { label: 'Jonas Brothers: The 3D Concert Experience - foam-hose scene (YouTube)', url: 'https://www.youtube.com/watch?v=crCmEQi8K4k' },
     ],
-    parodyOf: ["Jonas Brothers: The 3D Concert Experience (2009 film)"],
+    parodyOf: [{ name: 'Jonas Brothers: The 3D Concert Experience (2009 film)', url: 'https://en.wikipedia.org/wiki/Jonas_Brothers:_The_3D_Concert_Experience' }],
   },
   // Fishsticks (S13E5)
   186: {
@@ -433,12 +418,11 @@ export const explanations = {
   // Dead Celebrities (S13E8)
   189: {
     summary:
-      "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense[1] and the medium subplot of Poltergeist[2].",
-    sources: [
-      { label: 'Wikipedia: The Sixth Sense', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
-      { label: 'Wikipedia: Poltergeist (1982 film)', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
+      "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense and the medium subplot of Poltergeist.",
+    parodyOf: [
+      { name: 'The Sixth Sense (1999 film)', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
+      { name: 'Poltergeist (1982 film)', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
     ],
-    parodyOf: ["The Sixth Sense (1999 film)", "Poltergeist (1982 film)"],
   },
   // Butters' Bottom Bitch (S13E9)
   190: {
@@ -452,23 +436,25 @@ export const explanations = {
   // Whale Whores (S13E11)
   192: {
     summary:
-      "Stan joins an anti-whaling crew to fight back after Japanese whalers massacre dolphins and whales across South Park, and the episode saves as much scorn for the activists as for the whalers themselves. It's a pointed satire of Japanese whaling practices[1], and, more specifically, of the Animal Planet reality series Whale Wars[2] and its self-mythologizing captain Paul Watson, accused of chasing ratings and media attention as much as any real conservation outcome[3].",
+      "Stan joins an anti-whaling crew to fight back after Japanese whalers massacre dolphins and whales across South Park, and the episode saves as much scorn for the activists as for the whalers themselves. It's a pointed satire of Japanese whaling practices[1], and, more specifically, of the Animal Planet reality series Whale Wars and its self-mythologizing captain Paul Watson, accused of chasing ratings and media attention as much as any real conservation outcome[2].",
     sources: [
       { label: 'This Magazine: whaling culture war', url: 'https://this.org/2009/05/05/whaling-culture-war/' },
-      { label: 'Wikipedia: Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' },
       { label: 'CBS News: activists hurl acid at Japanese whalers', url: 'https://www.cbsnews.com/news/activists-hurl-acid-at-japanese-whalers/' },
     ],
-    parodyOf: ["Whale Wars (Animal Planet series)"],
+    parodyOf: [{ name: 'Whale Wars (Animal Planet series)', url: 'https://en.wikipedia.org/wiki/Whale_Wars' }],
   },
   // Dances with Smurfs (S13E13)
   194: {
     summary:
-      "Cartman takes over the school's morning announcements and turns them into a Glenn Beck-style program, complete with chalkboard conspiracy diagrams accusing student body president Wendy Testaburger of plotting genocide against the Smurfs. It's a close parody of Glenn Beck's on-air style and persona[1], tangled up with a pre-emptive dig at the then-unreleased James Cameron film Avatar - the episode argues its Na'vi are just Dances with Wolves crossed with ten-foot-tall blue Smurfs[2] - plus a nod to Sarah Palin's real, just-published memoir Going Rogue, which Wendy adopts as the title of her own tell-all.",
+      "Cartman takes over the school's morning announcements and turns them into a Glenn Beck-style program, complete with chalkboard conspiracy diagrams accusing student body president Wendy Testaburger of plotting genocide against the Smurfs. It's a close parody of Glenn Beck's on-air style and persona[1], tangled up with a pre-emptive dig at the then-unreleased James Cameron film Avatar - the episode argues its Na'vi are just Dances with Wolves crossed with ten-foot-tall blue Smurfs - plus a nod to Sarah Palin's real, just-published memoir Going Rogue, which Wendy adopts as the title of her own tell-all.",
     sources: [
       { label: 'The Guardian: Glenn Beck, prophet of Fox News', url: 'https://www.theguardian.com/commentisfree/2009/sep/16/hadley-freeman-glenn-beck' },
-      { label: 'Wikipedia: Avatar (2009 film)', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
     ],
-    parodyOf: ["Glenn Beck", "Avatar (2009 film)", "Dances with Wolves (1990 film)"],
+    parodyOf: [
+      { name: 'Glenn Beck', url: 'https://en.wikipedia.org/wiki/Glenn_Beck' },
+      { name: 'Avatar (2009 film)', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
+      { name: 'Dances with Wolves (1990 film)', url: 'https://en.wikipedia.org/wiki/Dances_With_Wolves' },
+    ],
   },
   // Sexual Healing (S14E1)
   196: {
@@ -484,14 +470,13 @@ export const explanations = {
   // The Tale of Scrotie McBoogerballs (S14E2)
   197: {
     summary:
-      "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy[1], including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.",
-    sources: [{ label: 'Wikipedia: The Catcher in the Rye', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' }],
-    parodyOf: ["The Catcher in the Rye (J.D. Salinger novel)"],
+      "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy, including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.",
+    parodyOf: [{ name: 'The Catcher in the Rye (J.D. Salinger novel)', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' }],
   },
   // Medicinal Fried Chicken (S14E3)
   198: {
     summary:
-      "New Colorado laws shut down every KFC in the state while medical-marijuana dispensaries boom - echoing a real Kentucky Fried Chicken location in Los Angeles that had just become a marijuana dispensary of its own[1] - so Cartman starts running an illegal fried-chicken cartel while Randy gives himself testicular cancer just to get a weed referral. Airing amid real Colorado fights over medical-marijuana access and fast-food zoning restrictions[2][3], the episode argues that legislating lifestyle choices just breeds black markets, telling Cartman's rise-and-fall as a broad Scarface parody with Colonel Sanders standing in for drug lord Alejandro Sosa[4] - while also working in a string of jokes about Pope Benedict XVI's handling of the Catholic Church's child sex-abuse scandals[5].",
+      "New Colorado laws shut down every KFC in the state while medical-marijuana dispensaries boom - echoing a real Kentucky Fried Chicken location in Los Angeles that had just become a marijuana dispensary of its own[1] - so Cartman starts running an illegal fried-chicken cartel while Randy gives himself testicular cancer just to get a weed referral. Airing amid real Colorado fights over medical-marijuana access and fast-food zoning restrictions[2][3], the episode argues that legislating lifestyle choices just breeds black markets, telling Cartman's rise-and-fall as a broad Scarface parody with Colonel Sanders standing in for drug lord Alejandro Sosa - while also working in a string of jokes about Pope Benedict XVI's handling of the Catholic Church's child sex-abuse scandals[4].",
     sources: [
       {
         label: "Fast Company: sign of the times - abandoned KFC transformed into marijuana dispensary",
@@ -499,10 +484,9 @@ export const explanations = {
       },
       { label: 'The New York Times: fast-food zoning enforcement', url: 'https://www.nytimes.com/2009/10/18/us/18enforce.html' },
       { label: 'The New York Times: cities target fast food in poor areas', url: 'https://www.nytimes.com/2011/01/16/us/16fastfood.html' },
-      { label: 'Wikipedia: Scarface (1983 film)', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' },
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/10407559' },
     ],
-    parodyOf: ["Scarface (1983 film)"],
+    parodyOf: [{ name: 'Scarface (1983 film)', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' }],
   },
   // You Have 0 Friends (S14E4)
   199: {
@@ -511,7 +495,7 @@ export const explanations = {
     sources: [
       { label: 'Forbes: are all Facebook friends created equal?', url: 'https://www.forbes.com/sites/danschawbel/2011/11/28/are-all-facebook-friends-created-equal/' },
     ],
-    parodyOf: ["Tron (film franchise)"],
+    parodyOf: [{ name: 'Tron (film franchise)', url: 'https://en.wikipedia.org/wiki/Tron_(franchise)' }],
   },
   // 200 (S14E5)
   200: {
@@ -537,30 +521,26 @@ export const explanations = {
   // Crippled Summer (S14E7)
   202: {
     summary:
-      "The boys stage an Intervention-style rescue mission for Towelie's spiraling drug addiction while, in a parallel plot at a summer camp for disabled kids, a scheming bully's sabotage attempts keep backfiring on him instead. It's a direct, format-accurate parody of A&E's Intervention[1] - down to the black title cards and tearful confrontation - closing with a joke that compares Towelie's fictional rehab to the real 'Restore Stephen Baldwin' fundraising campaign for the actor's own history of addiction.",
-    sources: [{ label: 'Wikipedia: Intervention (TV series)', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
-    parodyOf: ["Intervention (A&E series)"],
+      "The boys stage an Intervention-style rescue mission for Towelie's spiraling drug addiction while, in a parallel plot at a summer camp for disabled kids, a scheming bully's sabotage attempts keep backfiring on him instead. It's a direct, format-accurate parody of A&E's Intervention - down to the black title cards and tearful confrontation - closing with a joke that compares Towelie's fictional rehab to the real 'Restore Stephen Baldwin' fundraising campaign for the actor's own history of addiction.",
+    parodyOf: [{ name: 'Intervention (A&E series)', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
   },
   // Insheeption (S14E10)
   205: {
     summary:
-      "Stan and Mr. Mackey are both diagnosed as compulsive hoarders, and a team of specialists sends them into Mackey's subconscious to find the trauma behind it, pulling in a second team modeled directly on the cast of Inception to rescue the rescuers. It's a dense, structurally faithful spoof of Inception's dream-within-a-dream mechanics[1], grafted onto a parody of reality shows like Hoarders and Hoarding: Buried Alive[2][3], which built entire seasons out of exactly this kind of intervention.",
-    sources: [
-      { label: 'Wikipedia: Inception', url: 'https://en.wikipedia.org/wiki/Inception' },
-      { label: 'Wikipedia: Hoarders (TV series)', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
-      { label: 'Wikipedia: Hoarding: Buried Alive', url: 'https://en.wikipedia.org/wiki/Hoarding:_Buried_Alive' },
+      "Stan and Mr. Mackey are both diagnosed as compulsive hoarders, and a team of specialists sends them into Mackey's subconscious to find the trauma behind it, pulling in a second team modeled directly on the cast of Inception to rescue the rescuers. It's a dense, structurally faithful spoof of Inception's dream-within-a-dream mechanics, grafted onto a parody of reality shows like Hoarders and Hoarding: Buried Alive, which built entire seasons out of exactly this kind of intervention.",
+    parodyOf: [
+      { name: 'Inception (2010 film)', url: 'https://en.wikipedia.org/wiki/Inception' },
+      { name: 'Hoarders / Hoarding: Buried Alive (TV series)', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
     ],
-    parodyOf: ["Inception (2010 film)", "Hoarders / Hoarding: Buried Alive (TV series)"],
   },
   // HUMANCENTiPAD (S15E1)
   210: {
     summary:
-      "Kyle skips reading Apple's iTunes terms and conditions[1] and ends up unknowingly consenting to something horrific. It's a jab at how nobody reads the fine print on tech companies' sprawling terms-of-service agreements, wrapped in a parody of the film The Human Centipede[2].",
+      "Kyle skips reading Apple's iTunes terms and conditions[1] and ends up unknowingly consenting to something horrific. It's a jab at how nobody reads the fine print on tech companies' sprawling terms-of-service agreements, wrapped in a parody of the film The Human Centipede.",
     sources: [
       { label: 'Business Insider: Apple terms and conditions', url: 'https://www.businessinsider.com/apple-terms-and-conditions' },
-      { label: 'The Human Centipede (IMDb)', url: 'https://www.imdb.com/title/tt1467304/' },
     ],
-    parodyOf: ["The Human Centipede (2009 film)"],
+    parodyOf: [{ name: 'The Human Centipede (2009 film)', url: 'https://en.wikipedia.org/wiki/The_Human_Centipede_(First_Sequence)' }],
   },
   // Royal Pudding (S15E3)
   212: {
@@ -583,12 +563,12 @@ export const explanations = {
   // The Last of the Meheecans (S15E9)
   218: {
     summary:
-      "A backyard game of 'Texans vs. Mexicans' spirals into a real immigration crisis once Cartman joins the actual US Border Patrol and Butters, mistaken for a Mexican immigrant, accidentally triggers a mass emigration back to Mexico that tanks the American economy overnight. It's a direct, deliberately absurd parody of illegal immigration debates and reality shows like Border Wars[1][2], turning the usual argument on its head by showing how dependent the US economy actually is on immigrant labor once it's gone.",
-    sources: [
-      { label: 'IMDb: Border Wars episode guide', url: 'https://www.imdb.com/title/tt1569544/episodes/' },
-      { label: 'UNODC: migrant smuggling', url: 'https://www.unodc.org/toc/en/crimes/migrant-smuggling.html' },
+      "A backyard game of 'Texans vs. Mexicans' spirals into a real immigration crisis once Cartman joins the actual US Border Patrol and Butters, mistaken for a Mexican immigrant, accidentally triggers a mass emigration back to Mexico that tanks the American economy overnight. It's a direct, deliberately absurd parody of illegal immigration debates and reality shows like Border Wars[1], turning the usual argument on its head by showing how dependent the US economy actually is on immigrant labor once it's gone.",
+    sources: [{ label: 'UNODC: migrant smuggling', url: 'https://www.unodc.org/toc/en/crimes/migrant-smuggling.html' }],
+    parodyOf: [
+      { name: 'The Last of the Mohicans (1992 film)', url: 'https://en.wikipedia.org/wiki/The_Last_of_the_Mohicans_(1992_film)' },
+      { name: 'Border Wars (National Geographic series)', url: 'https://en.wikipedia.org/wiki/Border_Wars_(TV_series)' },
     ],
-    parodyOf: ["The Last of the Mohicans (1992 film)", "Border Wars (National Geographic series)"],
   },
   // Bass to Mouth (S15E10)
   219: {
@@ -608,15 +588,17 @@ export const explanations = {
   // A History Channel Thanksgiving (S15E13)
   222: {
     summary:
-      "The boys' school report on Thanksgiving spirals into an actual alien-Pilgrim conflict after they lazily source it from a History Channel special claiming extraterrestrials attended the first Thanksgiving. It's a direct parody of Ancient Aliens[1] and the History Channel's real drift from documentary programming into pseudo-historical conspiracy content, wrapped in a broad Thor pastiche[2] complete with its own Asgard-style alien world and a very confused Natalie Portman.",
+      "The boys' school report on Thanksgiving spirals into an actual alien-Pilgrim conflict after they lazily source it from a History Channel special claiming extraterrestrials attended the first Thanksgiving. It's a direct parody of Ancient Aliens[1] and the History Channel's real drift from documentary programming into pseudo-historical conspiracy content, wrapped in a broad Thor pastiche complete with its own Asgard-style alien world and a very confused Natalie Portman.",
     sources: [
       {
         label: 'Smithsonian Magazine: the idiocy, fabrications, and lies of Ancient Aliens',
         url: 'https://www.smithsonianmag.com/science-nature/the-idiocy-fabrications-and-lies-of-ancient-aliens-86294030/',
       },
-      { label: 'Wikipedia: Thor (2011 film)', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
     ],
-    parodyOf: ["Ancient Aliens (History Channel series)", "Thor (2011 film)"],
+    parodyOf: [
+      { name: 'Ancient Aliens (History Channel series)', url: 'https://en.wikipedia.org/wiki/Ancient_Aliens' },
+      { name: 'Thor (2011 film)', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
+    ],
   },
   // Cash For Gold (S16E2)
   225: {
@@ -634,12 +616,11 @@ export const explanations = {
   // Butterballs (S16E5)
   228: {
     summary:
-      "Butters' schoolmates rally around him after spotting a black eye, not realizing his own grandmother is the one actually bullying him, while an anti-bullying counselor turns the fallout into a school-wide 'awareness' campaign that ends up glorifying Stan's own heroics more than addressing any real bullying. It's a direct, unusually blunt spoof of the 2011 documentary Bully[1] and its most visible advocate, Kony 2012 director Jason Russell[2], skewering the era's anti-bullying movement for chasing viral moments and merchandising deals over real solutions - right down to Stan's own breakdown, stripping naked and dancing in public in San Diego, just as Russell infamously did during his own real, widely covered breakdown[2].",
-    sources: [
-      { label: 'Wikipedia: Bully (2011 film)', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
-      { label: 'Wikipedia: Jason Russell - brief psychosis incident', url: 'https://en.wikipedia.org/wiki/Jason_Russell#Brief_psychosis_incident' },
+      "Butters' schoolmates rally around him after spotting a black eye, not realizing his own grandmother is the one actually bullying him, while an anti-bullying counselor turns the fallout into a school-wide 'awareness' campaign that ends up glorifying Stan's own heroics more than addressing any real bullying. It's a direct, unusually blunt spoof of the 2011 documentary Bully and its most visible advocate, Kony 2012 director Jason Russell, skewering the era's anti-bullying movement for chasing viral moments and merchandising deals over real solutions - right down to Stan's own breakdown, stripping naked and dancing in public in San Diego, just as Russell infamously did during his own real, widely covered breakdown.",
+    parodyOf: [
+      { name: 'Bully (2011 documentary)', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
+      { name: 'Jason Russell (Kony 2012, persona parody)', url: 'https://en.wikipedia.org/wiki/Jason_Russell' },
     ],
-    parodyOf: ["Bully (2011 documentary)", "Jason Russell (Kony 2012, persona parody)"],
   },
   // Raising the Bar (S16E9)
   232: {
@@ -652,17 +633,17 @@ export const explanations = {
       },
       { label: "Deepsea Challenge: James Cameron's Mariana Trench expedition", url: 'https://deepseachallenge.com/' },
     ],
-    parodyOf: ["Here Comes Honey Boo Boo (TLC series)", "James Cameron (persona parody)"],
+    parodyOf: [
+      { name: 'Here Comes Honey Boo Boo (TLC series)', url: 'https://en.wikipedia.org/wiki/Here_Comes_Honey_Boo_Boo' },
+      { name: 'James Cameron (persona parody)', url: 'https://en.wikipedia.org/wiki/James_Cameron' },
+    ],
   },
   // A Nightmare on Face Time (S16E12)
   235: {
     summary:
-      "Randy sinks the family's savings into a Blockbuster Video store just as brick-and-mortar rental is collapsing, and slowly loses his mind in a fairly faithful The Shining pastiche[1] - an eerie, empty store standing in for the Overlook Hotel. It's both a pointed eulogy for Blockbuster, whose real rental business had already been gutted by streaming and Redbox kiosks by 2012[2], and a jab at how casually FaceTime and iPads were starting to mediate real-world experiences like trick-or-treating.",
-    sources: [
-      { label: 'Wikipedia: The Shining (film)', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' },
-      { label: 'BBC News: Blockbuster to close remaining outlets', url: 'https://www.bbc.co.uk/news/business-11397020' },
-    ],
-    parodyOf: ["The Shining (1980 film)"],
+      "Randy sinks the family's savings into a Blockbuster Video store just as brick-and-mortar rental is collapsing, and slowly loses his mind in a fairly faithful The Shining pastiche - an eerie, empty store standing in for the Overlook Hotel. It's both a pointed eulogy for Blockbuster, whose real rental business had already been gutted by streaming and Redbox kiosks by 2012[1], and a jab at how casually FaceTime and iPads were starting to mediate real-world experiences like trick-or-treating.",
+    sources: [{ label: 'BBC News: Blockbuster to close remaining outlets', url: 'https://www.bbc.co.uk/news/business-11397020' }],
+    parodyOf: [{ name: 'The Shining (1980 film)', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' }],
   },
   // A Scause For Applause (S16E13)
   236: {
@@ -687,7 +668,7 @@ export const explanations = {
       { label: 'Obama Foundation: The Administration (2012-2017)', url: 'https://www.obama.org/about/administration/2012-2017/' },
       { label: 'The New York Times: Disney Buying Lucasfilm for $4 Billion', url: 'https://archive.nytimes.com/mediadecoder.blogs.nytimes.com/2012/10/30/disney-buying-lucas-films-for-4-billion/' },
     ],
-    parodyOf: ["Star Wars (Lucasfilm/Disney franchise)"],
+    parodyOf: [{ name: 'Star Wars (Lucasfilm/Disney franchise)', url: 'https://en.wikipedia.org/wiki/Star_Wars' }],
   },
   // Let Go, Let Gov (S17E1)
   238: {
@@ -715,20 +696,18 @@ export const explanations = {
   // World War Zimmerman (S17E3)
   240: {
     summary:
-      "Cartman falls asleep and dreams of a nationwide race war triggered by a controversial self-defense shooting. It's a direct response to the 2013 George Zimmerman trial over the killing of Trayvon Martin[1], and the anxious national conversation about race that followed the verdict. Cartman's nightmare doubles as a fairly direct parody of the zombie-apocalypse film World War Z[2], released just months earlier, while the shooting itself turns on the same self-defense reasoning behind Florida's real 'stand your ground' law[3].",
+      "Cartman falls asleep and dreams of a nationwide race war triggered by a controversial self-defense shooting. It's a direct response to the 2013 George Zimmerman trial over the killing of Trayvon Martin[1], and the anxious national conversation about race that followed the verdict. Cartman's nightmare doubles as a fairly direct parody of the zombie-apocalypse film World War Z, released just months earlier, while the shooting itself turns on the same self-defense reasoning behind Florida's real 'stand your ground' law[2].",
     sources: [
       { label: 'Wikipedia: Killing of Trayvon Martin', url: 'https://en.wikipedia.org/wiki/Killing_of_Trayvon_Martin' },
-      { label: 'Wikipedia: World War Z (film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' },
       { label: 'Wikipedia: Stand-your-ground law', url: 'https://en.wikipedia.org/wiki/Stand-your-ground_law' },
     ],
-    parodyOf: ["World War Z (2013 film)"],
+    parodyOf: [{ name: 'World War Z (2013 film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' }],
   },
   // Taming Strange (S17E5)
   242: {
     summary:
-      "Kyle struggles to bond with his little brother Ike, who is going through early-onset puberty, while Ike ends up managing a Yo Gabba Gabba! character through a sudden, raunchy image overhaul en route to a Video Music Awards performance - a fairly direct parody of Miley Cyrus's much-discussed twerking performance at the 2013 MTV Video Music Awards[1][2]. In a separate plot, South Park Elementary's new computer system collapses under one 'upgrade' after another, mirroring the real, well-publicized meltdown of the HealthCare.gov website at its October 2013 launch[3].",
+      "Kyle struggles to bond with his little brother Ike, who is going through early-onset puberty, while Ike ends up managing a Yo Gabba Gabba! character through a sudden, raunchy image overhaul en route to a Video Music Awards performance - a fairly direct parody of Miley Cyrus's much-discussed twerking performance at the 2013 MTV Video Music Awards[1]. In a separate plot, South Park Elementary's new computer system collapses under one 'upgrade' after another, mirroring the real, well-publicized meltdown of the HealthCare.gov website at its October 2013 launch[2].",
     sources: [
-      { label: "Miley Cyrus's 2013 VMA performance (YouTube)", url: 'https://www.youtube.com/watch?v=nGmzyS_9Kxo' },
       {
         label: 'The Guardian: Miley Cyrus and the backlash over her MTV Video Music Awards performance',
         url: 'https://www.theguardian.com/music/2013/aug/27/miley-cyrus-mtv-video-music-awards-criticism',
@@ -738,28 +717,28 @@ export const explanations = {
         url: 'https://www.theguardian.com/technology/2013/nov/03/obamacare-website-barack-obama-healthcare-computer-meltdown',
       },
     ],
-    parodyOf: ["Miley Cyrus's 2013 VMA performance"],
+    parodyOf: [{ name: "Miley Cyrus's 2013 VMA performance", url: 'https://en.wikipedia.org/wiki/2013_MTV_Video_Music_Awards' }],
   },
   // Black Friday (S17E7)
   244: {
     summary:
-      "The kids' friendships fracture over which new game console to buy, splitting the town into Thrones-style warring camps[1], while adults literally go to war over Black Friday doorbusters. It's a direct parody of the Xbox One vs. PS4 launch rivalry[2][3] and the real chaos around Black Friday shopping stampedes.",
-    sources: CONSOLE_WAR_SOURCES_GOT_FIRST,
-    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
+      "The kids' friendships fracture over which new game console to buy, splitting the town into Thrones-style warring camps, while adults literally go to war over Black Friday doorbusters. It's a direct parody of the Xbox One vs. PS4 launch rivalry[1][2] and the real chaos around Black Friday shopping stampedes.",
+    sources: CONSOLE_WAR_SOURCES,
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
   },
   // A Song of Ass and Fire (S17E8)
   245: {
     summary:
-      "The console-war standoff continues as a sprawling Game of Thrones-style fantasy parody, with the kids' console loyalties turned into warring kingdoms. It keeps skewering the Xbox One/PS4 launch rivalry[1][2] while spoofing Game of Thrones[3], then near its cultural peak.",
+      "The console-war standoff continues as a sprawling Game of Thrones-style fantasy parody, with the kids' console loyalties turned into warring kingdoms. It keeps skewering the Xbox One/PS4 launch rivalry[1][2] while spoofing Game of Thrones, then near its cultural peak.",
     sources: CONSOLE_WAR_SOURCES,
-    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
   },
   // Titties and Dragons (S17E9)
   246: {
     summary:
-      "The Game-of-Thrones-style console war saga wraps up[1]. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle[2][3], wrapped in Thrones-style fantasy-political parody.",
-    sources: CONSOLE_WAR_SOURCES_GOT_FIRST,
-    parodyOf: ["A Song of Ice and Fire / Game of Thrones"],
+      "The Game-of-Thrones-style console war saga wraps up. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle[1][2], wrapped in Thrones-style fantasy-political parody.",
+    sources: CONSOLE_WAR_SOURCES,
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
   },
   // The Hobbit (S17E10)
   247: {
@@ -815,7 +794,7 @@ export const explanations = {
   // Freemium Isn't Free (S18E6)
   253: {
     summary:
-      "Stan gets hooked on a Terrance and Phillip mobile game that nickel-and-dimes him for virtual currency at every turn, eventually blowing through tens of thousands of dollars on microtransactions. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics[1][2][3] - the same model behind real games like Candy Crush Saga, Clash of Clans, EA Sports FC's Ultimate Team packs, and Genshin Impact's gacha banners - and, more specifically, a jab at other adult animated shows' own freemium cash-ins, namely The Simpsons: Tapped Out[4] and Family Guy: The Quest for Stuff[5].\n\nThe episode also draws an explicit parallel between Stan's freemium addiction and his family's other compulsions - Grandpa Marvin's gambling and Randy's drinking - floating the idea that a predisposition to addiction, whether to slot machines, alcohol, or in-app purchases, might run in families and simply find a different outlet in each generation[6].",
+      "Stan gets hooked on a Terrance and Phillip mobile game that nickel-and-dimes him for virtual currency at every turn, eventually blowing through tens of thousands of dollars on microtransactions. It's a direct satire of freemium mobile games and their real-world microtransaction and loot-box monetization tactics[1][2][3] - the same model behind real games like Candy Crush Saga, Clash of Clans, EA Sports FC's Ultimate Team packs, and Genshin Impact's gacha banners - and, more specifically, a jab at other adult animated shows' own freemium cash-ins, namely The Simpsons: Tapped Out and Family Guy: The Quest for Stuff.\n\nThe episode also draws an explicit parallel between Stan's freemium addiction and his family's other compulsions - Grandpa Marvin's gambling and Randy's drinking - floating the idea that a predisposition to addiction, whether to slot machines, alcohol, or in-app purchases, might run in families and simply find a different outlet in each generation[4].",
     sources: [
       {
         label: 'Investopedia: How Microtransactions Are Evolving the Economics of Gaming',
@@ -826,11 +805,12 @@ export const explanations = {
         url: 'https://www.sciencedirect.com/science/article/pii/S1875952124000612',
       },
       { label: 'Harvard Business Review: Making Freemium Work', url: 'https://hbr.org/2014/05/making-freemium-work' },
-      { label: 'The Simpsons: Tapped Out (Fandom wiki)', url: 'https://simpsonstappedout.fandom.com/wiki/The_Simpsons:_Tapped_Out' },
-      { label: 'Family Guy: The Quest for Stuff (Fandom wiki)', url: 'https://family-guy-the-quest-for-stuff.fandom.com/wiki/Family_Guy:_The_Quest_for_Stuff' },
       { label: 'University of Iowa: pathological gambling runs in families', url: 'https://now.uiowa.edu/news/2014/06/pathological-gambling-runs-families' },
     ],
-    parodyOf: ["The Simpsons: Tapped Out (mobile game)", "Family Guy: The Quest for Stuff (mobile game)"],
+    parodyOf: [
+      { name: 'The Simpsons: Tapped Out (mobile game)', url: 'https://en.wikipedia.org/wiki/The_Simpsons:_Tapped_Out' },
+      { name: 'Family Guy: The Quest for Stuff (mobile game)', url: 'https://en.wikipedia.org/wiki/Family_Guy:_The_Quest_for_Stuff' },
+    ],
   },
   // Grounded Vindaloop (S18E7)
   254: {
@@ -840,14 +820,14 @@ export const explanations = {
       { label: 'Wired: hands-on with the Oculus Rift', url: 'https://www.wired.com/2014/05/oculus-rift-4/' },
       { label: 'Talkdesk: a guide to call center agent feedback loops', url: 'https://www.talkdesk.com/blog/guide-to-call-center-agent-feedback-loops/' },
     ],
-    parodyOf: ["Oculus Rift (VR headset)"],
+    parodyOf: [{ name: 'Oculus Rift (VR headset)', url: 'https://en.wikipedia.org/wiki/Oculus_Rift' }],
   },
   // #REHASH (S18E9)
   256: {
     summary:
       "Ike ditches the video games Kyle bought to bond with him in favor of watching PewDiePie's Let's Play commentary, and Cartman - noticing how much traction reaction videos get - starts filming his own commentary on his classmates. It's a direct engagement with the mid-2010s explosion of Let's Play and reaction-video YouTube celebrities like PewDiePie, who voices himself in the episode[1], and a broader jab at how much online attention had shifted to watching other people react to things rather than the things themselves - fittingly, the title itself mocks the empty churn of trending hashtags that dominate news cycles without carrying much actual substance.",
     sources: [{ label: 'PewDiePie in South Park "#REHASH" (YouTube)', url: 'https://www.youtube.com/watch?v=h4XifO5eWIo' }],
-    parodyOf: ["PewDiePie (YouTube personality)"],
+    parodyOf: [{ name: 'PewDiePie (YouTube personality)', url: 'https://en.wikipedia.org/wiki/PewDiePie' }],
   },
   // Stunning and Brave (S19E1)
   258: {
@@ -861,7 +841,7 @@ export const explanations = {
       { label: 'Vanity Fair: Caitlyn Jenner cover story (June 2015)', url: 'https://www.vanityfair.com/hollywood/2015/06/caitlyn-jenner-bruce-cover-annie-leibovitz' },
       { label: 'Vanity Fair: Call Me Caitlyn (documentary video)', url: 'https://www.vanityfair.com/video/watch/call-me-caitlyn-documentary' },
     ],
-    parodyOf: ["Tom Brady (Deflategate)"],
+    parodyOf: [{ name: 'Tom Brady (Deflategate)', url: 'https://en.wikipedia.org/wiki/Tom_Brady' }],
   },
   // Where My Country Gone? (S19E2)
   259: {
@@ -878,7 +858,7 @@ export const explanations = {
       },
       { label: 'Trump pledges to build a wall (YouTube)', url: 'https://www.youtube.com/watch?v=cBW8mTHDgvk' },
     ],
-    parodyOf: ["Donald Trump (persona parody)"],
+    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // The City Part of Town (S19E3)
   260: {
@@ -1012,9 +992,8 @@ export const explanations = {
   // White People Renovating Houses (S21E1)
   278: {
     summary:
-      "A wholesome couple's home-renovation show becomes a local obsession, echoing HGTV hits like Fixer Upper[1]. It's a satire of the home-renovation TV boom[2] and the gentrification that so often follows in its wake.\n\nCartman spends the episode barking commands and profanity at an Amazon Echo-style smart speaker, mocking the sudden mid-2010s rush of Alexa, Google Home, and Siri devices into American living rooms[3] - a bit that famously backfired in real life, setting off actual Echoes and Google Homes in viewers' houses. Meanwhile, a group of men waving torches and Confederate flags march through the background protesting that the devices have taken their jobs, a direct visual echo of the torch-lit white nationalist march at the deadly August 2017 'Unite the Right' rally in Charlottesville, Virginia[4].",
+      "A wholesome couple's home-renovation show becomes a local obsession, echoing HGTV hits like Fixer Upper. It's a satire of the home-renovation TV boom[1] and the gentrification that so often follows in its wake.\n\nCartman spends the episode barking commands and profanity at an Amazon Echo-style smart speaker, mocking the sudden mid-2010s rush of Alexa, Google Home, and Siri devices into American living rooms[2] - a bit that famously backfired in real life, setting off actual Echoes and Google Homes in viewers' houses. Meanwhile, a group of men waving torches and Confederate flags march through the background protesting that the devices have taken their jobs, a direct visual echo of the torch-lit white nationalist march at the deadly August 2017 'Unite the Right' rally in Charlottesville, Virginia[3].",
     sources: [
-      { label: 'Wikipedia: Fixer Upper (TV series)', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' },
       {
         label: 'Wikipedia: Category - Home renovation television series',
         url: 'https://en.wikipedia.org/wiki/Category:Home_renovation_television_series',
@@ -1028,7 +1007,7 @@ export const explanations = {
         url: 'https://www.splcenter.org/resources/hatewatch/flags-and-other-symbols-used-far-right-groups-charlottesville/',
       },
     ],
-    parodyOf: ["Fixer Upper (HGTV series)"],
+    parodyOf: [{ name: 'Fixer Upper (HGTV series)', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' }],
   },
   // Put It Down (S21E2)
   279: {
@@ -1117,7 +1096,10 @@ export const explanations = {
     sources: [
       { label: 'The New York Times: who are the angriest Republicans?', url: 'https://www.nytimes.com/2016/03/30/opinion/campaign-stops/who-are-the-angriest-republicans.html' },
     ],
-    parodyOf: ["Stranger Things (Netflix series)", "It (Stephen King novel/film)"],
+    parodyOf: [
+      { name: 'Stranger Things (Netflix series)', url: 'https://en.wikipedia.org/wiki/Stranger_Things' },
+      { name: 'It (Stephen King novel/film)', url: 'https://en.wikipedia.org/wiki/It_(novel)' },
+    ],
   },
   // Dead Kids (S22E1)
   288: {
@@ -1151,7 +1133,10 @@ export const explanations = {
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/world-us-canada-45774174' },
       { label: 'Axios: Brett Kavanaugh timeline', url: 'https://www.axios.com/2018/10/02/brett-kavanaugh-timeline-allegations-vote' },
     ],
-    parodyOf: ["The Problem with Apu (2017 documentary)", "Roseanne Barr (2018 Twitter scandal)"],
+    parodyOf: [
+      { name: 'The Problem with Apu (2017 documentary)', url: 'https://en.wikipedia.org/wiki/The_Problem_with_Apu' },
+      { name: 'Roseanne Barr (2018 Twitter scandal)', url: 'https://en.wikipedia.org/wiki/Roseanne_Barr' },
+    ],
   },
   // Tegridy Farms (S22E4)
   291: {
@@ -1186,7 +1171,7 @@ export const explanations = {
   293: {
     summary:
       "Twelve years after ManBearPig was laughed out of town, the creature turns out to have been real all along - and is now devastating South Park while Al Gore, still trying to warn everyone, becomes the only person who's actually been right the whole time. It's South Park doing something it rarely does: explicitly retracting its own earlier punchline, reframing the 2006 original as satirizing the messenger's grandiosity rather than the message itself.",
-    parodyOf: ["Al Gore (An Inconvenient Truth)"],
+    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Nobody Got Cereal? (S22E7)
   294: {
@@ -1195,7 +1180,7 @@ export const explanations = {
     sources: [
       { label: 'Salon: South Park, climate change, and ManBearPig', url: 'https://www.salon.com/2018/11/15/south-park-climate-change-manbearpig/' },
     ],
-    parodyOf: ["Al Gore (An Inconvenient Truth)"],
+    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Unfulfilled (S22E9)
   296: {
@@ -1224,14 +1209,13 @@ export const explanations = {
   // Mexican Joker (S23E1)
   298: {
     summary:
-      "Kyle gets sent off to a summer camp that turns out to be a parody of the real US immigrant child-detention centers making headlines[1][2][3].\n\nThe episode's dark joke - explicitly modeled on the year's other big pop-culture villain-origin story, Joker[4] - is that locking traumatized kids in cages risks manufacturing the very threat the policy claims to guard against: a 'Mexican Joker' born from the exact system meant to prevent him. Its satire cuts at how both sides of the immigration debate flattened a genuinely complicated issue into slogans, without either fully owning a workable fix.",
+      "Kyle gets sent off to a summer camp that turns out to be a parody of the real US immigrant child-detention centers making headlines[1][2][3].\n\nThe episode's dark joke - explicitly modeled on the year's other big pop-culture villain-origin story, Joker - is that locking traumatized kids in cages risks manufacturing the very threat the policy claims to guard against: a 'Mexican Joker' born from the exact system meant to prevent him. Its satire cuts at how both sides of the immigration debate flattened a genuinely complicated issue into slogans, without either fully owning a workable fix.",
     sources: [
       { label: 'CNN: ICE kids in detention', url: 'https://edition.cnn.com/2019/10/24/us/ice-kids-detention-invs' },
       { label: 'Freedom for Immigrants: child detention stories', url: 'https://www.freedomforimmigrants.org/child-detention-stories' },
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
-      { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
     ],
-    parodyOf: ["Joker (2019 film)"],
+    parodyOf: [{ name: 'Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
   },
   // Band in China (S23E2)
   299: {
@@ -1264,9 +1248,8 @@ export const explanations = {
   // Let Them Eat Goo (S23E4)
   301: {
     summary:
-      "Told almost entirely in Dr. Seuss-style rhyme[1], the kids switch the whole school over to a mysterious plant-based 'goo' as South Park's cafeteria - and then the country - abandons meat overnight. It's a direct satire of the sudden early rise of alternative proteins like Beyond Meat, and the real backlash from cattle ranchers[2] and farmers[3] who saw plant-based meat substitutes as an existential threat to their industry.",
+      "Told almost entirely in Dr. Seuss-style rhyme, the kids switch the whole school over to a mysterious plant-based 'goo' as South Park's cafeteria - and then the country - abandons meat overnight. It's a direct satire of the sudden early rise of alternative proteins like Beyond Meat, and the real backlash from cattle ranchers[1] and farmers[2] who saw plant-based meat substitutes as an existential threat to their industry.",
     sources: [
-      { label: 'Wikipedia: Dr. Seuss', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' },
       {
         label: "The Wall Street Journal: America's cattle ranchers are fighting back against fake meat",
         url: 'https://www.wsj.com/articles/americas-cattle-ranchers-are-fighting-back-against-fake-meat-11574850603',
@@ -1276,7 +1259,7 @@ export const explanations = {
         url: 'https://www.bigissue.com/news/environment/farmers-are-fighting-back-against-the-fake-meat-supermarket-invasion/',
       },
     ],
-    parodyOf: ["Dr. Seuss (rhyming verse style)"],
+    parodyOf: [{ name: 'Dr. Seuss (rhyming verse style)', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
   },
   // Season Finale (S23E6)
   303: {
@@ -1285,9 +1268,8 @@ export const explanations = {
     sources: [
       { label: 'The Washington Post: Trump doubles down on male victimhood', url: 'https://www.washingtonpost.com/news/opinions/wp/2018/10/03/trump-doubles-down-on-male-victimhood/' },
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
-      { label: 'Wikipedia: Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' },
     ],
-    parodyOf: ["Joker (2019 film)"],
+    parodyOf: [{ name: 'Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
   },
   // Board Girls (S23E7)
   304: {
@@ -1309,7 +1291,7 @@ export const explanations = {
         url: 'https://www.health.harvard.edu/blog/stool-transplants-are-now-standard-of-care-for-recurrent-c-difficile-infections-2019050916576',
       },
     ],
-    parodyOf: ["Dune (1965 novel) / Dune (1984 film)"],
+    parodyOf: [{ name: 'Dune (1965 novel) / Dune (1984 film)', url: 'https://en.wikipedia.org/wiki/Dune_(novel)' }],
   },
   // Basic Cable (S23E9)
   306: {
@@ -1325,10 +1307,9 @@ export const explanations = {
         label: 'Nielsen: streaming eclipses combined broadcast and cable viewing for the first time',
         url: 'https://www.nielsen.com/news-center/2025/streaming-reaches-historic-tv-milestone-eclipses-combined-broadcast-and-cable-viewing-for-first-time/',
       },
-      { label: 'Wikipedia: The Mandalorian', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' },
       { label: 'Variety: South Park to stream exclusively on HBO Max', url: 'https://variety.com/2019/tv/news/south-park-stream-exclusively-hbo-max-1203387212/' },
     ],
-    parodyOf: ["The Mandalorian (Disney+ series)"],
+    parodyOf: [{ name: 'The Mandalorian (Disney+ series)', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' }],
   },
   // The Pandemic Special (S24E1)
   308: {
@@ -1359,17 +1340,18 @@ export const explanations = {
         url: 'https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine',
       },
     ],
-    parodyOf: ["WarGames (1983 film)", "Red Dawn (1984 film)", "Rocky IV (1985 film)"],
+    parodyOf: [
+      { name: 'WarGames (1983 film)', url: 'https://en.wikipedia.org/wiki/WarGames' },
+      { name: 'Red Dawn (1984 film)', url: 'https://en.wikipedia.org/wiki/Red_Dawn' },
+      { name: 'Rocky IV (1985 film)', url: 'https://en.wikipedia.org/wiki/Rocky_IV' },
+    ],
   },
   // Margaritaville (S13E3)
   184: {
     summary:
-      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.\n\nStan and Kyle's plot even restages the Last Supper[2], with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
-    sources: [
-      { label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' },
-      { label: 'Wikipedia: Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' },
-    ],
-    parodyOf: ["The Last Supper (biblical scene)"],
+      "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.\n\nStan and Kyle's plot even restages the Last Supper, with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
+    sources: [{ label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' }],
+    parodyOf: [{ name: 'The Last Supper (biblical scene)', url: 'https://en.wikipedia.org/wiki/Last_Supper' }],
   },
   // Handicar (S18E4)
   251: {
@@ -1391,14 +1373,15 @@ export const explanations = {
   // It's a Jersey Thing (S14E9)
   204: {
     summary:
-      "The town is 'infected' by loud, spray-tanned, fist-pumping Jersey culture spreading like a disease, with the possessed townspeople modeled directly on cast members from both MTV's Jersey Shore[1] and Bravo's The Real Housewives of New Jersey[2]. It's a direct parody of Jersey Shore (which had just become a phenomenon)[3][4] and the reality-TV era's habit of turning a regional/ethnic identity into a mockable stereotype for entertainment.",
+      "The town is 'infected' by loud, spray-tanned, fist-pumping Jersey culture spreading like a disease, with the possessed townspeople modeled directly on cast members from both MTV's Jersey Shore and Bravo's The Real Housewives of New Jersey. It's a direct parody of Jersey Shore (which had just become a phenomenon)[1][2] and the reality-TV era's habit of turning a regional/ethnic identity into a mockable stereotype for entertainment.",
     sources: [
-      { label: 'Wikipedia: Jersey Shore (TV series)', url: 'https://en.wikipedia.org/wiki/Jersey_Shore_(TV_series)' },
-      { label: 'Wikipedia: The Real Housewives of New Jersey', url: 'https://en.wikipedia.org/wiki/The_Real_Housewives_of_New_Jersey' },
       { label: 'The Guardian: Charlie Brooker on Jersey Shore', url: 'https://www.theguardian.com/tv-and-radio/2010/mar/20/charlie-brooker-jersey-shore' },
       { label: 'Vice: the Jersey Shore scene that made Snooki a star', url: 'https://www.vice.com/en/article/17-years-ago-one-shocking-jersey-shore-scene-turned-snooki-into-a-reality-tv-star-overnight/' },
     ],
-    parodyOf: ["Jersey Shore (MTV series)", "The Real Housewives of New Jersey (Bravo series)"],
+    parodyOf: [
+      { name: 'Jersey Shore (MTV series)', url: 'https://en.wikipedia.org/wiki/Jersey_Shore_(TV_series)' },
+      { name: 'The Real Housewives of New Jersey (Bravo series)', url: 'https://en.wikipedia.org/wiki/The_Real_Housewives_of_New_Jersey' },
+    ],
   },
   // Member Berries (S20E1)
   268: {
@@ -1407,6 +1390,6 @@ export const explanations = {
     sources: [
       { label: 'CNN: 2016 Election Results (President)', url: 'https://edition.cnn.com/election/2016/results/president' },
     ],
-    parodyOf: ["Star Wars (Chewbacca nostalgia callback)"],
+    parodyOf: [{ name: 'Star Wars (Chewbacca nostalgia callback)', url: 'https://en.wikipedia.org/wiki/Star_Wars' }],
   },
 }

@@ -23,6 +23,8 @@ export default function OptionsPopover({
   onSeasonChange,
   decodedOnly,
   onDecodedOnlyChange,
+  parodiedOnly,
+  onParodiedOnlyChange,
 }) {
   const { mode, setMode, character, setCharacter } = useTheme()
   const isKenny = character === 'kenny'
@@ -82,6 +84,11 @@ export default function OptionsPopover({
         <div className="flex items-center justify-between">
           <p className="text-xs font-medium">Decoded</p>
           <Switch checked={decodedOnly} onCheckedChange={onDecodedOnlyChange} />
+        </div>
+
+        <div className="flex items-center justify-between">
+          <p className="text-xs font-medium">Parodied</p>
+          <Switch checked={parodiedOnly} onCheckedChange={onParodiedOnlyChange} />
         </div>
 
         <Separator />
