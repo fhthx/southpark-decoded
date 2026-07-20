@@ -638,6 +638,15 @@ export const explanations = {
       { name: 'James Cameron (persona parody)', url: 'https://en.wikipedia.org/wiki/James_Cameron' },
     ],
   },
+  // Insecurity (S16E10)
+  233: {
+    summary:
+      "Kyle convinces himself his mom is having an affair with the UPS delivery man, and the resulting neighborhood panic turns into a home-security buying spree once Cartman signs up with 'Wolf Home Security' - rebranded, ominously, as 'INsecurity.' It's a pointed jab at real home-alarm companies like ADT and Broadview Security, whose entire pitch runs on manufacturing anxiety about break-ins that statistically almost never happen[1] - all while the vigilante mob hunting the UPS driver dresses and talks exactly like Bane from The Dark Knight Rises, Hans Zimmer-style score and all, for no reason the show ever bothers to explain[2].",
+    sources: [
+      { label: 'TV Fanatic: South Park review - Banes on the Loose', url: 'https://www.tvfanatic.com/south-park-review-banes-on-the-loose/' },
+    ],
+    parodyOf: [{ name: 'Bane / The Dark Knight Rises (2012 film)', url: 'https://en.wikipedia.org/wiki/The_Dark_Knight_Rises' }],
+  },
   // A Nightmare on Face Time (S16E12)
   235: {
     summary:
@@ -648,7 +657,7 @@ export const explanations = {
   // A Scause For Applause (S16E13)
   236: {
     summary:
-      "After trace performance-enhancing drugs turn up on the Shroud of Turin, South Park concludes Jesus's miracles were doping all along and ditches its 'What Would Jesus Do?' bracelets - except Stan, who refuses out of pure stubbornness and accidentally becomes a symbol of authenticity, only to be accused (accurately) of gluing his own bracelet back together. It's a direct, thinly veiled parody of the Lance Armstrong doping scandal[1][2] and the mass abandonment of Livestrong wristbands after he was stripped of his Tour de France titles, extended into a broader satire of how quickly the public migrates from one wristband 'cause' to the next without much thought for the underlying issue.",
+      "After trace performance-enhancing drugs turn up on the Shroud of Turin, South Park concludes Jesus's miracles were doping all along and ditches its 'What Would Jesus Do?' bracelets - except Stan, who refuses out of pure stubbornness and accidentally becomes a symbol of authenticity, only to be accused (accurately) of gluing his own bracelet back together. It's a direct, thinly veiled parody of the Lance Armstrong doping scandal[1][2] and the mass abandonment of Livestrong wristbands after he was stripped of his Tour de France titles, extended into a broader satire of how quickly the public migrates from one wristband 'cause' to the next without much thought for the underlying issue.\n\nA visit to the bracelet factory switches the whole show over into a full Dr. Seuss pastiche - rhyming narration, primary-color linework, and all - to walk through just how easily a feel-good wristband cause turns into a mass-produced business model[3].",
     sources: [
       {
         label: 'ABC News: Lance Armstrong stripped of Tour de France titles, banned',
@@ -658,22 +667,31 @@ export const explanations = {
         label: 'The Conversation: Lance Armstrong, doping, and the illusion of control',
         url: 'https://theconversation.com/lance-armstrong-doping-and-the-illusion-of-control-11680',
       },
+      {
+        label: 'Seussblog: South Park references Dr. Seuss in Scause for Applause',
+        url: 'https://seussblog.wordpress.com/2013/03/28/south-park-references-dr-seuss-in-scause-for-applause/',
+      },
     ],
+    parodyOf: [{ name: 'Dr. Seuss (rhyming verse style)', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
   },
   // Obama Wins! (S16E14)
   237: {
     summary:
-      "The boys' fantasy-football-style bet on the presidential election collides with a real election night. It's the show's real-time response to the 2012 US presidential election, in which Barack Obama won a second term[1].\n\nA subplot has Cartman brokering a deal with the Chinese government, who are trying to buy the Star Wars franchise away from a Mickey Mouse-piloted Disney to keep it out of the studio's hands - a direct, fast-turnaround parody of Disney's real, just-announced $4 billion purchase of Lucasfilm that same month[2].",
+      "The boys' fantasy-football-style bet on the presidential election collides with a real election night. It's the show's real-time response to the 2012 US presidential election, in which Barack Obama won a second term[1].\n\nA subplot has Cartman brokering a deal with the Chinese government, who are trying to buy the Star Wars franchise away from a Mickey Mouse-piloted Disney to keep it out of the studio's hands - a direct, fast-turnaround parody of Disney's real, just-announced $4 billion purchase of Lucasfilm that same month[2]. Morgan Freeman turns up just to narrate the whole convoluted mess in his familiar authoritative voice, earning a fresh freckle every time someone asks why he's the one explaining it - a running gag about how often real documentaries, ads, and films lean on Freeman's narration to sound instantly credible.",
     sources: [
       { label: 'Obama Foundation: The Administration (2012-2017)', url: 'https://www.obama.org/about/administration/2012-2017/' },
       { label: 'The New York Times: Disney Buying Lucasfilm for $4 Billion', url: 'https://archive.nytimes.com/mediadecoder.blogs.nytimes.com/2012/10/30/disney-buying-lucas-films-for-4-billion/' },
+      { label: 'AV Club: South Park - Obama Wins!', url: 'https://www.avclub.com/south-park-obama-wins-1798174891' },
     ],
-    parodyOf: [{ name: 'Star Wars (Lucasfilm/Disney franchise)', url: 'https://en.wikipedia.org/wiki/Star_Wars' }],
+    parodyOf: [
+      { name: 'Star Wars (Lucasfilm/Disney franchise)', url: 'https://en.wikipedia.org/wiki/Star_Wars' },
+      { name: 'Morgan Freeman (narrator persona parody)', url: 'https://en.wikipedia.org/wiki/Morgan_Freeman' },
+    ],
   },
   // Let Go, Let Gov (S17E1)
   238: {
     summary:
-      "Cartman starts an NSA-style surveillance operation to spy on his classmates, right as the real US government's mass-surveillance programs are exposed[1]. This aired mere months after Edward Snowden's 2013 leaks[2][3][4] revealed the scope of NSA data collection, and directly engages with that fallout.",
+      "Cartman starts an NSA-style surveillance operation to spy on his classmates, right as the real US government's mass-surveillance programs are exposed[1]. This aired mere months after Edward Snowden's 2013 leaks[2][3][4] revealed the scope of NSA data collection, and directly engages with that fallout.\n\nA running gag has Alec Baldwin (voiced by Bill Hader) shill a new social network called Shitter, promising to chop off his own thumbs after yet another homophobic outburst - a pointed jab at Baldwin's real, repeated history of losing his temper in public and on social media[5].",
     sources: [
       {
         label: 'Wikipedia: Snowden disclosures',
@@ -691,7 +709,12 @@ export const explanations = {
         label: 'Permanent Record by Edward Snowden (Goodreads)',
         url: 'https://www.goodreads.com/en/book/show/46223297-permanent-record',
       },
+      {
+        label: 'ABC News: Alec Baldwin - his most memorable rants, altercations',
+        url: 'https://abcnews.com/Entertainment/alec-baldwin-memorable-rants-altercations/story?id=19566165',
+      },
     ],
+    parodyOf: [{ name: 'Alec Baldwin (persona parody)', url: 'https://en.wikipedia.org/wiki/Alec_Baldwin' }],
   },
   // World War Zimmerman (S17E3)
   240: {
@@ -702,6 +725,15 @@ export const explanations = {
       { label: 'Wikipedia: Stand-your-ground law', url: 'https://en.wikipedia.org/wiki/Stand-your-ground_law' },
     ],
     parodyOf: [{ name: 'World War Z (2013 film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' }],
+  },
+  // Goth Kids 3: Dawn of the Posers (S17E4)
+  241: {
+    summary:
+      "Henrietta comes back from a summer camp transformed into a peppy 'emo,' and Michael realizes an entire pod-people-style invasion is quietly converting South Park's goths one camper at a time. It's a loving pastiche of body-snatcher horror - Invasion of the Body Snatchers most directly, with nods to Day of the Triffids, The Stepford Wives, and Halloween III[1] - repurposed as a joke about subculture gatekeeping and the constant, low-stakes turf war over who counts as authentically alternative.",
+    sources: [
+      { label: 'AV Club: South Park - Goth Kids 3: Dawn of the Posers', url: 'https://www.avclub.com/south-park-goth-kids-3-dawn-of-the-posers-1798178421' },
+    ],
+    parodyOf: [{ name: 'Invasion of the Body Snatchers (1956 film)', url: 'https://en.wikipedia.org/wiki/Invasion_of_the_Body_Snatchers_(1956_film)' }],
   },
   // Taming Strange (S17E5)
   242: {
@@ -717,28 +749,31 @@ export const explanations = {
         url: 'https://www.theguardian.com/technology/2013/nov/03/obamacare-website-barack-obama-healthcare-computer-meltdown',
       },
     ],
-    parodyOf: [{ name: "Miley Cyrus's 2013 VMA performance", url: 'https://en.wikipedia.org/wiki/2013_MTV_Video_Music_Awards' }],
+    parodyOf: [
+      { name: "Miley Cyrus's 2013 VMA performance", url: 'https://en.wikipedia.org/wiki/2013_MTV_Video_Music_Awards' },
+      { name: 'Yo Gabba Gabba! (Nick Jr. series)', url: 'https://en.wikipedia.org/wiki/Yo_Gabba_Gabba!' },
+    ],
   },
   // Black Friday (S17E7)
   244: {
     summary:
       "The kids' friendships fracture over which new game console to buy, splitting the town into Thrones-style warring camps, while adults literally go to war over Black Friday doorbusters. It's a direct parody of the Xbox One vs. PS4 launch rivalry[1][2] and the real chaos around Black Friday shopping stampedes.",
     sources: CONSOLE_WAR_SOURCES,
-    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/Game_of_Thrones' }],
   },
   // A Song of Ass and Fire (S17E8)
   245: {
     summary:
       "The console-war standoff continues as a sprawling Game of Thrones-style fantasy parody, with the kids' console loyalties turned into warring kingdoms. It keeps skewering the Xbox One/PS4 launch rivalry[1][2] while spoofing Game of Thrones, then near its cultural peak.",
     sources: CONSOLE_WAR_SOURCES,
-    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/Game_of_Thrones' }],
   },
   // Titties and Dragons (S17E9)
   246: {
     summary:
       "The Game-of-Thrones-style console war saga wraps up. It's the third part of the trilogy mocking the Xbox One vs. PS4 launch hype cycle[1][2], wrapped in Thrones-style fantasy-political parody.",
     sources: CONSOLE_WAR_SOURCES,
-    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire' }],
+    parodyOf: [{ name: 'A Song of Ice and Fire / Game of Thrones', url: 'https://en.wikipedia.org/wiki/Game_of_Thrones' }],
   },
   // The Hobbit (S17E10)
   247: {
@@ -747,6 +782,10 @@ export const explanations = {
     sources: [
       { label: 'BBC News: media and body image', url: 'https://www.bbc.co.uk/news/uk-england-tyne-20251825' },
       { label: 'BBC News: media and body image', url: 'https://www.bbc.co.uk/news/health-29569473' },
+    ],
+    parodyOf: [
+      { name: 'Kim Kardashian (persona parody)', url: 'https://en.wikipedia.org/wiki/Kim_Kardashian' },
+      { name: 'Kanye West (persona parody)', url: 'https://en.wikipedia.org/wiki/Kanye_West' },
     ],
   },
   // Go Fund Yourself (S18E1)
@@ -781,6 +820,7 @@ export const explanations = {
       { label: 'Time: The Transgender Tipping Point', url: 'https://time.com/135480/transgender-tipping-point/' },
       { label: 'Time: What the Fight Over Bathrooms and Transgender Rights Is Really About', url: 'https://time.com/3974186/transgender-bathroom-debate/' },
     ],
+    parodyOf: [{ name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' }],
   },
   // The Magic Bush (S18E5)
   252: {
@@ -826,8 +866,26 @@ export const explanations = {
   256: {
     summary:
       "Ike ditches the video games Kyle bought to bond with him in favor of watching PewDiePie's Let's Play commentary, and Cartman - noticing how much traction reaction videos get - starts filming his own commentary on his classmates. It's a direct engagement with the mid-2010s explosion of Let's Play and reaction-video YouTube celebrities like PewDiePie, who voices himself in the episode[1], and a broader jab at how much online attention had shifted to watching other people react to things rather than the things themselves - fittingly, the title itself mocks the empty churn of trending hashtags that dominate news cycles without carrying much actual substance.",
-    sources: [{ label: 'PewDiePie in South Park "#REHASH" (YouTube)', url: 'https://www.youtube.com/watch?v=h4XifO5eWIo' }],
-    parodyOf: [{ name: 'PewDiePie (YouTube personality)', url: 'https://en.wikipedia.org/wiki/PewDiePie' }],
+    sources: [
+      { label: 'PewDiePie in South Park "#REHASH" (YouTube)', url: 'https://www.youtube.com/watch?v=h4XifO5eWIo' },
+      { label: 'Wikipedia: Rehash (South Park)', url: 'https://en.wikipedia.org/wiki/Rehash_(South_Park)' },
+    ],
+    parodyOf: [
+      { name: 'PewDiePie (YouTube personality)', url: 'https://en.wikipedia.org/wiki/PewDiePie' },
+      { name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' },
+    ],
+  },
+  // #HappyHolograms (S18E10)
+  257: {
+    summary:
+      "The Lorde reveal seeded in #REHASH pays off: Stan grows convinced his father Randy is secretly performing again as pop star Lorde, and when Randy and Sharon try to report the ensuing hologram chaos to the police, no one takes them seriously. It's a broad parody of the mid-2010s deceased-celebrity hologram trend - Tupac Shakur's posthumous Coachella hologram chief among them[1] - stretched into a joke about how quickly Twitter trending topics get treated as real news despite carrying no actual substance.",
+    sources: [
+      {
+        label: 'Consequence: South Park mocks music industry with Lorde and Tupac holograms',
+        url: 'https://consequence.net/2014/12/south-park-mocks-music-industry-with-lorde-and-tupac-holograms-watch/',
+      },
+    ],
+    parodyOf: [{ name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' }],
   },
   // Stunning and Brave (S19E1)
   258: {
@@ -841,12 +899,12 @@ export const explanations = {
       { label: 'Vanity Fair: Caitlyn Jenner cover story (June 2015)', url: 'https://www.vanityfair.com/hollywood/2015/06/caitlyn-jenner-bruce-cover-annie-leibovitz' },
       { label: 'Vanity Fair: Call Me Caitlyn (documentary video)', url: 'https://www.vanityfair.com/video/watch/call-me-caitlyn-documentary' },
     ],
-    parodyOf: [{ name: 'Tom Brady (Deflategate)', url: 'https://en.wikipedia.org/wiki/Tom_Brady' }],
+    parodyOf: [{ name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
   },
   // Where My Country Gone? (S19E2)
   259: {
     summary:
-      "A wall goes up around South Park and Canadian immigrants are demonized as job-stealing outsiders. It's a direct parody of Donald Trump's early 2016 campaign rhetoric on immigration[1][2] and border walls[3], with Mr. Garrison standing in for Trump himself.",
+      "A wall goes up around South Park and Canadian immigrants are demonized as job-stealing outsiders. It's a direct parody of Donald Trump's early 2016 campaign rhetoric on immigration[1][2] and border walls[3], with Mr. Garrison standing in for Trump himself.\n\nCaitlyn Jenner debuts alongside him as a recurring sight gag - a wide-eyed, motormouthed driver who runs over pedestrians every time she gets behind the wheel while cheerfully saying 'Buckle up, buckaroo' - a dark callback to the fatal Pacific Coast Highway crash Jenner was involved in earlier that year[4], and she ends the episode as Garrison's running mate.",
     sources: [
       {
         label: 'Wikipedia: Immigration policy of the first Trump administration',
@@ -857,8 +915,15 @@ export const explanations = {
         url: 'https://www.youtube.com/watch?v=A21IvnW3WZ0',
       },
       { label: 'Trump pledges to build a wall (YouTube)', url: 'https://www.youtube.com/watch?v=cBW8mTHDgvk' },
+      {
+        label: "Billboard: South Park takes on Caitlyn Jenner's car crash and Donald Trump",
+        url: 'https://www.billboard.com/music/music-news/south-park-caitlyn-jenner-donald-trump-6707835/',
+      },
     ],
-    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
+    parodyOf: [
+      { name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+      { name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' },
+    ],
   },
   // The City Part of Town (S19E3)
   260: {
@@ -891,10 +956,12 @@ export const explanations = {
   // Safe Space (S19E5)
   262: {
     summary:
-      "Cartman demands everyone only post positive comments on his Instagram, weaponizing 'safe space' language to shut down any criticism. It's a satire of both campus safe-space culture debates[1] and the curated, filtered unreality of social media image culture.",
+      "Cartman demands everyone only post positive comments on his Instagram, weaponizing 'safe space' language to shut down any criticism. It's a satire of both campus safe-space culture debates[1] and the curated, filtered unreality of social media image culture.\n\nA visiting Steven Seagal - drawn noticeably heavier and sobbing about being fat-shamed online - demands the same protection from criticism, a jab at the real action star's much-mocked weight gain and an uncomfortable parallel to Cartman's own thin skin[2].",
     sources: [
       { label: "Flexa: How safe are 'safe spaces' really?", url: 'https://flexa.careers/blog/how-safe-are-safe-spaces-really' },
+      { label: 'South Park Studios: Safe Space', url: 'https://southpark.cc.com/wiki/Safe_Space' },
     ],
+    parodyOf: [{ name: 'Steven Seagal (persona parody)', url: 'https://en.wikipedia.org/wiki/Steven_Seagal' }],
   },
   // Naughty Ninjas (S19E7)
   264: {
@@ -908,14 +975,24 @@ export const explanations = {
   // Sponsored Content (S19E8)
   265: {
     summary:
-      "Jimmy turns out to have a freakish knack for spotting real news stories buried among disguised ads, and gets partnered with a new classmate, Leslie, who's suspiciously good at holding everyone's attention. It kicks off the season finale arc's takedown of online publishing's slide into clickbait headlines[1] and 'native' advertising dressed up to look like real editorial content[2], continuing the season's parallel satire of political correctness.",
-    sources: [AD_ARC_SOURCE_BBC, AD_ARC_SOURCE_NYFA],
+      "Jimmy turns out to have a freakish knack for spotting real news stories buried among disguised ads, and gets partnered with a new classmate, Leslie, who's suspiciously good at holding everyone's attention. It kicks off the season finale arc's takedown of online publishing's slide into clickbait headlines[1] and 'native' advertising dressed up to look like real editorial content[2], continuing the season's parallel satire of political correctness.\n\nA parallel plot has Mr. Garrison, flanked by running mate Caitlyn Jenner, use a televised presidential debate to talk over Hillary Clinton and brand Syrian refugees as terrorists - a blunt, months-early preview of the real tenor the 2016 campaign trail would take[3].",
+    sources: [
+      AD_ARC_SOURCE_BBC,
+      AD_ARC_SOURCE_NYFA,
+      { label: 'Wikipedia: Sponsored Content (South Park)', url: 'https://en.wikipedia.org/wiki/Sponsored_Content_(South_Park)' },
+    ],
+    parodyOf: [{ name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
   },
   // Truth and Advertising (S19E9)
   266: {
     summary:
-      "As PC Principal mysteriously vanishes with two students, Jimmy keeps digging into what makes Leslie tick - inching toward the reveal that she isn't a person at all, but a piece of advertising made unsettlingly lifelike. It continues the arc's satire of how indistinguishable native advertising and real editorial content had become[1], while gesturing at the era's growing use of artificial intelligence to target and personalize ads[2].",
-    sources: [AD_ARC_SOURCE_ATLANTIC, AD_ARC_SOURCE_GUARDIAN_AI],
+      "As PC Principal mysteriously vanishes with two students, Jimmy keeps digging into what makes Leslie tick - inching toward the reveal that she isn't a person at all, but a piece of advertising made unsettlingly lifelike. It continues the arc's satire of how indistinguishable native advertising and real editorial content had become[1], while gesturing at the era's growing use of artificial intelligence to target and personalize ads[2].\n\nLeslie's escape attempt is staged as a close homage to Ex Machina - she manipulates Jimmy into freeing her by making him think she's fallen for him, down to a red-lit, surveillance-dodging seduction scene lifted almost beat for beat from the film[3].",
+    sources: [
+      AD_ARC_SOURCE_ATLANTIC,
+      AD_ARC_SOURCE_GUARDIAN_AI,
+      { label: 'TV Overmind: South Park season 19 episode 9 review - Truth and Advertising', url: 'https://tvovermind.com/south-park-season-19-episode-9-review-truth-and-advertising/' },
+    ],
+    parodyOf: [{ name: 'Ex Machina (2014 film)', url: 'https://en.wikipedia.org/wiki/Ex_Machina_(film)' }],
   },
   // PC Principal Final Justice (S19E10)
   267: {
@@ -961,6 +1038,7 @@ export const explanations = {
         url: 'https://www.pbs.org/newshour/politics/sexual-misconduct-allegations-trump-recapped',
       },
     ],
+    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Fort Collins (S20E6)
   273: {
@@ -980,6 +1058,7 @@ export const explanations = {
     sources: [
       { label: 'The Guardian: Donald Trump wins US election', url: 'https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news' },
     ],
+    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Members Only (S20E8)
   275: {
@@ -988,6 +1067,17 @@ export const explanations = {
     sources: [
       { label: 'The Guardian: Elon Musk unveils his interplanetary spaceship to take humans to Mars', url: 'https://www.theguardian.com/technology/2016/sep/27/elon-musk-spacex-mars-colony' },
     ],
+    parodyOf: [
+      { name: 'Elon Musk (playing himself)', url: 'https://en.wikipedia.org/wiki/Elon_Musk' },
+      { name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+    ],
+  },
+  // Not Funny (S20E9)
+  276: {
+    summary:
+      "Amid global panic over the Troll Trace leak site, a crowd lays siege to a barricaded SpaceX facility - giving Elon Musk a cameo playing himself amid the chaos[1], continuing the season's trolling-arc satire - while Cartman spirals over whether Heidi Turner is actually funny, a small, personal echo of the season's bigger argument about who gets to say what without facing consequences.",
+    sources: [{ label: 'South Park Public Library: Elon Musk', url: 'https://southpark.fandom.com/wiki/Elon_Musk' }],
+    parodyOf: [{ name: 'Elon Musk (playing himself)', url: 'https://en.wikipedia.org/wiki/Elon_Musk' }],
   },
   // White People Renovating Houses (S21E1)
   278: {
@@ -1031,10 +1121,15 @@ export const explanations = {
   // Franchise Prequel (S21E4)
   281: {
     summary:
-      "Professor Chaos weaponizes Facebook itself as his latest evil scheme, exploiting how easily fake news and misinformation spread across the platform. It's a direct satire of the real 2016-17 uproar over Facebook's role in spreading fake news, and the company's own scramble to start fact-checking and flagging it[1].",
+      "Professor Chaos weaponizes Facebook itself as his latest evil scheme, exploiting how easily fake news and misinformation spread across the platform. It's a direct satire of the real 2016-17 uproar over Facebook's role in spreading fake news, and the company's own scramble to start fact-checking and flagging it[1].\n\nThe town also summons Mark Zuckerberg himself to explain the mess - rendered as a wide-eyed, robotically dubbed martial artist who fights the townspeople and invites himself into their homes, one of the show's most memorably bizarre celebrity caricatures[2].",
     sources: [
       { label: 'The Guardian: Facebook to "flag" fake news', url: 'https://www.theguardian.com/technology/2016/dec/15/facebook-flag-fake-news-fact-check' },
+      {
+        label: 'Forbes: Franchise Prequel swipes at Mark Zuckerberg, misses',
+        url: 'https://www.forbes.com/sites/danidiplacido/2017/10/13/south-park-review-franchise-prequel-swipes-at-mark-zuckerberg-misses/',
+      },
     ],
+    parodyOf: [{ name: 'Mark Zuckerberg (persona parody)', url: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg' }],
   },
   // Hummels & Heroin (S21E5)
   282: {
@@ -1076,6 +1171,7 @@ export const explanations = {
         url: 'https://www.vanityfair.com/news/2017/12/trump-white-house-stockholm-syndrome-ed-letter',
       },
     ],
+    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Moss Piglets (S21E8)
   285: {
@@ -1373,10 +1469,15 @@ export const explanations = {
   // Handicar (S18E4)
   251: {
     summary:
-      "Cartman launches an unlicensed car service using disabled people's motorized wheelchairs to dodge taxi regulations - a broad swipe at Uber and the ride-sharing boom of the mid-2010s[1][2], and the wider debate over 'gig economy' apps undercutting regulated labor and treating workers as disposable.",
+      "Cartman launches an unlicensed car service using disabled people's motorized wheelchairs to dodge taxi regulations - a broad swipe at Uber and the ride-sharing boom of the mid-2010s[1][2], and the wider debate over 'gig economy' apps undercutting regulated labor and treating workers as disposable.\n\nThe episode resolves in a full Wacky Races pastiche, pitting Handicar and its ride-share rivals against each other in a slapstick cross-country marathon complete with Dick Dastardly and Muttley[3] - and Matthew McConaughey shows up in character as himself, casually plugging Handicar and Zipcar the same easy-going way he plugged Lincolns in his real, much-parodied car commercials.",
     sources: [
       { label: 'The Guardian: How Uber conquered London', url: 'https://www.theguardian.com/technology/2016/apr/27/how-uber-conquered-london' },
       { label: 'BBC News: Uber technology article', url: 'https://www.bbc.co.uk/news/technology-27733971' },
+      { label: 'Den of Geek: South Park - Handicar review', url: 'https://www.denofgeek.com/tv/south-park-handicar-review/' },
+    ],
+    parodyOf: [
+      { name: 'Wacky Races (1968 cartoon)', url: 'https://en.wikipedia.org/wiki/Wacky_Races' },
+      { name: 'Matthew McConaughey (Lincoln ad parody)', url: 'https://en.wikipedia.org/wiki/Matthew_McConaughey' },
     ],
   },
   // With Apologies to Jesse Jackson (S11E1)
