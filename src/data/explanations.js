@@ -1197,14 +1197,19 @@ export const explanations = {
   // Bike Parade (S22E10)
   297: {
     summary:
-      "The chaos at the Amazon Fulfillment Center from Unfulfilled boils over into the town's Bike Parade, as Kenny refuses to take corporate sponsorship money in solidarity with the striking warehouse workers[1][2]. It's a direct continuation of the show's satire of Amazon's real fulfillment-center labor conditions and rapid expansion.",
+      "The chaos at the Amazon Fulfillment Center from Unfulfilled boils over into the town's Bike Parade, as Kenny refuses to take corporate sponsorship money in solidarity with the striking warehouse workers[1][2]. It's a direct continuation of the show's satire of Amazon's real fulfillment-center labor conditions and rapid expansion.\n\nJeff Bezos himself shows up as a direct, unflattering persona parody - drawn as a bulbous-headed Talosian alien straight out of Star Trek's original 1965 pilot 'The Cage' - ruthless enough to have his own Alexa unit ordered to kill Kenny for organizing the strike[3].",
     sources: [
       {
         label: 'The Guardian: Amazon fulfillment center warehouse employees union',
         url: 'https://www.theguardian.com/technology/2019/jan/01/amazon-fulfillment-center-warehouse-employees-union-new-york-minnesota',
       },
       { label: 'Business Insider: Amazon warehouse locations in the US (2017)', url: 'https://www.businessinsider.com/amazon-warehouse-locations-in-us-2017-9' },
+      {
+        label: 'World Socialist Web Site: South Park episodes dramatize plight of Amazon workers, ridicule Jeff Bezos',
+        url: 'https://www.wsws.org/en/articles/2019/01/09/park-j09.html',
+      },
     ],
+    parodyOf: [{ name: 'Jeff Bezos (persona parody)', url: 'https://en.wikipedia.org/wiki/Jeff_Bezos' }],
   },
   // Mexican Joker (S23E1)
   298: {
@@ -1220,7 +1225,7 @@ export const explanations = {
   // Band in China (S23E2)
   299: {
     summary:
-      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship - echoing China's real ban on Winnie the Pooh imagery over comparisons to President Xi Jinping[2] - got South Park itself scrubbed from the Chinese internet and banned in China within days of airing[3].",
+      "A kids' band tours China and discovers Hollywood self-censors to keep access to the Chinese market, while the NBA gets caught in a similar bind. This aired right as the real NBA faced Chinese backlash over a pro-Hong-Kong tweet[1], and the episode's blunt satire of Chinese censorship - echoing China's real ban on Winnie the Pooh imagery over comparisons to President Xi Jinping[2] - got South Park itself scrubbed from the Chinese internet and banned in China within days of airing[3].\n\nRandy's own subplot supplies the episode's sharpest sight gag: to seal a marijuana deal with Chinese officials, he lures Winnie the Pooh into an alley with honey and strangles him to death - a shot-for-shot recreation of Anton Chigurh's opening kill of a sheriff's deputy in No Country for Old Men[4].",
     sources: [
       {
         label: "ESPN: James Harden apologizes as controversy grows: 'We love China'",
@@ -1231,7 +1236,9 @@ export const explanations = {
         url: 'https://www.theguardian.com/world/2018/aug/07/china-bans-winnie-the-pooh-film-to-stop-comparisons-to-president-xi',
       },
       { label: 'BBC News: China scrubs South Park after episode mocks censorship', url: 'https://www.bbc.co.uk/news/world-asia-china-49968867' },
+      { label: 'Wikipedia: Band in China', url: 'https://en.wikipedia.org/wiki/Band_in_China' },
     ],
+    parodyOf: [{ name: 'No Country for Old Men (2007 film)', url: 'https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)' }],
   },
   // Shots!!! (S23E3)
   300: {
@@ -1283,15 +1290,19 @@ export const explanations = {
   // Turd Burglars (S23E8)
   305: {
     summary:
-      "Kyle's mom looks amazing after a fecal transplant, and soon everyone in town is desperate to get their hands on primo microbiome material. It's a direct satire of the real, rapid rise of fecal microbiota transplantation (FMT)[1], a once-fringe treatment that had become standard of care for recurrent C. diff infections by the time this aired[2].",
+      "Kyle's mom looks amazing after a fecal transplant, and soon everyone in town is desperate to get their hands on primo microbiome material. It's a direct satire of the real, rapid rise of fecal microbiota transplantation (FMT)[1], a once-fringe treatment that had become standard of care for recurrent C. diff infections by the time this aired[2].\n\nKyle's doctor even name-drops Tom Brady's microbiome as the ultimate score - dubbing it 'The Spice Melange,' after Dune's most coveted resource, in a running gag that visualizes Brady's own bowel movements like Dune's sandworms - a direct jab at Brady's real TB12 wellness brand and its claims that diet and gut health were the secret to his late-career athletic longevity[3].",
     sources: [
       { label: 'The New York Times: what is a fecal transplant, and why would I want one?', url: 'https://www.nytimes.com/2019/01/18/well/live/what-is-a-fecal-transplant-and-why-would-i-want-one.html' },
       {
         label: 'Harvard Health: stool transplants are now standard of care for recurrent C. diff infections',
         url: 'https://www.health.harvard.edu/blog/stool-transplants-are-now-standard-of-care-for-recurrent-c-difficile-infections-2019050916576',
       },
+      { label: 'Forbes Health: What Is the Tom Brady (TB12) Diet?', url: 'https://www.forbes.com/health/nutrition/diet/tom-brady-tb12-diet/' },
     ],
-    parodyOf: [{ name: 'Dune (1965 novel) / Dune (1984 film)', url: 'https://en.wikipedia.org/wiki/Dune_(novel)' }],
+    parodyOf: [
+      { name: 'Dune (1965 novel) / Dune (1984 film)', url: 'https://en.wikipedia.org/wiki/Dune_(novel)' },
+      { name: 'Tom Brady (TB12 Method)', url: 'https://en.wikipedia.org/wiki/Tom_Brady' },
+    ],
   },
   // Basic Cable (S23E9)
   306: {
@@ -1323,12 +1334,18 @@ export const explanations = {
   // South ParQ Vaccination Special (S24E2)
   309: {
     summary:
-      "The town fights over who gets the new vaccine first and whether to trust it at all[1]. It's a direct response to the real COVID-19 vaccine rollout in late 2020/early 2021[2][3] and the hesitancy, hoarding, and politicization that surrounded it.",
+      "The town fights over who gets the new vaccine first and whether to trust it at all[1]. It's a direct response to the real COVID-19 vaccine rollout in late 2020/early 2021[2][3] and the hesitancy, hoarding, and politicization that surrounded it.\n\nA parallel plot skewers QAnon directly: Bob White mistakes an offhand remark from former President Garrison for a coded message and starts indoctrinating the town's kids into the conspiracy movement, arming his shirtless, fur-and-facepaint followers - one modeled directly on Capitol rioter Jake Angeli - for a showdown against the kids trying to deliver vaccines, a pointed parody of QAnon and the January 6, 2021 Capitol attack[4][5].",
     sources: [
       { label: 'ScienceDirect: vaccine research article', url: 'https://www.sciencedirect.com/science/article/pii/S0264410X24000653' },
       { label: 'Gladstone Institutes: Milestones in the COVID-19 Pandemic', url: 'https://gladstone.org/news/milestones-covid-19-pandemic' },
       { label: 'Wikipedia: COVID-19', url: 'https://en.wikipedia.org/wiki/COVID-19' },
+      {
+        label: 'The Daily Beast: South Park brutally mocks wacky QAnon supporters in Vaccination Special',
+        url: 'https://www.thedailybeast.com/south-park-brutally-mocks-wacky-qanon-supporters-in-vaccination-special/',
+      },
+      { label: 'Wikipedia: January 6 United States Capitol attack', url: 'https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack' },
     ],
+    parodyOf: [{ name: 'QAnon', url: 'https://en.wikipedia.org/wiki/QAnon' }],
   },
   // Back To The Cold War (S25E4)
   313: {
