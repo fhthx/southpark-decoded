@@ -109,7 +109,7 @@ export const explanations = {
   94: {
     summary:
       "Cartman channels the spirit of a TV psychic who claims to talk to dead relatives. It's a direct takedown of real 'medium' John Edward and shows like Crossing Over, accused of cold-reading grieving audiences for ratings rather than genuinely communicating with the dead.",
-    parodyOf: [{ name: 'John Edward / Crossing Over (TV series)', url: 'https://en.wikipedia.org/wiki/John_Edward' }],
+    parodyOf: [{ name: 'John Edward / Crossing Over', url: 'https://en.wikipedia.org/wiki/John_Edward' }],
   },
   // My Future Self n' Me (S6E16)
   95: {
@@ -175,7 +175,7 @@ export const explanations = {
       { label: 'The Guardian: Mel Gibson and The Passion of the Christ', url: 'https://www.theguardian.com/film/2005/mar/16/news.melgibson' },
       { label: 'ADL: The Passion relies on theme of antisemitism', url: 'https://www.adl.org/resources/news/passion-relies-theme-anti-semitism' },
     ],
-    parodyOf: [{ name: 'The Passion of the Christ (2004 film)', url: 'https://en.wikipedia.org/wiki/The_Passion_of_the_Christ' }],
+    parodyOf: [{ name: 'The Passion of the Christ', url: 'https://en.wikipedia.org/wiki/The_Passion_of_the_Christ' }],
   },
   // Goobacks (S8E7)
   118: {
@@ -205,7 +205,7 @@ export const explanations = {
       { label: 'Forbes: Walmart coverage', url: 'https://www.forbes.com/?swb_redirect=true' },
       { label: 'PBS Frontline: Is Walmart Good for America?', url: 'https://www.pbs.org/video/frontline-wal-mart-good-america/' },
     ],
-    parodyOf: [{ name: 'Something Wicked This Way Comes (Ray Bradbury novel / 1983 film)', url: 'https://en.wikipedia.org/wiki/Something_Wicked_This_Way_Comes_(novel)' }],
+    parodyOf: [{ name: 'Something Wicked This Way Comes', url: 'https://en.wikipedia.org/wiki/Something_Wicked_This_Way_Comes_(novel)' }],
   },
   // Stupid Spoiled Whore Video Playset (S8E12)
   123: {
@@ -237,7 +237,7 @@ export const explanations = {
   133: {
     summary:
       "A dam breaks and the ensuing disaster gets treated like a preview of climate catastrophe, complete with a Al Gore-style scientist explaining the science badly. It's a parody of disaster films like The Day After Tomorrow and the sometimes-overheated way climate change was dramatized in pop culture.",
-    parodyOf: [{ name: 'The Day After Tomorrow (2004 film)', url: 'https://en.wikipedia.org/wiki/The_Day_After_Tomorrow' }],
+    parodyOf: [{ name: 'The Day After Tomorrow', url: 'https://en.wikipedia.org/wiki/The_Day_After_Tomorrow' }],
   },
   // Trapped in the Closet (S9E12)
   137: {
@@ -251,8 +251,8 @@ export const explanations = {
       { label: 'The Guardian: Isaac Hayes and South Park', url: 'https://www.theguardian.com/world/2006/mar/14/media.arts' },
     ],
     parodyOf: [
-      { name: 'R. Kelly - Trapped in the Closet (hip-hopera)', url: 'https://en.wikipedia.org/wiki/Trapped_in_the_Closet' },
-      { name: 'Tom Cruise and John Travolta (Scientology advocacy)', url: 'https://en.wikipedia.org/wiki/Tom_Cruise' },
+      { name: 'R. Kelly - Trapped in the Closet', url: 'https://en.wikipedia.org/wiki/Trapped_in_the_Closet' },
+      { name: 'Tom Cruise and John Travolta', url: 'https://en.wikipedia.org/wiki/Tom_Cruise' },
     ],
   },
   // Smug Alert! (S10E2)
@@ -291,7 +291,7 @@ export const explanations = {
     summary:
       "A washed-up celebrity turns up warning everyone about a creature called ManBearPig[1] that's 'half man, half bear, half pig,' and gets furious that no one takes him seriously. It's a direct, pointed parody of Al Gore and his climate-change advocacy following An Inconvenient Truth - the joke here lands on Gore's perceived grandiosity and crying-wolf theatrics, not on the underlying science. Twelve years later, South Park would explicitly walk this back in Time to Get Cereal and Nobody Got Cereal?, in which ManBearPig turns out to have been real all along.",
     sources: [{ label: 'ManBearPig (IMDb)', url: 'https://www.imdb.com/title/tt0497116/' }],
-    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
+    parodyOf: [{ name: 'Al Gore', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Mystery of the Urinal Deuce (S10E9)
   148: {
@@ -329,7 +329,7 @@ export const explanations = {
     sources: [
       { label: 'Petite Adventure Films: Night of the Living Homeless', url: 'https://www.petiteadventurefilms.com/media/5266/' },
     ],
-    parodyOf: [{ name: 'Night of the Living Dead (zombie films)', url: 'https://en.wikipedia.org/wiki/Night_of_the_Living_Dead' }],
+    parodyOf: [{ name: 'Night of the Living Dead', url: 'https://en.wikipedia.org/wiki/Night_of_the_Living_Dead' }],
   },
   // Tonsil Trouble (S12E1)
   168: {
@@ -357,7 +357,7 @@ export const explanations = {
       { label: 'Fox News: drug made from human waste causing stink on web, in law enforcement', url: 'https://www.foxnews.com/story/drug-made-from-human-waste-causing-stink-on-web-in-law-enforcement' },
       { label: 'ABC News: Jenkem drug scare', url: 'https://abcnews.com/Health/Drugs/story?id=3834092&page=1' },
     ],
-    parodyOf: [{ name: 'Heavy Metal (1981 animated film)', url: 'https://en.wikipedia.org/wiki/Heavy_Metal_(film)' }],
+    parodyOf: [{ name: 'Heavy Metal', url: 'https://en.wikipedia.org/wiki/Heavy_Metal_(film)' }],
   },
   // Canada on Strike (S12E4)
   171: {
@@ -386,7 +386,7 @@ export const explanations = {
       { label: 'New York Times: Are you a Twilight convert?', url: 'https://archive.nytimes.com/artsbeat.blogs.nytimes.com/2009/11/19/are-you-a-twilight-convert/' },
       { label: 'The Telegraph: Robert Pattinson describes spreading Twilight craze as a virus', url: 'https://www.telegraph.co.uk/news/uknews/6548251/Robert-Pattinson-describes-spreading-Twilight-craze-as-a-virus.html' },
     ],
-    parodyOf: [{ name: 'Twilight (film series)', url: 'https://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)' }],
+    parodyOf: [{ name: 'Twilight', url: 'https://en.wikipedia.org/wiki/The_Twilight_Saga_(film_series)' }],
   },
   // The Ring (S13E1)
   182: {
@@ -395,7 +395,7 @@ export const explanations = {
     sources: [
       { label: 'TODAY: purity rings are the hot accessory in pop music', url: 'https://www.today.com/popculture/purity-rings-are-hot-accessory-pop-music-wbna26680718' },
     ],
-    parodyOf: [{ name: 'Jonas Brothers: The 3D Concert Experience (2009 film)', url: 'https://en.wikipedia.org/wiki/Jonas_Brothers:_The_3D_Concert_Experience' }],
+    parodyOf: [{ name: 'Jonas Brothers: The 3D Concert Experience', url: 'https://en.wikipedia.org/wiki/Jonas_Brothers:_The_3D_Concert_Experience' }],
   },
   // Fishsticks (S13E5)
   186: {
@@ -420,8 +420,8 @@ export const explanations = {
     summary:
       "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense and the medium subplot of Poltergeist.",
     parodyOf: [
-      { name: 'The Sixth Sense (1999 film)', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
-      { name: 'Poltergeist (1982 film)', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
+      { name: 'The Sixth Sense', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
+      { name: 'Poltergeist', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
     ],
   },
   // Butters' Bottom Bitch (S13E9)
@@ -441,7 +441,7 @@ export const explanations = {
       { label: 'This Magazine: whaling culture war', url: 'https://this.org/2009/05/05/whaling-culture-war/' },
       { label: 'CBS News: activists hurl acid at Japanese whalers', url: 'https://www.cbsnews.com/news/activists-hurl-acid-at-japanese-whalers/' },
     ],
-    parodyOf: [{ name: 'Whale Wars (Animal Planet series)', url: 'https://en.wikipedia.org/wiki/Whale_Wars' }],
+    parodyOf: [{ name: 'Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' }],
   },
   // Dances with Smurfs (S13E13)
   194: {
@@ -452,8 +452,8 @@ export const explanations = {
     ],
     parodyOf: [
       { name: 'Glenn Beck', url: 'https://en.wikipedia.org/wiki/Glenn_Beck' },
-      { name: 'Avatar (2009 film)', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
-      { name: 'Dances with Wolves (1990 film)', url: 'https://en.wikipedia.org/wiki/Dances_With_Wolves' },
+      { name: 'Avatar', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
+      { name: 'Dances with Wolves', url: 'https://en.wikipedia.org/wiki/Dances_With_Wolves' },
     ],
   },
   // Sexual Healing (S14E1)
@@ -473,8 +473,8 @@ export const explanations = {
       "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy, including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.\n\nThe boys pad the book out with 465 mentions of Sarah Jessica Parker's looks, dubbing her a 'transvestite donkey witch' purely because insulting her makes readers vomit - and Matthew Broderick gets ambushed about it in a mock Oscars interview while his wife stands right behind him[1].",
     sources: [{ label: 'AV Club: South Park - The Tale of Scrotie McBoogerballs', url: 'https://www.avclub.com/south-park-the-tale-of-scrotie-mcboogerballs-1798164587' }],
     parodyOf: [
-      { name: 'The Catcher in the Rye (J.D. Salinger novel)', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' },
-      { name: 'Sarah Jessica Parker (persona parody)', url: 'https://en.wikipedia.org/wiki/Sarah_Jessica_Parker' },
+      { name: 'The Catcher in the Rye', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' },
+      { name: 'Sarah Jessica Parker', url: 'https://en.wikipedia.org/wiki/Sarah_Jessica_Parker' },
     ],
   },
   // Medicinal Fried Chicken (S14E3)
@@ -490,7 +490,7 @@ export const explanations = {
       { label: 'The New York Times: cities target fast food in poor areas', url: 'https://www.nytimes.com/2011/01/16/us/16fastfood.html' },
       { label: 'BBC News', url: 'https://www.bbc.co.uk/news/10407559' },
     ],
-    parodyOf: [{ name: 'Scarface (1983 film)', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' }],
+    parodyOf: [{ name: 'Scarface', url: 'https://en.wikipedia.org/wiki/Scarface_(1983_film)' }],
   },
   // You Have 0 Friends (S14E4)
   199: {
@@ -499,7 +499,7 @@ export const explanations = {
     sources: [
       { label: 'Forbes: are all Facebook friends created equal?', url: 'https://www.forbes.com/sites/danschawbel/2011/11/28/are-all-facebook-friends-created-equal/' },
     ],
-    parodyOf: [{ name: 'Tron (film franchise)', url: 'https://en.wikipedia.org/wiki/Tron_(franchise)' }],
+    parodyOf: [{ name: 'Tron', url: 'https://en.wikipedia.org/wiki/Tron_(franchise)' }],
   },
   // 200 (S14E5)
   200: {
@@ -526,15 +526,15 @@ export const explanations = {
   202: {
     summary:
       "The boys stage an Intervention-style rescue mission for Towelie's spiraling drug addiction while, in a parallel plot at a summer camp for disabled kids, a scheming bully's sabotage attempts keep backfiring on him instead. It's a direct, format-accurate parody of A&E's Intervention - down to the black title cards and tearful confrontation - closing with a joke that compares Towelie's fictional rehab to the real 'Restore Stephen Baldwin' fundraising campaign for the actor's own history of addiction.",
-    parodyOf: [{ name: 'Intervention (A&E series)', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
+    parodyOf: [{ name: 'Intervention', url: 'https://en.wikipedia.org/wiki/Intervention_(TV_series)' }],
   },
   // Insheeption (S14E10)
   205: {
     summary:
       "Stan and Mr. Mackey are both diagnosed as compulsive hoarders, and a team of specialists sends them into Mackey's subconscious to find the trauma behind it, pulling in a second team modeled directly on the cast of Inception to rescue the rescuers. It's a dense, structurally faithful spoof of Inception's dream-within-a-dream mechanics, grafted onto a parody of reality shows like Hoarders and Hoarding: Buried Alive, which built entire seasons out of exactly this kind of intervention.",
     parodyOf: [
-      { name: 'Inception (2010 film)', url: 'https://en.wikipedia.org/wiki/Inception' },
-      { name: 'Hoarders / Hoarding: Buried Alive (TV series)', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
+      { name: 'Inception', url: 'https://en.wikipedia.org/wiki/Inception' },
+      { name: 'Hoarders / Hoarding: Buried Alive', url: 'https://en.wikipedia.org/wiki/Hoarders_(TV_series)' },
     ],
   },
   // HUMANCENTiPAD (S15E1)
@@ -544,14 +544,14 @@ export const explanations = {
     sources: [
       { label: 'Business Insider: Apple terms and conditions', url: 'https://www.businessinsider.com/apple-terms-and-conditions' },
     ],
-    parodyOf: [{ name: 'The Human Centipede (2009 film)', url: 'https://en.wikipedia.org/wiki/The_Human_Centipede_(First_Sequence)' }],
+    parodyOf: [{ name: 'The Human Centipede', url: 'https://en.wikipedia.org/wiki/The_Human_Centipede_(First_Sequence)' }],
   },
   // Funnybot (S15E2)
   211: {
     summary:
       "Jimmy's school comedy-awards show gets hijacked by a German-built robot comedian that starts telling jokes so relentlessly it becomes a genuine cultural phenomenon, terrifying Jimmy that machines are about to make human comedians obsolete. A parallel plot has real comedian Tyler Perry turn up in character as his own drag alter ego Madea, sticking around school largely because Token keeps paying him to - a dig at Perry's habit of playing the character across an entire industry of Madea films[1].",
     sources: [{ label: 'TV Fanatic: South Park review - Funnybot', url: 'https://www.tvfanatic.com/2011/05/south-park-review-funnybot/' }],
-    parodyOf: [{ name: 'Tyler Perry (Madea persona parody)', url: 'https://en.wikipedia.org/wiki/Tyler_Perry' }],
+    parodyOf: [{ name: 'Tyler Perry', url: 'https://en.wikipedia.org/wiki/Tyler_Perry' }],
   },
   // Royal Pudding (S15E3)
   212: {
@@ -570,14 +570,14 @@ export const explanations = {
       { label: 'ESPN: do college athletes deserve to be paid?', url: 'https://www.espn.com/college-sports/story/_/id/6778847/college-athletes-deserve-paid' },
       { label: "The New York Times: let's start paying college athletes", url: 'https://www.nytimes.com/2012/01/01/magazine/lets-start-paying-college-athletes.html' },
     ],
-    parodyOf: [{ name: 'Peter Moore (persona parody)', url: 'https://en.wikipedia.org/wiki/Peter_Moore_(businessman)' }],
+    parodyOf: [{ name: 'Peter Moore', url: 'https://en.wikipedia.org/wiki/Peter_Moore_(businessman)' }],
   },
   // City Sushi (S15E6)
   215: {
     summary:
       "A Japanese sushi restaurant opens next door to City Wok, and its owner Tuong Lu Kim spirals into a full ethnic-rivalry meltdown that ends with him locked in a psychiatric cell. The episode closes out with a shot-for-shot recreation of the famous ending of Psycho - blanket, fly, and Norman Bates's interior monologue repeated almost word for word - swapping in Lu Kim's fractured 'Japanese vs. Chinese' persona for Bates's split personality[1].",
     sources: [{ label: 'Wikipedia: City Sushi', url: 'https://en.wikipedia.org/wiki/City_Sushi' }],
-    parodyOf: [{ name: 'Psycho (1960 film)', url: 'https://en.wikipedia.org/wiki/Psycho_(1960_film)' }],
+    parodyOf: [{ name: 'Psycho', url: 'https://en.wikipedia.org/wiki/Psycho_(1960_film)' }],
   },
   // The Last of the Meheecans (S15E9)
   218: {
@@ -585,8 +585,8 @@ export const explanations = {
       "A backyard game of 'Texans vs. Mexicans' spirals into a real immigration crisis once Cartman joins the actual US Border Patrol and Butters, mistaken for a Mexican immigrant, accidentally triggers a mass emigration back to Mexico that tanks the American economy overnight. It's a direct, deliberately absurd parody of illegal immigration debates and reality shows like Border Wars[1], turning the usual argument on its head by showing how dependent the US economy actually is on immigrant labor once it's gone.",
     sources: [{ label: 'UNODC: migrant smuggling', url: 'https://www.unodc.org/toc/en/crimes/migrant-smuggling.html' }],
     parodyOf: [
-      { name: 'The Last of the Mohicans (1992 film)', url: 'https://en.wikipedia.org/wiki/The_Last_of_the_Mohicans_(1992_film)' },
-      { name: 'Border Wars (National Geographic series)', url: 'https://en.wikipedia.org/wiki/Border_Wars_(TV_series)' },
+      { name: 'The Last of the Mohicans', url: 'https://en.wikipedia.org/wiki/The_Last_of_the_Mohicans_(1992_film)' },
+      { name: 'Border Wars', url: 'https://en.wikipedia.org/wiki/Border_Wars_(TV_series)' },
     ],
   },
   // Bass to Mouth (S15E10)
@@ -601,10 +601,10 @@ export const explanations = {
       "Randy takes Sharon to see Wicked and becomes convinced Broadway musicals hide subliminal messages that trick women into performing oral sex, so he writes his own show that drops the subtext and says it outright - drawing the ire of Broadway's real biggest songwriters. Stephen Sondheim, Stephen Schwartz, Andrew Lloyd Webber, and Elton John all appear as themselves, reimagined as beer-chugging, wing-eating, football-watching bros secretly running the whole con[1], before Randy and Sondheim eventually bro down and earn each other's respect.",
     sources: [{ label: 'The Washington Post: Stephen Sondheim, Elton John featured in South Park love letter to Broadway', url: 'https://www.washingtonpost.com/blogs/arts-post/post/stephen-sondheim-elton-john-featured-in-south-park-love-letter-to-broadway/2011/10/27/gIQAAsYQMM_blog.html' }],
     parodyOf: [
-      { name: 'Stephen Sondheim (persona parody)', url: 'https://en.wikipedia.org/wiki/Stephen_Sondheim' },
-      { name: 'Stephen Schwartz (persona parody)', url: 'https://en.wikipedia.org/wiki/Stephen_Schwartz_(composer)' },
-      { name: 'Andrew Lloyd Webber (persona parody)', url: 'https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber' },
-      { name: 'Elton John (persona parody)', url: 'https://en.wikipedia.org/wiki/Elton_John' },
+      { name: 'Stephen Sondheim', url: 'https://en.wikipedia.org/wiki/Stephen_Sondheim' },
+      { name: 'Stephen Schwartz', url: 'https://en.wikipedia.org/wiki/Stephen_Schwartz_(composer)' },
+      { name: 'Andrew Lloyd Webber', url: 'https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber' },
+      { name: 'Elton John', url: 'https://en.wikipedia.org/wiki/Elton_John' },
     ],
   },
   // 1% (S15E12)
@@ -627,8 +627,8 @@ export const explanations = {
       },
     ],
     parodyOf: [
-      { name: 'Ancient Aliens (History Channel series)', url: 'https://en.wikipedia.org/wiki/Ancient_Aliens' },
-      { name: 'Thor (2011 film)', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
+      { name: 'Ancient Aliens', url: 'https://en.wikipedia.org/wiki/Ancient_Aliens' },
+      { name: 'Thor', url: 'https://en.wikipedia.org/wiki/Thor_(film)' },
     ],
   },
   // Cash For Gold (S16E2)
@@ -649,8 +649,8 @@ export const explanations = {
     summary:
       "Butters' schoolmates rally around him after spotting a black eye, not realizing his own grandmother is the one actually bullying him, while an anti-bullying counselor turns the fallout into a school-wide 'awareness' campaign that ends up glorifying Stan's own heroics more than addressing any real bullying. It's a direct, unusually blunt spoof of the 2011 documentary Bully and its most visible advocate, Kony 2012 director Jason Russell, skewering the era's anti-bullying movement for chasing viral moments and merchandising deals over real solutions - right down to Stan's own breakdown, stripping naked and dancing in public in San Diego, just as Russell infamously did during his own real, widely covered breakdown.",
     parodyOf: [
-      { name: 'Bully (2011 documentary)', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
-      { name: 'Jason Russell (Kony 2012, persona parody)', url: 'https://en.wikipedia.org/wiki/Jason_Russell' },
+      { name: 'Bully', url: 'https://en.wikipedia.org/wiki/Bully_(2011_film)' },
+      { name: 'Jason Russell', url: 'https://en.wikipedia.org/wiki/Jason_Russell' },
     ],
   },
   // Raising the Bar (S16E9)
@@ -665,8 +665,8 @@ export const explanations = {
       { label: "Deepsea Challenge: James Cameron's Mariana Trench expedition", url: 'https://deepseachallenge.com/' },
     ],
     parodyOf: [
-      { name: 'Here Comes Honey Boo Boo (TLC series)', url: 'https://en.wikipedia.org/wiki/Here_Comes_Honey_Boo_Boo' },
-      { name: 'James Cameron (persona parody)', url: 'https://en.wikipedia.org/wiki/James_Cameron' },
+      { name: 'Here Comes Honey Boo Boo', url: 'https://en.wikipedia.org/wiki/Here_Comes_Honey_Boo_Boo' },
+      { name: 'James Cameron', url: 'https://en.wikipedia.org/wiki/James_Cameron' },
     ],
   },
   // Insecurity (S16E10)
@@ -676,14 +676,14 @@ export const explanations = {
     sources: [
       { label: 'TV Fanatic: South Park review - Banes on the Loose', url: 'https://www.tvfanatic.com/south-park-review-banes-on-the-loose/' },
     ],
-    parodyOf: [{ name: 'Bane / The Dark Knight Rises (2012 film)', url: 'https://en.wikipedia.org/wiki/The_Dark_Knight_Rises' }],
+    parodyOf: [{ name: 'Bane / The Dark Knight Rises', url: 'https://en.wikipedia.org/wiki/The_Dark_Knight_Rises' }],
   },
   // A Nightmare on Face Time (S16E12)
   235: {
     summary:
       "Randy sinks the family's savings into a Blockbuster Video store just as brick-and-mortar rental is collapsing, and slowly loses his mind in a fairly faithful The Shining pastiche - an eerie, empty store standing in for the Overlook Hotel. It's both a pointed eulogy for Blockbuster, whose real rental business had already been gutted by streaming and Redbox kiosks by 2012[1], and a jab at how casually FaceTime and iPads were starting to mediate real-world experiences like trick-or-treating.",
     sources: [{ label: 'BBC News: Blockbuster to close remaining outlets', url: 'https://www.bbc.co.uk/news/business-11397020' }],
-    parodyOf: [{ name: 'The Shining (1980 film)', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' }],
+    parodyOf: [{ name: 'The Shining', url: 'https://en.wikipedia.org/wiki/The_Shining_(film)' }],
   },
   // A Scause For Applause (S16E13)
   236: {
@@ -703,7 +703,7 @@ export const explanations = {
         url: 'https://seussblog.wordpress.com/2013/03/28/south-park-references-dr-seuss-in-scause-for-applause/',
       },
     ],
-    parodyOf: [{ name: 'Dr. Seuss (rhyming verse style)', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
+    parodyOf: [{ name: 'Dr. Seuss', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
   },
   // Obama Wins! (S16E14)
   237: {
@@ -715,8 +715,8 @@ export const explanations = {
       { label: 'AV Club: South Park - Obama Wins!', url: 'https://www.avclub.com/south-park-obama-wins-1798174891' },
     ],
     parodyOf: [
-      { name: 'Star Wars (Lucasfilm/Disney franchise)', url: 'https://en.wikipedia.org/wiki/Star_Wars' },
-      { name: 'Morgan Freeman (narrator persona parody)', url: 'https://en.wikipedia.org/wiki/Morgan_Freeman' },
+      { name: 'Star Wars', url: 'https://en.wikipedia.org/wiki/Star_Wars' },
+      { name: 'Morgan Freeman', url: 'https://en.wikipedia.org/wiki/Morgan_Freeman' },
     ],
   },
   // Let Go, Let Gov (S17E1)
@@ -745,7 +745,7 @@ export const explanations = {
         url: 'https://abcnews.com/Entertainment/alec-baldwin-memorable-rants-altercations/story?id=19566165',
       },
     ],
-    parodyOf: [{ name: 'Alec Baldwin (persona parody)', url: 'https://en.wikipedia.org/wiki/Alec_Baldwin' }],
+    parodyOf: [{ name: 'Alec Baldwin', url: 'https://en.wikipedia.org/wiki/Alec_Baldwin' }],
   },
   // World War Zimmerman (S17E3)
   240: {
@@ -755,7 +755,7 @@ export const explanations = {
       { label: 'Wikipedia: Killing of Trayvon Martin', url: 'https://en.wikipedia.org/wiki/Killing_of_Trayvon_Martin' },
       { label: 'Wikipedia: Stand-your-ground law', url: 'https://en.wikipedia.org/wiki/Stand-your-ground_law' },
     ],
-    parodyOf: [{ name: 'World War Z (2013 film)', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' }],
+    parodyOf: [{ name: 'World War Z', url: 'https://en.wikipedia.org/wiki/World_War_Z_(film)' }],
   },
   // Goth Kids 3: Dawn of the Posers (S17E4)
   241: {
@@ -764,7 +764,7 @@ export const explanations = {
     sources: [
       { label: 'AV Club: South Park - Goth Kids 3: Dawn of the Posers', url: 'https://www.avclub.com/south-park-goth-kids-3-dawn-of-the-posers-1798178421' },
     ],
-    parodyOf: [{ name: 'Invasion of the Body Snatchers (1956 film)', url: 'https://en.wikipedia.org/wiki/Invasion_of_the_Body_Snatchers_(1956_film)' }],
+    parodyOf: [{ name: 'Invasion of the Body Snatchers', url: 'https://en.wikipedia.org/wiki/Invasion_of_the_Body_Snatchers_(1956_film)' }],
   },
   // Taming Strange (S17E5)
   242: {
@@ -782,7 +782,7 @@ export const explanations = {
     ],
     parodyOf: [
       { name: "Miley Cyrus's 2013 VMA performance", url: 'https://en.wikipedia.org/wiki/2013_MTV_Video_Music_Awards' },
-      { name: 'Yo Gabba Gabba! (Nick Jr. series)', url: 'https://en.wikipedia.org/wiki/Yo_Gabba_Gabba!' },
+      { name: 'Yo Gabba Gabba!', url: 'https://en.wikipedia.org/wiki/Yo_Gabba_Gabba!' },
     ],
   },
   // Black Friday (S17E7)
@@ -815,8 +815,8 @@ export const explanations = {
       { label: 'BBC News: media and body image', url: 'https://www.bbc.co.uk/news/health-29569473' },
     ],
     parodyOf: [
-      { name: 'Kim Kardashian (persona parody)', url: 'https://en.wikipedia.org/wiki/Kim_Kardashian' },
-      { name: 'Kanye West (persona parody)', url: 'https://en.wikipedia.org/wiki/Kanye_West' },
+      { name: 'Kim Kardashian', url: 'https://en.wikipedia.org/wiki/Kim_Kardashian' },
+      { name: 'Kanye West', url: 'https://en.wikipedia.org/wiki/Kanye_West' },
     ],
   },
   // Go Fund Yourself (S18E1)
@@ -851,7 +851,7 @@ export const explanations = {
       { label: 'Time: The Transgender Tipping Point', url: 'https://time.com/135480/transgender-tipping-point/' },
       { label: 'Time: What the Fight Over Bathrooms and Transgender Rights Is Really About', url: 'https://time.com/3974186/transgender-bathroom-debate/' },
     ],
-    parodyOf: [{ name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' }],
+    parodyOf: [{ name: 'Lorde', url: 'https://en.wikipedia.org/wiki/Lorde' }],
   },
   // The Magic Bush (S18E5)
   252: {
@@ -879,8 +879,8 @@ export const explanations = {
       { label: 'University of Iowa: pathological gambling runs in families', url: 'https://now.uiowa.edu/news/2014/06/pathological-gambling-runs-families' },
     ],
     parodyOf: [
-      { name: 'The Simpsons: Tapped Out (mobile game)', url: 'https://en.wikipedia.org/wiki/The_Simpsons:_Tapped_Out' },
-      { name: 'Family Guy: The Quest for Stuff (mobile game)', url: 'https://en.wikipedia.org/wiki/Family_Guy:_The_Quest_for_Stuff' },
+      { name: 'The Simpsons: Tapped Out', url: 'https://en.wikipedia.org/wiki/The_Simpsons:_Tapped_Out' },
+      { name: 'Family Guy: The Quest for Stuff', url: 'https://en.wikipedia.org/wiki/Family_Guy:_The_Quest_for_Stuff' },
     ],
   },
   // Grounded Vindaloop (S18E7)
@@ -891,7 +891,7 @@ export const explanations = {
       { label: 'Wired: hands-on with the Oculus Rift', url: 'https://www.wired.com/2014/05/oculus-rift-4/' },
       { label: 'Talkdesk: a guide to call center agent feedback loops', url: 'https://www.talkdesk.com/blog/guide-to-call-center-agent-feedback-loops/' },
     ],
-    parodyOf: [{ name: 'Oculus Rift (VR headset)', url: 'https://en.wikipedia.org/wiki/Oculus_Rift' }],
+    parodyOf: [{ name: 'Oculus Rift', url: 'https://en.wikipedia.org/wiki/Oculus_Rift' }],
   },
   // #REHASH (S18E9)
   256: {
@@ -902,8 +902,8 @@ export const explanations = {
       { label: 'Wikipedia: Rehash (South Park)', url: 'https://en.wikipedia.org/wiki/Rehash_(South_Park)' },
     ],
     parodyOf: [
-      { name: 'PewDiePie (YouTube personality)', url: 'https://en.wikipedia.org/wiki/PewDiePie' },
-      { name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' },
+      { name: 'PewDiePie', url: 'https://en.wikipedia.org/wiki/PewDiePie' },
+      { name: 'Lorde', url: 'https://en.wikipedia.org/wiki/Lorde' },
     ],
   },
   // #HappyHolograms (S18E10)
@@ -916,7 +916,7 @@ export const explanations = {
         url: 'https://consequence.net/2014/12/south-park-mocks-music-industry-with-lorde-and-tupac-holograms-watch/',
       },
     ],
-    parodyOf: [{ name: 'Lorde (persona parody)', url: 'https://en.wikipedia.org/wiki/Lorde' }],
+    parodyOf: [{ name: 'Lorde', url: 'https://en.wikipedia.org/wiki/Lorde' }],
   },
   // Stunning and Brave (S19E1)
   258: {
@@ -930,7 +930,7 @@ export const explanations = {
       { label: 'Vanity Fair: Caitlyn Jenner cover story (June 2015)', url: 'https://www.vanityfair.com/hollywood/2015/06/caitlyn-jenner-bruce-cover-annie-leibovitz' },
       { label: 'Vanity Fair: Call Me Caitlyn (documentary video)', url: 'https://www.vanityfair.com/video/watch/call-me-caitlyn-documentary' },
     ],
-    parodyOf: [{ name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
+    parodyOf: [{ name: 'Caitlyn Jenner', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
   },
   // Where My Country Gone? (S19E2)
   259: {
@@ -952,8 +952,8 @@ export const explanations = {
       },
     ],
     parodyOf: [
-      { name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
-      { name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' },
+      { name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+      { name: 'Caitlyn Jenner', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' },
     ],
   },
   // The City Part of Town (S19E3)
@@ -992,7 +992,7 @@ export const explanations = {
       { label: "Flexa: How safe are 'safe spaces' really?", url: 'https://flexa.careers/blog/how-safe-are-safe-spaces-really' },
       { label: 'South Park Studios: Safe Space', url: 'https://southpark.cc.com/wiki/Safe_Space' },
     ],
-    parodyOf: [{ name: 'Steven Seagal (persona parody)', url: 'https://en.wikipedia.org/wiki/Steven_Seagal' }],
+    parodyOf: [{ name: 'Steven Seagal', url: 'https://en.wikipedia.org/wiki/Steven_Seagal' }],
   },
   // Naughty Ninjas (S19E7)
   264: {
@@ -1012,7 +1012,7 @@ export const explanations = {
       AD_ARC_SOURCE_NYFA,
       { label: 'Wikipedia: Sponsored Content (South Park)', url: 'https://en.wikipedia.org/wiki/Sponsored_Content_(South_Park)' },
     ],
-    parodyOf: [{ name: 'Caitlyn Jenner (persona parody)', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
+    parodyOf: [{ name: 'Caitlyn Jenner', url: 'https://en.wikipedia.org/wiki/Caitlyn_Jenner' }],
   },
   // Truth and Advertising (S19E9)
   266: {
@@ -1023,7 +1023,7 @@ export const explanations = {
       AD_ARC_SOURCE_GUARDIAN_AI,
       { label: 'TV Overmind: South Park season 19 episode 9 review - Truth and Advertising', url: 'https://tvovermind.com/south-park-season-19-episode-9-review-truth-and-advertising/' },
     ],
-    parodyOf: [{ name: 'Ex Machina (2014 film)', url: 'https://en.wikipedia.org/wiki/Ex_Machina_(film)' }],
+    parodyOf: [{ name: 'Ex Machina', url: 'https://en.wikipedia.org/wiki/Ex_Machina_(film)' }],
   },
   // PC Principal Final Justice (S19E10)
   267: {
@@ -1055,8 +1055,8 @@ export const explanations = {
       { label: 'South Park spoofs the first Clinton-Trump presidential debate (YouTube)', url: 'https://www.youtube.com/watch?v=855Am6ovK7s' },
     ],
     parodyOf: [
-      { name: 'Donald Trump (Giant Douche, 2016 debate)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
-      { name: 'Hillary Clinton (Turd Sandwich, 2016 debate)', url: 'https://en.wikipedia.org/wiki/Hillary_Clinton' },
+      { name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+      { name: 'Hillary Clinton', url: 'https://en.wikipedia.org/wiki/Hillary_Clinton' },
     ],
   },
   // Douche and a Danish (S20E5)
@@ -1073,7 +1073,7 @@ export const explanations = {
         url: 'https://www.pbs.org/newshour/politics/sexual-misconduct-allegations-trump-recapped',
       },
     ],
-    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
+    parodyOf: [{ name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Fort Collins (S20E6)
   273: {
@@ -1093,7 +1093,7 @@ export const explanations = {
     sources: [
       { label: 'The Guardian: Donald Trump wins US election', url: 'https://www.theguardian.com/us-news/2016/nov/09/donald-trump-wins-us-election-news' },
     ],
-    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
+    parodyOf: [{ name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Members Only (S20E8)
   275: {
@@ -1103,8 +1103,8 @@ export const explanations = {
       { label: 'The Guardian: Elon Musk unveils his interplanetary spaceship to take humans to Mars', url: 'https://www.theguardian.com/technology/2016/sep/27/elon-musk-spacex-mars-colony' },
     ],
     parodyOf: [
-      { name: 'Elon Musk (playing himself)', url: 'https://en.wikipedia.org/wiki/Elon_Musk' },
-      { name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+      { name: 'Elon Musk', url: 'https://en.wikipedia.org/wiki/Elon_Musk' },
+      { name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
     ],
   },
   // Not Funny (S20E9)
@@ -1112,7 +1112,7 @@ export const explanations = {
     summary:
       "Amid global panic over the Troll Trace leak site, a crowd lays siege to a barricaded SpaceX facility - giving Elon Musk a cameo playing himself amid the chaos[1], continuing the season's trolling-arc satire - while Cartman spirals over whether Heidi Turner is actually funny, a small, personal echo of the season's bigger argument about who gets to say what without facing consequences.",
     sources: [{ label: 'South Park Public Library: Elon Musk', url: 'https://southpark.fandom.com/wiki/Elon_Musk' }],
-    parodyOf: [{ name: 'Elon Musk (playing himself)', url: 'https://en.wikipedia.org/wiki/Elon_Musk' }],
+    parodyOf: [{ name: 'Elon Musk', url: 'https://en.wikipedia.org/wiki/Elon_Musk' }],
   },
   // White People Renovating Houses (S21E1)
   278: {
@@ -1132,7 +1132,7 @@ export const explanations = {
         url: 'https://www.splcenter.org/resources/hatewatch/flags-and-other-symbols-used-far-right-groups-charlottesville/',
       },
     ],
-    parodyOf: [{ name: 'Fixer Upper (HGTV series)', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' }],
+    parodyOf: [{ name: 'Fixer Upper', url: 'https://en.wikipedia.org/wiki/Fixer_Upper_(TV_series)' }],
   },
   // Put It Down (S21E2)
   279: {
@@ -1164,7 +1164,7 @@ export const explanations = {
         url: 'https://www.forbes.com/sites/danidiplacido/2017/10/13/south-park-review-franchise-prequel-swipes-at-mark-zuckerberg-misses/',
       },
     ],
-    parodyOf: [{ name: 'Mark Zuckerberg (persona parody)', url: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg' }],
+    parodyOf: [{ name: 'Mark Zuckerberg', url: 'https://en.wikipedia.org/wiki/Mark_Zuckerberg' }],
   },
   // Hummels & Heroin (S21E5)
   282: {
@@ -1206,7 +1206,7 @@ export const explanations = {
         url: 'https://www.vanityfair.com/news/2017/12/trump-white-house-stockholm-syndrome-ed-letter',
       },
     ],
-    parodyOf: [{ name: 'Donald Trump (persona parody)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
+    parodyOf: [{ name: 'Donald Trump', url: 'https://en.wikipedia.org/wiki/Donald_Trump' }],
   },
   // Moss Piglets (S21E8)
   285: {
@@ -1228,8 +1228,8 @@ export const explanations = {
       { label: 'The New York Times: who are the angriest Republicans?', url: 'https://www.nytimes.com/2016/03/30/opinion/campaign-stops/who-are-the-angriest-republicans.html' },
     ],
     parodyOf: [
-      { name: 'Stranger Things (Netflix series)', url: 'https://en.wikipedia.org/wiki/Stranger_Things' },
-      { name: 'It (Stephen King novel/film)', url: 'https://en.wikipedia.org/wiki/It_(novel)' },
+      { name: 'Stranger Things', url: 'https://en.wikipedia.org/wiki/Stranger_Things' },
+      { name: 'It', url: 'https://en.wikipedia.org/wiki/It_(novel)' },
     ],
   },
   // Dead Kids (S22E1)
@@ -1265,8 +1265,8 @@ export const explanations = {
       { label: 'Axios: Brett Kavanaugh timeline', url: 'https://www.axios.com/2018/10/02/brett-kavanaugh-timeline-allegations-vote' },
     ],
     parodyOf: [
-      { name: 'The Problem with Apu (2017 documentary)', url: 'https://en.wikipedia.org/wiki/The_Problem_with_Apu' },
-      { name: 'Roseanne Barr (2018 Twitter scandal)', url: 'https://en.wikipedia.org/wiki/Roseanne_Barr' },
+      { name: 'The Problem with Apu', url: 'https://en.wikipedia.org/wiki/The_Problem_with_Apu' },
+      { name: 'Roseanne Barr', url: 'https://en.wikipedia.org/wiki/Roseanne_Barr' },
     ],
   },
   // Tegridy Farms (S22E4)
@@ -1302,7 +1302,7 @@ export const explanations = {
   293: {
     summary:
       "Twelve years after ManBearPig was laughed out of town, the creature turns out to have been real all along - and is now devastating South Park while Al Gore, still trying to warn everyone, becomes the only person who's actually been right the whole time. It's South Park doing something it rarely does: explicitly retracting its own earlier punchline, reframing the 2006 original as satirizing the messenger's grandiosity rather than the message itself.",
-    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
+    parodyOf: [{ name: 'Al Gore', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Nobody Got Cereal? (S22E7)
   294: {
@@ -1311,7 +1311,7 @@ export const explanations = {
     sources: [
       { label: 'Salon: South Park, climate change, and ManBearPig', url: 'https://www.salon.com/2018/11/15/south-park-climate-change-manbearpig/' },
     ],
-    parodyOf: [{ name: 'Al Gore (An Inconvenient Truth)', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
+    parodyOf: [{ name: 'Al Gore', url: 'https://en.wikipedia.org/wiki/Al_Gore' }],
   },
   // Unfulfilled (S22E9)
   296: {
@@ -1340,7 +1340,7 @@ export const explanations = {
         url: 'https://www.wsws.org/en/articles/2019/01/09/park-j09.html',
       },
     ],
-    parodyOf: [{ name: 'Jeff Bezos (persona parody)', url: 'https://en.wikipedia.org/wiki/Jeff_Bezos' }],
+    parodyOf: [{ name: 'Jeff Bezos', url: 'https://en.wikipedia.org/wiki/Jeff_Bezos' }],
   },
   // Mexican Joker (S23E1)
   298: {
@@ -1351,7 +1351,7 @@ export const explanations = {
       { label: 'Freedom for Immigrants: child detention stories', url: 'https://www.freedomforimmigrants.org/child-detention-stories' },
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
     ],
-    parodyOf: [{ name: 'Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
+    parodyOf: [{ name: 'Joker', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
   },
   // Band in China (S23E2)
   299: {
@@ -1369,7 +1369,7 @@ export const explanations = {
       { label: 'BBC News: China scrubs South Park after episode mocks censorship', url: 'https://www.bbc.co.uk/news/world-asia-china-49968867' },
       { label: 'Wikipedia: Band in China', url: 'https://en.wikipedia.org/wiki/Band_in_China' },
     ],
-    parodyOf: [{ name: 'No Country for Old Men (2007 film)', url: 'https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)' }],
+    parodyOf: [{ name: 'No Country for Old Men', url: 'https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)' }],
   },
   // Shots!!! (S23E3)
   300: {
@@ -1397,7 +1397,7 @@ export const explanations = {
         url: 'https://www.bigissue.com/news/environment/farmers-are-fighting-back-against-the-fake-meat-supermarket-invasion/',
       },
     ],
-    parodyOf: [{ name: 'Dr. Seuss (rhyming verse style)', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
+    parodyOf: [{ name: 'Dr. Seuss', url: 'https://en.wikipedia.org/wiki/Dr._Seuss' }],
   },
   // Season Finale (S23E6)
   303: {
@@ -1407,7 +1407,7 @@ export const explanations = {
       { label: 'The Washington Post: Trump doubles down on male victimhood', url: 'https://www.washingtonpost.com/news/opinions/wp/2018/10/03/trump-doubles-down-on-male-victimhood/' },
       { label: "The Guardian: 'detained' - inside the US's largest immigrant detention system under Trump", url: 'https://www.theguardian.com/us-news/2019/sep/24/detained-us-largest-immigrant-detention-trump' },
     ],
-    parodyOf: [{ name: 'Joker (2019 film)', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
+    parodyOf: [{ name: 'Joker', url: 'https://en.wikipedia.org/wiki/Joker_(2019_film)' }],
   },
   // Board Girls (S23E7)
   304: {
@@ -1431,8 +1431,8 @@ export const explanations = {
       { label: 'Forbes Health: What Is the Tom Brady (TB12) Diet?', url: 'https://www.forbes.com/health/nutrition/diet/tom-brady-tb12-diet/' },
     ],
     parodyOf: [
-      { name: 'Dune (1965 novel) / Dune (1984 film)', url: 'https://en.wikipedia.org/wiki/Dune_(novel)' },
-      { name: 'Tom Brady (TB12 Method)', url: 'https://en.wikipedia.org/wiki/Tom_Brady' },
+      { name: 'Dune (1965 novel) / Dune', url: 'https://en.wikipedia.org/wiki/Dune_(novel)' },
+      { name: 'Tom Brady', url: 'https://en.wikipedia.org/wiki/Tom_Brady' },
     ],
   },
   // Basic Cable (S23E9)
@@ -1451,7 +1451,7 @@ export const explanations = {
       },
       { label: 'Variety: South Park to stream exclusively on HBO Max', url: 'https://variety.com/2019/tv/news/south-park-stream-exclusively-hbo-max-1203387212/' },
     ],
-    parodyOf: [{ name: 'The Mandalorian (Disney+ series)', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' }],
+    parodyOf: [{ name: 'The Mandalorian', url: 'https://en.wikipedia.org/wiki/The_Mandalorian' }],
   },
   // The Pandemic Special (S24E1)
   308: {
@@ -1489,9 +1489,9 @@ export const explanations = {
       },
     ],
     parodyOf: [
-      { name: 'WarGames (1983 film)', url: 'https://en.wikipedia.org/wiki/WarGames' },
-      { name: 'Red Dawn (1984 film)', url: 'https://en.wikipedia.org/wiki/Red_Dawn' },
-      { name: 'Rocky IV (1985 film)', url: 'https://en.wikipedia.org/wiki/Rocky_IV' },
+      { name: 'WarGames', url: 'https://en.wikipedia.org/wiki/WarGames' },
+      { name: 'Red Dawn', url: 'https://en.wikipedia.org/wiki/Red_Dawn' },
+      { name: 'Rocky IV', url: 'https://en.wikipedia.org/wiki/Rocky_IV' },
     ],
   },
   // Margaritaville (S13E3)
@@ -1499,7 +1499,7 @@ export const explanations = {
     summary:
       "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.\n\nStan and Kyle's plot even restages the Last Supper, with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
     sources: [{ label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' }],
-    parodyOf: [{ name: 'The Last Supper (biblical scene)', url: 'https://en.wikipedia.org/wiki/Last_Supper' }],
+    parodyOf: [{ name: 'The Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' }],
   },
   // Handicar (S18E4)
   251: {
@@ -1511,8 +1511,8 @@ export const explanations = {
       { label: 'Den of Geek: South Park - Handicar review', url: 'https://www.denofgeek.com/tv/south-park-handicar-review/' },
     ],
     parodyOf: [
-      { name: 'Wacky Races (1968 cartoon)', url: 'https://en.wikipedia.org/wiki/Wacky_Races' },
-      { name: 'Matthew McConaughey (Lincoln ad parody)', url: 'https://en.wikipedia.org/wiki/Matthew_McConaughey' },
+      { name: 'Wacky Races', url: 'https://en.wikipedia.org/wiki/Wacky_Races' },
+      { name: 'Matthew McConaughey', url: 'https://en.wikipedia.org/wiki/Matthew_McConaughey' },
     ],
   },
   // With Apologies to Jesse Jackson (S11E1)
@@ -1532,8 +1532,8 @@ export const explanations = {
       { label: 'Vice: the Jersey Shore scene that made Snooki a star', url: 'https://www.vice.com/en/article/17-years-ago-one-shocking-jersey-shore-scene-turned-snooki-into-a-reality-tv-star-overnight/' },
     ],
     parodyOf: [
-      { name: 'Jersey Shore (MTV series)', url: 'https://en.wikipedia.org/wiki/Jersey_Shore_(TV_series)' },
-      { name: 'The Real Housewives of New Jersey (Bravo series)', url: 'https://en.wikipedia.org/wiki/The_Real_Housewives_of_New_Jersey' },
+      { name: 'Jersey Shore', url: 'https://en.wikipedia.org/wiki/Jersey_Shore_(TV_series)' },
+      { name: 'The Real Housewives of New Jersey', url: 'https://en.wikipedia.org/wiki/The_Real_Housewives_of_New_Jersey' },
     ],
   },
   // Member Berries (S20E1)
@@ -1543,6 +1543,6 @@ export const explanations = {
     sources: [
       { label: 'CNN: 2016 Election Results (President)', url: 'https://edition.cnn.com/election/2016/results/president' },
     ],
-    parodyOf: [{ name: 'Star Wars (Chewbacca nostalgia callback)', url: 'https://en.wikipedia.org/wiki/Star_Wars' }],
+    parodyOf: [{ name: 'Star Wars', url: 'https://en.wikipedia.org/wiki/Star_Wars' }],
   },
 }
