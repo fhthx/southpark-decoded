@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react'
 import { Link, useLoaderData } from 'react-router'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
@@ -27,10 +26,9 @@ export default function ParodyLeaderboardPage() {
                   href={target.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-1 font-medium text-blue-600 dark:text-blue-400"
+                  className="font-medium text-blue-600 dark:text-blue-400"
                 >
                   {target.name}
-                  <ExternalLink className="size-3 shrink-0" />
                 </a>
                 <div className="mt-1.5 flex flex-wrap gap-1.5">
                   {target.episodeIds.map((episodeId) => {
