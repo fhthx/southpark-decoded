@@ -1,7 +1,9 @@
 import { useState } from 'react'
+import { Trophy } from 'lucide-react'
 import { Link, Outlet, useRouteLoaderData } from 'react-router'
 import OptionsPopover from '@/components/OptionsPopover'
 import CharacterHatDecoration from '@/components/CharacterHatDecoration'
+import { Button } from '@/components/ui/button'
 import { useTheme } from '@/hooks/use-theme'
 import { cn } from '@/lib/utils'
 
@@ -50,19 +52,33 @@ export default function AppLayout() {
               Every episode, and the real-world story behind it.
             </p>
           </div>
-          {episodes && (
-            <OptionsPopover
-              episodes={episodes}
-              search={search}
-              onSearchChange={setSearch}
-              season={season}
-              onSeasonChange={setSeason}
-              decodedOnly={decodedOnly}
-              onDecodedOnlyChange={setDecodedOnly}
-              parodiedOnly={parodiedOnly}
-              onParodiedOnlyChange={setParodiedOnly}
-            />
-          )}
+          <div className="flex items-center gap-1">
+            <Button
+              asChild
+              variant={isKenny ? 'ghost' : 'default'}
+              size="icon"
+              aria-label="Most Parodied"
+              title="Most Parodied"
+              style={isKenny ? { backgroundColor: '#e8b892', color: 'var(--character-secondary)' } : undefined}
+            >
+              <Link to="/parodies">
+                <Trophy />
+              </Link>
+            </Button>
+            {episodes && (
+              <OptionsPopover
+                episodes={episodes}
+                search={search}
+                onSearchChange={setSearch}
+                season={season}
+                onSeasonChange={setSeason}
+                decodedOnly={decodedOnly}
+                onDecodedOnlyChange={setDecodedOnly}
+                parodiedOnly={parodiedOnly}
+                onParodiedOnlyChange={setParodiedOnly}
+              />
+            )}
+          </div>
         </div>
       </header>
 

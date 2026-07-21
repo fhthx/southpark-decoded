@@ -470,8 +470,12 @@ export const explanations = {
   // The Tale of Scrotie McBoogerballs (S14E2)
   197: {
     summary:
-      "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy, including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.",
-    parodyOf: [{ name: 'The Catcher in the Rye (J.D. Salinger novel)', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' }],
+      "Unimpressed that The Catcher in the Rye isn't as scandalous as its reputation suggests, the boys write their own deliberately vile prank novel - only to watch adults, critics, and ideologues of every stripe insist it's secretly a profound allegory for whatever they already believe. It's a sharp satire of pop-culture over-analysis and the impulse to find hidden meaning in works that were never trying to say anything, built around a direct engagement with The Catcher in the Rye's own real, controversial legacy, including its link to the assassination of John Lennon and the attempt on Ronald Reagan's life.\n\nThe boys pad the book out with 465 mentions of Sarah Jessica Parker's looks, dubbing her a 'transvestite donkey witch' purely because insulting her makes readers vomit - and Matthew Broderick gets ambushed about it in a mock Oscars interview while his wife stands right behind him[1].",
+    sources: [{ label: 'AV Club: South Park - The Tale of Scrotie McBoogerballs', url: 'https://www.avclub.com/south-park-the-tale-of-scrotie-mcboogerballs-1798164587' }],
+    parodyOf: [
+      { name: 'The Catcher in the Rye (J.D. Salinger novel)', url: 'https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye' },
+      { name: 'Sarah Jessica Parker (persona parody)', url: 'https://en.wikipedia.org/wiki/Sarah_Jessica_Parker' },
+    ],
   },
   // Medicinal Fried Chicken (S14E3)
   198: {

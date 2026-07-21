@@ -4,7 +4,9 @@ import EpisodeListPage from '@/routes/EpisodeListPage'
 import EpisodeDrawer from '@/routes/EpisodeDrawer'
 import EpisodeNotFoundDrawer from '@/routes/EpisodeNotFoundDrawer'
 import NotFoundPage from '@/routes/NotFoundPage'
+import ParodyLeaderboardPage from '@/routes/ParodyLeaderboardPage'
 import { getAllEpisodes, getEpisodeById } from '@/lib/episodes-api'
+import { getParodyLeaderboard } from '@/lib/parody-stats'
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +32,11 @@ export const router = createBrowserRouter([
             errorElement: <EpisodeNotFoundDrawer />,
           },
         ],
+      },
+      {
+        path: 'parodies',
+        element: <ParodyLeaderboardPage />,
+        loader: async () => ({ episodes: await getAllEpisodes(), leaderboard: getParodyLeaderboard() }),
       },
       {
         path: '*',
