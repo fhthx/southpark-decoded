@@ -1054,6 +1054,10 @@ export const explanations = {
     sources: [
       { label: 'South Park spoofs the first Clinton-Trump presidential debate (YouTube)', url: 'https://www.youtube.com/watch?v=855Am6ovK7s' },
     ],
+    parodyOf: [
+      { name: 'Donald Trump (Giant Douche, 2016 debate)', url: 'https://en.wikipedia.org/wiki/Donald_Trump' },
+      { name: 'Hillary Clinton (Turd Sandwich, 2016 debate)', url: 'https://en.wikipedia.org/wiki/Hillary_Clinton' },
+    ],
   },
   // Douche and a Danish (S20E5)
   272: {
