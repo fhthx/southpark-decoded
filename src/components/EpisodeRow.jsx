@@ -3,19 +3,17 @@ import { TableCell, TableRow } from '@/components/ui/table'
 import { Badge } from '@/components/ui/badge'
 import { formatAirDate } from '@/lib/format-date'
 import { getExplanation } from '@/lib/get-explanation'
-import { cn } from '@/lib/utils'
 
 export default function EpisodeRow({ episode, ref, ...rest }) {
   const navigate = useNavigate()
   const explanation = getExplanation(episode.id)
-  const hasExplanation = Boolean(explanation)
   const hasDecoded = Boolean(explanation?.summary)
   const hasParody = Boolean(explanation?.parodyOf?.length)
 
   return (
     <TableRow
       ref={ref}
-      className={cn('cursor-pointer', !hasExplanation && 'opacity-60')}
+      className="cursor-pointer"
       onClick={() => navigate(`/episodes/${episode.id}`)}
       {...rest}
     >

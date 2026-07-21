@@ -31,16 +31,7 @@ export default function EpisodeExplanation({ episodeId }) {
   const parodyOf = explanation?.parodyOf ?? [];
 
   if (!explanation?.summary && parodyOf.length === 0) {
-    return (
-      <div className="space-y-2">
-        <p className="font-medium text-foreground">
-          Real-world explanation coming soon
-        </p>
-        <p className="text-sm leading-relaxed">
-          We haven't written up the real-world story behind this one yet.
-        </p>
-      </div>
-    );
+    return null;
   }
 
   const sources = explanation?.sources ?? [];
