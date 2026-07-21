@@ -542,6 +542,13 @@ export const explanations = {
     ],
     parodyOf: [{ name: 'The Human Centipede (2009 film)', url: 'https://en.wikipedia.org/wiki/The_Human_Centipede_(First_Sequence)' }],
   },
+  // Funnybot (S15E2)
+  211: {
+    summary:
+      "Jimmy's school comedy-awards show gets hijacked by a German-built robot comedian that starts telling jokes so relentlessly it becomes a genuine cultural phenomenon, terrifying Jimmy that machines are about to make human comedians obsolete. A parallel plot has real comedian Tyler Perry turn up in character as his own drag alter ego Madea, sticking around school largely because Token keeps paying him to - a dig at Perry's habit of playing the character across an entire industry of Madea films[1].",
+    sources: [{ label: 'TV Fanatic: South Park review - Funnybot', url: 'https://www.tvfanatic.com/2011/05/south-park-review-funnybot/' }],
+    parodyOf: [{ name: 'Tyler Perry (Madea persona parody)', url: 'https://en.wikipedia.org/wiki/Tyler_Perry' }],
+  },
   // Royal Pudding (S15E3)
   212: {
     summary:
@@ -559,6 +566,14 @@ export const explanations = {
       { label: 'ESPN: do college athletes deserve to be paid?', url: 'https://www.espn.com/college-sports/story/_/id/6778847/college-athletes-deserve-paid' },
       { label: "The New York Times: let's start paying college athletes", url: 'https://www.nytimes.com/2012/01/01/magazine/lets-start-paying-college-athletes.html' },
     ],
+    parodyOf: [{ name: 'Peter Moore (persona parody)', url: 'https://en.wikipedia.org/wiki/Peter_Moore_(businessman)' }],
+  },
+  // City Sushi (S15E6)
+  215: {
+    summary:
+      "A Japanese sushi restaurant opens next door to City Wok, and its owner Tuong Lu Kim spirals into a full ethnic-rivalry meltdown that ends with him locked in a psychiatric cell. The episode closes out with a shot-for-shot recreation of the famous ending of Psycho - blanket, fly, and Norman Bates's interior monologue repeated almost word for word - swapping in Lu Kim's fractured 'Japanese vs. Chinese' persona for Bates's split personality[1].",
+    sources: [{ label: 'Wikipedia: City Sushi', url: 'https://en.wikipedia.org/wiki/City_Sushi' }],
+    parodyOf: [{ name: 'Psycho (1960 film)', url: 'https://en.wikipedia.org/wiki/Psycho_(1960_film)' }],
   },
   // The Last of the Meheecans (S15E9)
   218: {
@@ -575,6 +590,18 @@ export const explanations = {
     summary:
       "An anonymous gossip site called Eavesdropper starts posting embarrassing private information hacked from students' phones and emails, and the ensuing hunt for its source - a rat literally named Wikileaks - plays out as a direct, none-too-subtle allegory for the real WikiLeaks[1] and the fraught debate over anonymous mass-leaking of private and confidential material that dominated headlines in 2010-11.",
     sources: [{ label: 'WikiLeaks: About', url: 'https://wikileaks.org/About.html' }],
+  },
+  // Broadway Bro Down (S15E11)
+  220: {
+    summary:
+      "Randy takes Sharon to see Wicked and becomes convinced Broadway musicals hide subliminal messages that trick women into performing oral sex, so he writes his own show that drops the subtext and says it outright - drawing the ire of Broadway's real biggest songwriters. Stephen Sondheim, Stephen Schwartz, Andrew Lloyd Webber, and Elton John all appear as themselves, reimagined as beer-chugging, wing-eating, football-watching bros secretly running the whole con[1], before Randy and Sondheim eventually bro down and earn each other's respect.",
+    sources: [{ label: 'The Washington Post: Stephen Sondheim, Elton John featured in South Park love letter to Broadway', url: 'https://www.washingtonpost.com/blogs/arts-post/post/stephen-sondheim-elton-john-featured-in-south-park-love-letter-to-broadway/2011/10/27/gIQAAsYQMM_blog.html' }],
+    parodyOf: [
+      { name: 'Stephen Sondheim (persona parody)', url: 'https://en.wikipedia.org/wiki/Stephen_Sondheim' },
+      { name: 'Stephen Schwartz (persona parody)', url: 'https://en.wikipedia.org/wiki/Stephen_Schwartz_(composer)' },
+      { name: 'Andrew Lloyd Webber (persona parody)', url: 'https://en.wikipedia.org/wiki/Andrew_Lloyd_Webber' },
+      { name: 'Elton John (persona parody)', url: 'https://en.wikipedia.org/wiki/Elton_John' },
+    ],
   },
   // 1% (S15E12)
   221: {
