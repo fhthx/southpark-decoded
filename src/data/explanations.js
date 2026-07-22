@@ -395,15 +395,31 @@ export const explanations = {
     sources: [
       { label: 'TODAY: purity rings are the hot accessory in pop music', url: 'https://www.today.com/popculture/purity-rings-are-hot-accessory-pop-music-wbna26680718' },
     ],
-    parodyOf: [{ name: 'Jonas Brothers: The 3D Concert Experience', url: 'https://en.wikipedia.org/wiki/Jonas_Brothers:_The_3D_Concert_Experience' }],
+    parodyOf: [
+      { name: 'Jonas Brothers: The 3D Concert Experience', url: 'https://en.wikipedia.org/wiki/Jonas_Brothers:_The_3D_Concert_Experience' },
+      { name: 'Mickey Mouse', url: 'https://en.wikipedia.org/wiki/Mickey_Mouse' },
+    ],
+  },
+  // Eat, Pray, Queef (S13E4)
+  185: {
+    summary:
+      "When Terrance and Phillip's fart-based show gets bumped for the Queef Sisters, the men and boys of South Park recoil in disgust - only for the women and girls to call out the blatant double standard between laughing at farts and being grossed out by queefs. Martha Stewart - playing herself - appears on her own show giving a straight-faced tutorial on decorating queefs with sprinkles and paper cutouts, capped by a queef that bursts into a firework-like display of stars and moons.",
+    parodyOf: [
+      { name: 'Martha Stewart', url: 'https://en.wikipedia.org/wiki/Martha_Stewart' },
+    ],
   },
   // Fishsticks (S13E5)
   186: {
     summary:
-      "Cartman claims co-writing credit for a joke he barely contributed to and can't handle that Kanye West won't admit he isn't a genius[1]. It's a direct jab at Kanye West's public persona and ego at the time, built around the era's viral 'I am rich, biatch' meme - and Cartman's shameless credit-grab for someone else's joke echoes comedian Carlos Mencia's real reputation for allegedly stealing other comics' material[2].",
+      "Cartman claims co-writing credit for a joke he barely contributed to and can't handle that Kanye West won't admit he isn't a genius[1]. It's a direct jab at Kanye West's public persona and ego at the time, built around the era's viral 'I am rich, biatch' meme - and Cartman's shameless credit-grab for someone else's joke echoes comedian Carlos Mencia's real reputation for allegedly stealing other comics' material[2]. Cartman and Jimmy take the fight to a mock Ellen DeGeneres Show, where Ellen - playing herself - breaks the news on-air that Mencia has been murdered.",
     sources: [
       { label: '"Fishsticks" clip (YouTube)', url: 'https://www.youtube.com/watch?v=G5iEniUb33w' },
       { label: 'Ranker: Carlos Mencia facts', url: 'https://www.ranker.com/list/carlos-mencia-facts/chase-mcneill' },
+    ],
+    parodyOf: [
+      { name: 'Kanye West', url: 'https://en.wikipedia.org/wiki/Kanye_West' },
+      { name: 'Ellen DeGeneres', url: 'https://en.wikipedia.org/wiki/Ellen_DeGeneres' },
+      { name: 'Carlos Mencia', url: 'https://en.wikipedia.org/wiki/Carlos_Mencia' },
     ],
   },
   // Fatbeard (S13E7)
@@ -418,10 +434,16 @@ export const explanations = {
   // Dead Celebrities (S13E8)
   189: {
     summary:
-      "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense and the medium subplot of Poltergeist.",
+      "Ike is haunted by the ghosts of celebrities who died over the summer while South Park was on hiatus, most of whom have moved on peacefully - except Michael Jackson, who refuses to accept he's dead and ends up possessing Ike as a result. Kyle calls in the real Ghost Hunters investigators Jason Hawes and Grant Wilson to look into it, and the pair soil themselves and flee the second they run into an actual ghost[1]. It's a rapid-fire roll call of the real, unusually large wave of celebrity deaths that summer (Jackson, Billy Mays - whose ad-pitchman persona keeps hawking products from beyond the grave, Farrah Fawcett, Patrick Swayze, Ed McMahon, and more), staged as a broad parody of The Sixth Sense and the medium subplot of Poltergeist.",
+    sources: [
+      { label: 'Paranormal Pop Culture: Ghost Hunters get roasted on South Park', url: 'https://www.paranormalpopculture.com/2009/10/ghost-hunters-get-roasted-on-south-park.html' },
+    ],
     parodyOf: [
       { name: 'The Sixth Sense', url: 'https://en.wikipedia.org/wiki/The_Sixth_Sense' },
       { name: 'Poltergeist', url: 'https://en.wikipedia.org/wiki/Poltergeist_(1982_film)' },
+      { name: 'Michael Jackson', url: 'https://en.wikipedia.org/wiki/Michael_Jackson' },
+      { name: 'Billy Mays', url: 'https://en.wikipedia.org/wiki/Billy_Mays' },
+      { name: 'Ghost Hunters', url: 'https://en.wikipedia.org/wiki/Ghost_Hunters_(TV_series)' },
     ],
   },
   // Butters' Bottom Bitch (S13E9)
@@ -433,15 +455,31 @@ export const explanations = {
       { label: 'NPR: ACORN grapples with fallout of damaging videos', url: 'https://www.npr.org/2009/09/16/112904370/acorn-grapples-with-fallout-of-damaging-videos' },
     ],
   },
+  // W.T.F. (S13E10)
+  191: {
+    summary:
+      "After watching a live WWE event, the boys and Butters start their own backyard wrestling federation and are stunned to learn that real wrestling classes teach actual amateur technique, not the scripted, soap-opera theatrics they've seen on TV. Their homemade promotion, built entirely on scripted drama over real wrestling, gets scouted by WWE chairman Vince McMahon himself - a direct, front-to-back parody of WWE as a scripted soap opera rather than a sport, staged with real WWE-style rings, promos, and finishing moves.",
+    sources: [
+      { label: 'South Park Studios: W.T.F.', url: 'https://southpark.cc.com/episodes/5h5in2/south-park-w-t-f-season-13-ep-10' },
+    ],
+    parodyOf: [
+      { name: 'WWE', url: 'https://en.wikipedia.org/wiki/WWE' },
+    ],
+  },
   // Whale Whores (S13E11)
   192: {
     summary:
-      "Stan joins an anti-whaling crew to fight back after Japanese whalers massacre dolphins and whales across South Park, and the episode saves as much scorn for the activists as for the whalers themselves. It's a pointed satire of Japanese whaling practices[1], and, more specifically, of the Animal Planet reality series Whale Wars and its self-mythologizing captain Paul Watson, accused of chasing ratings and media attention as much as any real conservation outcome[2].",
+      "Stan joins an anti-whaling crew to fight back after Japanese whalers massacre dolphins and whales across South Park, and the episode saves as much scorn for the activists as for the whalers themselves. It's a pointed satire of Japanese whaling practices[1], and, more specifically, of the Animal Planet reality series Whale Wars and its self-mythologizing captain Paul Watson, roasted on-air by a visiting Larry King as an 'incompetent media whore' chasing ratings over any real conservation outcome[2]. A doomed team-up with Sig Hansen and his real Deadliest Catch crew ends in a kamikaze attack, and the survivors are marched before Emperor Akihito himself, who calmly explains that Japan's whaling program is payback for Hiroshima.",
     sources: [
       { label: 'This Magazine: whaling culture war', url: 'https://this.org/2009/05/05/whaling-culture-war/' },
       { label: 'CBS News: activists hurl acid at Japanese whalers', url: 'https://www.cbsnews.com/news/activists-hurl-acid-at-japanese-whalers/' },
     ],
-    parodyOf: [{ name: 'Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' }],
+    parodyOf: [
+      { name: 'Whale Wars', url: 'https://en.wikipedia.org/wiki/Whale_Wars' },
+      { name: 'Larry King', url: 'https://en.wikipedia.org/wiki/Larry_King' },
+      { name: 'Sig Hansen', url: 'https://en.wikipedia.org/wiki/Sig_Hansen' },
+      { name: 'Akihito', url: 'https://en.wikipedia.org/wiki/Akihito' },
+    ],
   },
   // Dances with Smurfs (S13E13)
   194: {
@@ -454,6 +492,17 @@ export const explanations = {
       { name: 'Glenn Beck', url: 'https://en.wikipedia.org/wiki/Glenn_Beck' },
       { name: 'Avatar', url: 'https://en.wikipedia.org/wiki/Avatar_(2009_film)' },
       { name: 'Dances with Wolves', url: 'https://en.wikipedia.org/wiki/Dances_With_Wolves' },
+    ],
+  },
+  // Pee (S13E14)
+  195: {
+    summary:
+      "A trip to the water park turns into a disaster-movie countdown once Kyle realizes almost everyone in the pool is peeing in it, and Cartman decides the ensuing wave of urine is proof the Mayans were right about the end of the world. It's a direct, scene-for-scene disaster-movie parody built on Roland Emmerich's 2009 film 2012[1], right down to a tidal flood sequence standing in for the movie's cataclysmic set pieces.",
+    sources: [
+      { label: 'AV Club: South Park - Pee', url: 'https://www.avclub.com/south-park-pee-1798207454' },
+    ],
+    parodyOf: [
+      { name: '2012', url: 'https://en.wikipedia.org/wiki/2012_(film)' },
     ],
   },
   // Sexual Healing (S14E1)
@@ -1499,7 +1548,10 @@ export const explanations = {
     summary:
       "Randy's margarita-machine bender wrecks the town's finances, and South Park starts worshipping 'The Economy' as an angry god demanding sacrifice. It's a direct satire of the 2008-09 financial crisis[1]: banks handing out credit for things people can't afford, a bailout that asks ordinary borrowers to eat the loss, and a culture that blamed an abstract, unaccountable 'market' rather than the institutions that made the loans.\n\nStan and Kyle's plot even restages the Last Supper, with Kyle as a money-changer-expelling Jesus and Cartman as a scheming Judas selling out the town's debtors.",
     sources: [{ label: 'Wikipedia: Subprime mortgage crisis', url: 'https://en.wikipedia.org/wiki/Subprime_mortgage_crisis' }],
-    parodyOf: [{ name: 'The Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' }],
+    parodyOf: [
+      { name: 'Jesus Christ', url: 'https://en.wikipedia.org/wiki/Jesus' },
+      { name: 'The Last Supper', url: 'https://en.wikipedia.org/wiki/Last_Supper' },
+    ],
   },
   // Handicar (S18E4)
   251: {
